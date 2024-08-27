@@ -1,8 +1,8 @@
 ---
 theme: default
-title: An empty presentation
+title: Simple development environments with Nix
 info: |
-  An empty presentation template made with [sli.dev](https://sli.dev)
+  Setting up development environments is more complex than it should be. Nix makes entering development environments as easy as running nix develop, making them simple and reproducible. This talk explores what an ideal workflow could look like and walks through a project setup with Nix, outlining its benefits and deficiencies.
 
 class: text-center
 
@@ -11,21 +11,367 @@ transition: slide-left
 mdc: true
 ---
 
-# Presentation Title
+# Simple development environments with Nix
 
 ---
 ---
 
-````md magic-move {lines: false, duration: 300}
+````md magic-move {lines: false}
 ```shell
-~ $ mkdir projects
-~ $ █
+~ $ cd tu-lambda.github.io
+~/tu-lambda.github.io $ █
+```
+```shell
+~ $ cd tu-lambda.github.io
+~/tu-lambda.github.io $ code flake.nix
+```
+````
+
+---
+---
+
+````md magic-move {lines: true}
+```nix
+{
+  inputs = {
+
+  };
+  outputs = { ... }:
+    {
+
+    };
+}
 ```
 
+```nix
+{
+  description = "Flakes, demystified";
+  inputs = {
+
+  };
+  outputs = { ... }:
+    {
+
+    };
+}
+```
+```nix
+{
+  description = "Flakes, demystified";
+  inputs = {
+    nixpkgs.url = "git+https://github.com/nixos/nixpkgs";
+  };
+  outputs = { ... }:
+    {
+
+    };
+}
+```
+```nix
+{
+  description = "Flakes, demystified";
+  inputs = {
+    nixpkgs.url = "git+https://github.com/nixos/nixpkgs?ref=nixos-unstable"; # takes ages, git is slow.
+  };
+  outputs = { ... }:
+    {
+
+    };
+}
+```
+```nix
+{
+  description = "Flakes, demystified";
+  inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
+  };
+  outputs = { ... }:
+    {
+
+    };
+}
+```
+
+```nix
+{
+  description = "Flakes, demystified";
+  inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
+  };
+  outputs = { nixpkgs, ... }:
+    {
+
+    };
+}
+```
+
+```nix
+{
+  description = "Flakes, demystified";
+  inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
+  };
+  outputs = { nixpkgs, ... }:
+    {
+      devShells. = ;
+    };
+}
+```
+```nix
+{
+  description = "Flakes, demystified";
+  inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
+  };
+  outputs = { nixpkgs, ... }:
+    {
+      devShells."x86_64-linux". = ;
+    };
+}
+```
+```nix
+{
+  description = "Flakes, demystified";
+  inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
+  };
+  outputs = { nixpkgs, ... }:
+    {
+      devShells."x86_64-linux".default = ;
+    };
+}
+```
+
+```nix
+{
+  description = "Flakes, demystified";
+  inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
+  };
+  outputs = { nixpkgs, ... }:
+    {
+      devShells."x86_64-linux".default = nixpkgs.
+    };
+}
+```
+```nix
+{
+  description = "Flakes, demystified";
+  inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
+  };
+  outputs = { nixpkgs, ... }:
+    {
+      devShells."x86_64-linux".default = nixpkgs.legacyPackages.
+    };
+}
+```
+```nix
+{
+  description = "Flakes, demystified";
+  inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
+  };
+  outputs = { nixpkgs, ... }:
+    {
+      devShells."x86_64-linux".default = nixpkgs.legacyPackages."x86_64-linux".
+    };
+}
+```
+```nix
+{
+  description = "Flakes, demystified";
+  inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
+  };
+  outputs = { nixpkgs, ... }:
+    {
+      devShells."x86_64-linux".default = nixpkgs.legacyPackages."x86_64-linux".mkShell {
+        
+      };
+    };
+}
+```
+
+```nix
+{
+  description = "Flakes, demystified";
+  inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
+  };
+  outputs = { nixpkgs, ... }:
+    {
+      devShells."x86_64-linux".default = nixpkgs.legacyPackages."x86_64-linux".mkShell{
+        packages = [];
+        shellHook = '''';
+      };
+    };
+}
+```
+
+```nix
+{
+  description = "Flakes, demystified";
+  inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
+  };
+  outputs = { nixpkgs, ... }:
+    {
+      devShells."x86_64-linux".default = nixpkgs.legacyPackages."x86_64-linux".mkShell {
+        packages = [ nixpkgs.legacyPackages."x86_64-linux". ];
+        shellHook = ''
+        '';
+      };
+    };
+}
+```
+
+```nix
+{
+  description = "Flakes, demystified";
+  inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
+  };
+  outputs = { nixpkgs, ... }:
+    {
+      devShells."x86_64-linux".default = nixpkgs.legacyPackages."x86_64-linux".mkShell {
+        packages = [ nixpkgs.legacyPackages."x86_64-linux".racket ];
+        shellHook = ''
+        '';
+      };
+    };
+}
+```
+
+```nix
+{
+  description = "Flakes, demystified";
+  inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
+  };
+  outputs = { nixpkgs, ... }:
+    {
+      devShells."x86_64-linux".default = nixpkgs.legacyPackages."x86_64-linux".mkShell {
+        packages = [ nixpkgs.legacyPackages."x86_64-linux".racket ];
+        shellHook = ''
+          raco pkg install --auto --skip-installed 
+        '';
+      };
+    };
+}
+```
+
+```nix
+{
+  description = "Flakes, demystified";
+  inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
+  };
+  outputs = { nixpkgs, ... }:
+    {
+      devShells."x86_64-linux".default = nixpkgs.legacyPackages."x86_64-linux".mkShell {
+        packages = [ nixpkgs.legacyPackages."x86_64-linux".racket ];
+        shellHook = ''
+          raco pkg install --auto --skip-installed pollen racket-langserver string-interpolation
+        '';
+      };
+    };
+}
+```
+
+```nix
+{
+  description = "Flakes, demystified";
+  inputs = {
+    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
+  };
+  outputs = { nixpkgs, ... }:
+    {
+      devShells."x86_64-linux".default = nixpkgs.legacyPackages."x86_64-linux".mkShell {
+        packages = [ nixpkgs.legacyPackages."x86_64-linux".racket ];
+        shellHook = ''
+          raco pkg install --auto --skip-installed pollen racket-langserver string-interpolation
+
+          alias rps="raco pollen start"
+        '';
+      };
+    };
+}
+```
+````
+
+---
+---
+````md magic-move {lines: false}
 ```shell
-~ $ mkdir projects
-~ $ cd projects
-~/projects $ █
+~/tu-lambda.github.io $ which racket
+which: no racket in (...)
+~/tu-lambda.github.io $ █
+```
+```shell
+~/tu-lambda.github.io $ which racket
+which: no racket in (...)
+~/tu-lambda.github.io $ nix develop 
+(nix-shell) ~/tu-lambda.github.io $ █
+```
+```shell
+~/tu-lambda.github.io $ which racket
+which: no racket in (...)
+~/tu-lambda.github.io $ nix develop 
+(nix-shell) ~/tu-lambda.github.io $ which racket
+/nix/store/ksa8cqn1adg11c26n7spghack07q4rjk-racket-8.14/bin/racket
+(nix-shell) ~/tu-lambda.github.io $ █
+```
+```shell
+~/tu-lambda.github.io $ which racket
+which: no racket in (...)
+~/tu-lambda.github.io $ nix develop 
+(nix-shell) ~/tu-lambda.github.io $ which racket
+/nix/store/ksa8cqn1adg11c26n7spghack07q4rjk-racket-8.14/bin/racket
+(nix-shell) ~/tu-lambda.github.io $ rps
+pollen: starting project server ...
+pollen: welcome to Pollen 3.2.3877.60 (Racket 8.14)
+pollen: project root is /home/beat/tu-lambda.github.io/ 
+pollen: project server is http://localhost:8080 (Ctrl+C to exit)
+pollen: project dashboard is http://localhost:8080/index.ptree
+pollen: project server permitting access to all clients
+pollen: ready to rock
+█
+```
+```shell
+~/tu-lambda.github.io $ which racket
+which: no racket in (...)
+~/tu-lambda.github.io $ nix develop 
+(nix-shell) ~/tu-lambda.github.io $ which racket
+/nix/store/ksa8cqn1adg11c26n7spghack07q4rjk-racket-8.14/bin/racket
+(nix-shell) ~/tu-lambda.github.io $ rps
+pollen: starting project server ...
+pollen: welcome to Pollen 3.2.3877.60 (Racket 8.14)
+pollen: project root is /home/beat/tu-lambda.github.io/
+pollen: project server is http://localhost:8080 (Ctrl+C to exit)
+pollen: project dashboard is http://localhost:8080/index.ptree
+pollen: project server permitting access to all clients
+pollen: ready to rock
+^C
+(nix-shell) ~/tu-lambda.github.io $ █
+```
+```shell
+~/tu-lambda.github.io $ which racket
+which: no racket in (...)
+~/tu-lambda.github.io $ nix develop 
+(nix-shell) ~/tu-lambda.github.io $ which racket
+/nix/store/ksa8cqn1adg11c26n7spghack07q4rjk-racket-8.14/bin/racket
+(nix-shell) ~/tu-lambda.github.io $ rps
+pollen: starting project server ...
+pollen: welcome to Pollen 3.2.3877.60 (Racket 8.14)
+pollen: project root is /home/beat/tu-lambda.github.io/
+pollen: project server is http://localhost:8080 (Ctrl+C to exit)
+pollen: project dashboard is http://localhost:8080/index.ptree
+pollen: project server permitting access to all clients
+pollen: ready to rock
+^C
+(nix-shell) ~/tu-lambda.github.io $ ^D
+~/tu-lambda.github.io $
 ```
 ````
 
