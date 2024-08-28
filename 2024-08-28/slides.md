@@ -14,6 +14,20 @@ mdc: true
 # Simple development environments with Nix
 
 ---
+layout: center
+---
+
+## 1. Project Setup: Ideal Workflow
+
+<br>
+
+<v-click>
+
+## 2. Automating Project Setup: `nix develop`
+
+</v-click>
+
+---
 layout: two-cols
 ---
 
