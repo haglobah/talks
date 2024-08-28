@@ -74,6 +74,8 @@ transition: fade
 3. (Read `flake.nix`)
 4. Run the app as intended
 
+-> Let's try it out.
+
 </v-clicks>
 
 ---

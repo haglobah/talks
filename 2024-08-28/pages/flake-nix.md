@@ -28,7 +28,7 @@
 {
   description = "Simple development environments";
   inputs = {
-    nixpkgs.url = "git+https://github.com/nixos/nixpkgs";
+    nixpkgs.url = "git+https://github.com/nixos/nixpkgs?ref=nixos-unstable";
   };
   outputs = { ... }:
     {
