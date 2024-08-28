@@ -32,8 +32,13 @@
           packages = [
             pkgs.nodejs_22
           ];
+          devshell.startup = {
+            npm-install.text = ''
+              npm install
+            '';
+          };
           commands = [
-            # { name = "devshell-test"; command = "echo 'Is this working?'"; help = "A command to test devshell";}
+            { name = "run"; command = "npm run dev"; help = "run slidev";}
           ];
         };
       };
