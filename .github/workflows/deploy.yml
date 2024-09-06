@@ -66,11 +66,24 @@ jobs:
               talk_name=${talk_path##*/}
               echo "Building $talk_name"
               cd "$dir"
+              echo "Current directory: $(pwd)"
+              echo "Contents of current directory:"
+              ls -la
               ni
+              echo "Contents after ni:"
+              ls -la
+              echo "Running build command..."
               nr build --base "/${{ github.event.repository.name }}/$talk_name/" --out "../../dist/$talk_name"
+              echo "Build complete. Contents of ../../dist/$talk_name:"
+              ls -la ../../dist/$talk_name
               cd ..
             fi
           done
+      
+      - name: List contents of dist directory
+        run: |
+          echo "Contents of ./dist:"
+          ls -R ./dist
       
       - name: Setup Pages
         uses: actions/configure-pages@v4
