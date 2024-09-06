@@ -60,6 +60,7 @@ jobs:
       - name: Install dependencies & build
         run: |
           mkdir -p ./dist
+          pwd
           for dir in ./*/; do
             if [ -f "$dir/package.json" ]; then
               talk_path=${dir%*/}
@@ -73,10 +74,12 @@ jobs:
               echo "Contents after ni:"
               ls -la
               echo "Running build command..."
-              nr build --base "/${{ github.event.repository.name }}/$talk_name/" --out "../../dist/$talk_name"
-              echo "Build complete. Contents of ../../dist/$talk_name:"
-              ls -la ../../dist/$talk_name
+              nr build --base "/${{ github.event.repository.name }}/$talk_name/" --out "../dist/$talk_name"
+              echo "Build complete. Contents of ../dist/$talk_name:"
+              ls -la ../dist/$talk_name
+              pwd
               cd ..
+              pwd
             fi
           done
       
