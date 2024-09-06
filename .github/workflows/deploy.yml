@@ -71,7 +71,7 @@ jobs:
             echo "Building $talk_name"
             cd "$dir"
             nci
-            nr build --base "/${{github.event.repository.name}}/$talk_name/"
+            nr build --base "/${{github.event.repository.name}}/$talk_name/" --out "../dist"
             # npm run build -- --base "/${{ github.event.repository.name }}/$talk_name/" --out "../../../docs/talks/$talk_name"
             cd ../..
           done
