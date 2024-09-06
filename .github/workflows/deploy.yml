@@ -33,7 +33,7 @@
 #           github_token: ${{ secrets.GITHUB_TOKEN }}
 #           publish_dir: ./docs
 
-name: Deploy pages
+name: Deploy to GitHub Pages
 
 on:
   workflow_dispatch:
@@ -45,46 +45,40 @@ permissions:
   pages: write
   id-token: write
 
-# concurrency:
-#   group: pages
-#   cancel-in-progress: false
-
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-node@v4
         with:
           node-version: 'lts/*'
-
+      
       - name: Setup @antfu/ni
         run: npm i -g @antfu/ni
-
-      - name: Install dependencies & build 
+      
+      - name: Install dependencies & build
         run: |
+          mkdir -p ./dist
           for dir in ./*/; do
-            talk_path=${dir%*/}  # Remove trailing slash
-            talk_name=${talk_path##*/}  # Extract folder name
-            echo "Building $talk_name"
-            cd "$dir"
-            nci
-            nr build --base "/${{github.event.repository.name}}/$talk_name/" --out "../dist"
-            # npm run build -- --base "/${{ github.event.repository.name }}/$talk_name/" --out "../../../docs/talks/$talk_name"
-            cd ../..
+            if [ -f "$dir/package.json" ]; then
+              talk_path=${dir%*/}
+              talk_name=${talk_path##*/}
+              echo "Building $talk_name"
+              cd "$dir"
+              ni
+              nr build --base "/${{ github.event.repository.name }}/$talk_name/" --out "../../dist/$talk_name"
+              cd ..
+            fi
           done
-
-      # - name: Build
-      #   run: nr build --base /${{github.event.repository.name}}/
-
+      
       - name: Setup Pages
         uses: actions/configure-pages@v4
-
-      - uses: actions/upload-pages-artifact@v3
+      
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: ./dist
 
   deploy:
     environment:
