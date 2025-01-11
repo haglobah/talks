@@ -4,9 +4,9 @@
   --slidev-theme-primary: #5d8392;
 }
 
-/* a { */
-/*   @apply */
-/* } */
+a {
+  @apply opacity-80 underline underline-offset-3 hover:opacity-100 hover:text-cornflower-light transition duration-300
+}
 
 /* .slidev-layout.cover, */
 /* .slidev-layout.intro { */
