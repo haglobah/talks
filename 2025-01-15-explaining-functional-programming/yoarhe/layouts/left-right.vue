@@ -18,7 +18,7 @@ This is on the right side.
 -->
 
 <template>
-  <div class="py-10 px-14 w-full h-full flex flex-col items-center bg-[#282d3f]">
+  <div class="py-10 px-14 w-full h-full flex flex-col items-center bg-space-cadet">
     <slot name="header"/>
     <div class="my-6 w-full h-full grid grid-cols-2 gap-2 content-start">
       <div class="my-auto">
