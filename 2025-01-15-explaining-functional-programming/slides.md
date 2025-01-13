@@ -26,7 +26,7 @@ layout: left-right
 
 ::left::
 
-<v-clicks>
+<v-click>
 
 - [Rationality](https://zelium.io/beat/rationality)
   - The [Codex](https://lesswrong.com/codex)
@@ -35,7 +35,7 @@ layout: left-right
 - [School of Moral Ambition](https://moralambition.eu)
 - [Local-First Software](https://localfirstweb.dev/)
 
-</v-clicks>
+</v-click>
 
 ::right::
 
@@ -43,7 +43,7 @@ layout: left-right
 
 <br/>
 
-<v-clicks>
+<v-click>
 
 - Intellectual Monopoly
 - Aaron Swartz
@@ -54,39 +54,14 @@ layout: left-right
 - ["What it means to be open" by Lu Wilson at Heart of Clojure 2024](https://www.youtube.com/watch?app=desktop&v=MJzV0CX0q8o)
 - [List of Common Misconceptions](https://en.m.wikipedia.org/wiki/List_of_common_misconceptions)
 
-</v-clicks>
+</v-click>
 
 ---
-layout: two-cols
+layout: cover
 ---
 
-<br/>
-
-<v-clicks>
-
-- [Zelium](https://zelium.io) & Startup stuff
-  - SPRINT
-- [tu-lambda](https://tu-lambda.github.io)
-- [active group](https://active-group.de)
-- [Writing Online](https://typeshare.co/haglobah)
-- Societal Decision Making
-
-</v-clicks>
-
-::right::
-
-<br/>
-
-<v-clicks>
-
-- Weekly reviews and micro lives
-- Vim keybindings
-- Website building: tu-lambda, Dina, Sascha, Hackathon, SN
-- Habits:
-  - BlueSky
-- Obsidian BlueSky plugin
-
-</v-clicks>
+Functional Programming is  
+<Highlight>a way to write programs</Highlight>
 
 ---
 
