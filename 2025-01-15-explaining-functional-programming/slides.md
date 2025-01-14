@@ -128,7 +128,11 @@ hide: false
 
 ---
 ---
-src: ./parts/symptoms.md
+src: ./parts/characteristics.md
+hide: false
+---
+---
+src: ./parts/church-and-turing.md
 hide: false
 ---
 
