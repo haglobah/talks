@@ -5,7 +5,7 @@
 }
 
 a {
-  @apply opacity-80 underline underline-offset-3 hover:opacity-100 hover:text-cornflower-light transition duration-300
+  @apply opacity-80 underline underline-offset-3 hover:opacity-100 hover:text-cornflower-light transition duration-300 italic
 }
 
 ol {

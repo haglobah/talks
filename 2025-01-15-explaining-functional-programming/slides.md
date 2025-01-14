@@ -52,13 +52,13 @@ layout: mono-header
 <v-clicks>
 
 <div class="my-6 self-start">
-  Ah, I am a programmer, and I write in Haskell/Clojure/whatever.
+  Ah, I'm a programmer, and I write in Haskell/Clojure/whatever.
 </div>
 <div class="my-6 self-end">
   Programming, but with (university) math.
 </div>
 <div class="my-6 self-start">
-  It's just <em>simple</em>.
+  It's just <em>simpler</em>.
 </div>
 
 </v-clicks>
@@ -77,8 +77,9 @@ layout: mono-header
 
 <v-clicks>
 
-1. What makes good explanations?
-2. What should we talk about?
+1. Good explanations
+2. What? (should we include?)
+3. Why? (might it be a good idea?)
 
 </v-clicks>
 
@@ -104,16 +105,32 @@ layout: top-bottom-header
 
 ::bottom::
 
-<v-clicks>
-
 <div class="flex justify-between *:mx-10">
+
+<v-clicks>
 
 <Quote> I program in Haskell</Quote>
 <Quote> It's like math </Quote>
 <Quote> It's simple </Quote>
 
-</div>
 </v-clicks>
+
+</div>
+
+---
+src: ./parts/style.md
+hide: false
+---
+
+---
+src: ./parts/features.md
+hide: false
+
+---
+---
+src: ./parts/symptoms.md
+hide: false
+---
 
 ---
 layout: mono-header
@@ -121,41 +138,32 @@ layout: mono-header
 
 ::header::
 
-<Heading>Good explanations</Heading>
+<Heading>2 | Programming Language Features</Heading>
 
 ::main::
 
-<Highlight>
-
+<div class="grid grid-cols-3 self-start">
 <v-clicks>
-
-- Are clear: They [_replace the symbol with the substance_](https://www.lesswrong.com/posts/GKfPL6LQFgB49FEnv/replace-the-symbol-with-the-substance)
-- Are hard-to-vary: They provide specific details why something has to be the way it is
-- Make curious for more
-
+  <div class="flex flex-col">
+    <Highlight class="text-sienna mb-4">Procedural</Highlight>
+    <Quote>
+      Let's model everything as a sequence of steps!
+    </Quote>
+  </div>
+  <div class="flex flex-col">
+    <Highlight class="text-sienna mb-4">Object Oriented</Highlight>
+    <Quote>
+      Let's model everything as an object!
+    </Quote>
+  </div>
+  <div class="flex flex-col">
+    <Highlight class="text-sienna mb-4">Functional</Highlight>
+    <Quote>
+      Let's model everything as a (pure) function!
+    </Quote>
+  </div>
 </v-clicks>
-
-</Highlight>
-
----
-layout: mono-header
----
-
-::header::
-
-<Heading>1 | A style</Heading>
-
-::main::
-
-Functional Programming is a <em>style</em> to write programs in.
-
-<v-clicks>
-
-<div class="my-6 self-start">
-  <Highlight></Highlight>
 </div>
-
-</v-clicks>
 
 ---
 layout: mono-header
