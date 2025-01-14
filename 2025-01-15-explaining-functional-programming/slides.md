@@ -17,51 +17,156 @@ mdc: true
 <Subtitle>Beat Hagenlocher</Subtitle>
 
 ---
-layout: left-right
+layout: mono-header
 ---
 
 ::header::
 
-<Heading>The page title</Heading>
+<Heading>Explaining Functional Programming</Heading>
 
-::left::
+::main::
 
-<v-click>
+<v-clicks>
 
-- [Rationality](https://zelium.io/beat/rationality)
-  - The [Codex](https://lesswrong.com/codex)
-  - The [Sequences](https://lesswrong.com/sequences)
-- [Situational Awareness](https://situational-awareness.ai)
-- [School of Moral Ambition](https://moralambition.eu)
-- [Local-First Software](https://localfirstweb.dev/)
-
-</v-click>
-
-::right::
-
-<!-- ### small -->
-
-<br/>
-
-<v-click>
-
-- Intellectual Monopoly
-- Aaron Swartz
-- https://annas-archive.org
-- Bullshit Jobs
-- Principles for Dealing with the changing world order
-- Cryptonomicon
-- ["What it means to be open" by Lu Wilson at Heart of Clojure 2024](https://www.youtube.com/watch?app=desktop&v=MJzV0CX0q8o)
-- [List of Common Misconceptions](https://en.m.wikipedia.org/wiki/List_of_common_misconceptions)
-
-</v-click>
+<div class="my-6 self-start">
+  What are you doing for work again?
+</div>
+<div class="my-6 self-end">
+  What is this meetup you're going to about?
+</div>
+<div class="my-6 self-start">
+  You're interested in <em>that</em>?
+</div>
+</v-clicks>
 
 ---
-layout: cover
+layout: mono-header
 ---
 
-Functional Programming is  
+::header::
+
+<Heading>Explaining Functional Programming</Heading>
+
+::main::
+
+<v-clicks>
+
+<div class="my-6 self-start">
+  Ah, I am a programmer, and I write in Haskell/Clojure/whatever.
+</div>
+<div class="my-6 self-end">
+  Programming, but with (university) math.
+</div>
+<div class="my-6 self-start">
+  It's just <em>simple</em>.
+</div>
+
+</v-clicks>
+
+---
+layout: mono-header
+---
+
+::header::
+
+<Heading>Roadmap</Heading>
+
+::main::
+
+<Highlight>
+
+<v-clicks>
+
+1. What makes good explanations?
+2. What should we talk about?
+
+</v-clicks>
+
+</Highlight>
+
+---
+layout: top-bottom-header
+---
+
+::header::
+
+<Heading>Good explanations</Heading>
+
+::top::
+
+<v-clicks>
+
+- Are clear: They [_replace the symbol with the substance_](https://www.lesswrong.com/posts/GKfPL6LQFgB49FEnv/replace-the-symbol-with-the-substance)
+- Are hard-to-vary: They provide specific details why something has to be the way it is
+- Make curious for more
+
+</v-clicks>
+
+::bottom::
+
+<v-clicks>
+
+<div class="flex justify-between *:mx-10">
+
+<Quote> I program in Haskell</Quote>
+<Quote> It's like math </Quote>
+<Quote> It's simple </Quote>
+
+</div>
+</v-clicks>
+
+---
+layout: mono-header
+---
+
+::header::
+
+<Heading>Good explanations</Heading>
+
+::main::
+
+<Highlight>
+
+<v-clicks>
+
+- Are clear: They [_replace the symbol with the substance_](https://www.lesswrong.com/posts/GKfPL6LQFgB49FEnv/replace-the-symbol-with-the-substance)
+- Are hard-to-vary: They provide specific details why something has to be the way it is
+- Make curious for more
+
+</v-clicks>
+
+</Highlight>
+
+---
+layout: mono-header
+---
+
+::header::
+
+<Heading>1 | A style</Heading>
+
+::main::
+
+Functional Programming is a <em>style</em> to write programs in.
+
+<v-clicks>
+
+<div class="my-6 self-start">
+  <Highlight></Highlight>
+</div>
+
+</v-clicks>
+
+---
+layout: mono-header
+---
+
+::main::
+
+<div class="text-xl absolute top-30">Functional Programming is</div>
+
 <Highlight>a way to write programs</Highlight>
+
 
 ---
 

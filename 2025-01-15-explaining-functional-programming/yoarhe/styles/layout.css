@@ -8,6 +8,22 @@ a {
   @apply opacity-80 underline underline-offset-3 hover:opacity-100 hover:text-cornflower-light transition duration-300
 }
 
+ol {
+  @apply list-decimal marker:text-sienna *:my-6
+}
+
+ul {
+  @apply list-none *:my-6
+}
+
+li {
+  @apply
+}
+
+#slideshow {
+  @apply bg-space-cadet text-lg leading-relaxed
+}
+
 /* .slidev-layout.cover, */
 /* .slidev-layout.intro { */
 /*   @apply h-full grid; */
