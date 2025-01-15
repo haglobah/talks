@@ -134,73 +134,27 @@ hide: false
 ---
 ---
 src: ./parts/church-and-turing.md
-hide: false
-
+hide:
 ---
 
 ---
 layout: mono-header
-
 ---
 
 ::header::
 
-<Heading>2 | Programming Language Features</Heading>
+<Heading>Resources</Heading>
 
 ::main::
 
-<div class="grid grid-cols-3 self-start">
-<v-clicks>
-  <div class="flex flex-col">
-    <Highlight class="text-sienna mb-4">Procedural</Highlight>
-    <Quote>
-      Let's model everything as a sequence of steps!
-    </Quote>
-  </div>
-  <div class="flex flex-col">
-    <Highlight class="text-sienna mb-4">Object Oriented</Highlight>
-    <Quote>
-      Let's model everything as an object!
-    </Quote>
-  </div>
-  <div class="flex flex-col">
-    <Highlight class="text-sienna mb-4">Functional</Highlight>
-    <Quote>
-      Let's model everything as a (pure) function!
-    </Quote>
-  </div>
-</v-clicks>
-</div>
+- 
+- 
 
 ---
 layout: mono-header
 ---
 
 ::main::
-
-<div class="text-xl absolute top-30">Functional Programming is</div>
-
-<Highlight>a way to write programs</Highlight>
-
-
----
-
-## And 2025?
-
-<br/>
-
-<v-clicks>
-
-1. Digital Garden
-2. [CO2 Watch](https://github.com/cscott/watchy-co2-pcb#readme)?
-3. [Smart Mirror](https://supersimple.org/blog/smart-mirror)?
-4. Moral Ambition
-
-</v-clicks>
-
----
-layout: intro
----
 
 # Beat Hagenlocher
 
@@ -226,5 +180,3 @@ Software Architect <a href="https://active-group.de">@active group</a><br>
 
 <img src="https://avatars.githubusercontent.com/u/83699832?s=400&u=02b324dc21d8da4d6f179daaf7e14f4b4d01cac5&v=4" class="rounded-full w-40 abs-tr mt-16 mr-12"/>
 
-
----
