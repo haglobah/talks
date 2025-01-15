@@ -120,8 +120,8 @@ layout: top-bottom-header
 ---
 src: ./parts/style.md
 hide: false
----
 
+---
 ---
 src: ./parts/features.md
 hide: false
@@ -130,14 +130,17 @@ hide: false
 ---
 src: ./parts/characteristics.md
 hide: false
+
 ---
 ---
 src: ./parts/church-and-turing.md
 hide: false
+
 ---
 
 ---
 layout: mono-header
+
 ---
 
 ::header::

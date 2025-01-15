@@ -56,7 +56,7 @@ layout: mono-header
 <v-clicks>
   <div class="flex flex-col">
     <Highlight class="text-sienna mb-4 text-center">Early days</Highlight>
-    <!-- <Quote>Let's model everything as a sequence of steps!</Quote> -->
+    <img class="object-cover h-full rounded-lg m-2" src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Glen_Beck_and_Betty_Snyder_program_the_ENIAC_in_building_328_at_the_Ballistic_Research_Laboratory.jpg" />
   </div>
   <div class="flex flex-col">
     <Highlight class="text-sienna mb-4 text-center">Assembly</Highlight>
@@ -64,7 +64,16 @@ layout: mono-header
   </div>
   <div class="flex flex-col">
     <Highlight class="text-sienna mb-4 text-center">C</Highlight>
-    <!-- <Quote>Let's model everything as an object!</Quote> -->
+
+```c
+char *result = NULL;
+t_large *objs = NULL;
+add_objs(objs);
+calc(result, objs);
+
+printf("%s\n", result);
+```
+
   </div>
   <div class="flex flex-col">
     <Highlight class="text-sienna mb-4 text-center">Java</Highlight>
@@ -72,7 +81,14 @@ layout: mono-header
   </div>
   <div class="flex flex-col">
     <Highlight class="text-sienna mb-4 text-center">Elixir</Highlight>
-    <!-- <Quote>Let's model everything as a (pure) function!</Quote> -->
+    
+```elixir
+x =
+  compute(
+    large_object,
+    fn x -> x * x end)
+```
+    
   </div>
 </v-clicks>
 </div>
