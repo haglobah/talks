@@ -141,16 +141,20 @@ layout: mono-header
     <Highlight class="text-sienna text-center">Turing Machine</Highlight>
  
 <ul class="mx-10 list-disc">
+<v-clicks>
   <li>has state</li>
   <li>We mutate the state to get a result</li>
+</v-clicks>
 </ul>
     
   </div>
   <div class="flex flex-col">
     <Highlight class="text-sienna text-center">Lambda Calculus</Highlight>
 <ul class="mx-10 list-disc">
+<v-clicks>
   <li>doesn't have state</li>
-  <li>We create functions, evaluate them, and get a result.</li>
+  <li>We create functions, evaluate them, and get a result</li>
+</v-clicks>
 </ul>
   </div>
 </div>
