@@ -8,7 +8,7 @@ layout: mono-header
 
 Functional Programming is a <em>programming style</em> in which one models the real world as a pure function.  
 You can write a functional program in almost every language—all you need are first class functions. Closures, immutable data and recursion help, too.  
-Writing functionally makes programs more declarative, simpler and less coupled <em>by default.</em>
+A functional program is more declarative, simpler and less coupled <em>by default.</em>
 
 </div>
 

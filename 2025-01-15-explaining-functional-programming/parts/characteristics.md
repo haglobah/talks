@@ -12,7 +12,7 @@ You can write a functional program in almost every language—all you need are f
 </div>
 
 <Highlight class="text-center">
-  <span v-click>Writing functionally makes programs more declarative, simpler and less coupled</span> <em v-click>by default.</em>
+  <span v-click>A functional program is more declarative, simpler and less coupled</span> <em v-click>by default.</em>
 </Highlight>
 
 ---

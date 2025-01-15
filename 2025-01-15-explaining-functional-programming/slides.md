@@ -37,6 +37,7 @@ layout: mono-header
 <div class="my-6 self-start">
   You're interested in <em>that</em>?
 </div>
+
 </v-clicks>
 
 ---
@@ -58,7 +59,7 @@ layout: mono-header
   Programming, but with (university) math.
 </div>
 <div class="my-6 self-start">
-  It's just <em>simpler</em>.
+  (Some analogy that doesn't really work)
 </div>
 
 </v-clicks>
@@ -134,11 +135,27 @@ hide: false
 ---
 ---
 src: ./parts/church-and-turing.md
-hide:
+hide: false
 ---
 
 ---
 layout: mono-header
+---
+
+::main::
+
+<div v-click class="my-10 w-prose">
+
+Functional Programming is a <em>programming style</em> in which one models the real world as a pure function.  
+You can write a functional program in almost every language—all you need are [first class functions](https://developer.mozilla.org/en-US/docs/Glossary/First-class_Function). [Closures](https://stackoverflow.com/questions/36636/what-is-a-closure), immutable data and recursion help, too.  
+A functional program is more declarative, [simpler](https://www.youtube.com/watch?v=SxdOUGdseq4) and less coupled <em>by default.</em>  
+Functional Programming [feels weird](https://paulgraham.com/avg.html) when coming from the [Turing Machine](https://samwho.dev/turing-machines/)-area of programing languages.
+
+</div>
+
+---
+layout: mono-header
+hide: true
 ---
 
 ::header::
@@ -146,9 +163,6 @@ layout: mono-header
 <Heading>Resources</Heading>
 
 ::main::
-
-- 
-- 
 
 ---
 layout: mono-header
