@@ -6,7 +6,7 @@ layout: mono-header
 
 <div v-click class="my-10 w-prose">
 
-Functional Programming is a <em>programming style</em> in which one models the real world as a pure function.
+Functional Programming is a <em>programming style</em> in which one models the real world as a <em>pure function</em>.
 
 </div>
 

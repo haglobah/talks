@@ -100,7 +100,8 @@ layout: top-bottom-header
 
 - Are clear: They [_replace the symbol with the substance_](https://www.lesswrong.com/posts/GKfPL6LQFgB49FEnv/replace-the-symbol-with-the-substance)
 - Are hard-to-vary: They provide specific details why something has to be the way it is
-- Make curious for more
+- Offer an easy way to learn more
+- Take cognitive load into account: They don't overwhelm
 
 </v-clicks>
 
@@ -112,7 +113,7 @@ layout: top-bottom-header
 
 <Quote> I program in Haskell</Quote>
 <Quote> It's like math </Quote>
-<Quote> It's simple </Quote>
+<Quote> Let's compare it to building houses... </Quote>
 
 </v-clicks>
 
@@ -146,12 +147,27 @@ layout: mono-header
 
 <div v-click class="my-10 w-prose">
 
-Functional Programming is a <em>programming style</em> in which one models the real world as a pure function.  
-You can write a functional program in almost every language—all you need are [first class functions](https://developer.mozilla.org/en-US/docs/Glossary/First-class_Function). [Closures](https://stackoverflow.com/questions/36636/what-is-a-closure), immutable data and recursion help, too.  
-A functional program is more declarative, [simpler](https://www.youtube.com/watch?v=SxdOUGdseq4) and less coupled <em>by default.</em>  
-Functional Programming [feels weird](https://paulgraham.com/avg.html) when coming from the [Turing Machine](https://samwho.dev/turing-machines/)-area of programing languages.
+Functional Programming is a <em>programming style</em> in which one models the real world as a <em>pure function</em>.  
+You can write a functional program in almost every language—all you need are [first class functions](https://developer.mozilla.org/en-US/docs/Glossary/First-class_Function). [Closures](https://stackoverflow.com/questions/36636/what-is-a-closure), <em>immutable data structures</em> and <em>recursion</em> help, too.  
+A functional program is more <em>declarative</em>, [simpler](https://www.youtube.com/watch?v=SxdOUGdseq4) and less <em>coupled</em> <em>by default.</em>  
+Especially if you have some previous programming experience before, Functional Programming [feels weird](https://paulgraham.com/avg.html) in the beginning. It's probably due to you coming from [Turing Machine](https://samwho.dev/turing-machines/)-based programing languages. Functional programming stems from the <em>Lambda Calculus</em> and is ... different.
 
 </div>
+
+---
+layout: mono-header
+---
+
+::header::
+
+<Heading>Good explanations</Heading>
+
+::main::
+
+- Are clear: They [_replace the symbol with the substance_](https://www.lesswrong.com/posts/GKfPL6LQFgB49FEnv/replace-the-symbol-with-the-substance)
+- Are hard-to-vary: They provide specific details why something has to be the way it is
+- Offer an easy way to learn more
+- Take cognitive load into account: They don't overwhelm
 
 ---
 layout: mono-header
