@@ -25,7 +25,7 @@ layout: mono-header
 
 ::main::
 
-<div class="grid grid-cols-3 h-full w-full self-start">
+<div class="grid grid-cols-3 w-full">
 <v-clicks>
   <div class="flex flex-col">
     <Highlight class="text-sienna mb-4 text-center">Decoupled</Highlight>

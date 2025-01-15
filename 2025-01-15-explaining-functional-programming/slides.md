@@ -66,6 +66,7 @@ layout: mono-header
 
 ---
 layout: mono-header
+hide: true
 ---
 
 ::header::
@@ -145,13 +146,38 @@ layout: mono-header
 
 ::main::
 
-<div v-click class="my-10 w-prose">
+<div class="my-10 w-prose">
 
-Functional Programming is a <em>programming style</em> in which one models the real world as a <em>pure function</em>.  
-You can write a functional program in almost every language—all you need are [first class functions](https://developer.mozilla.org/en-US/docs/Glossary/First-class_Function). [Closures](https://stackoverflow.com/questions/36636/what-is-a-closure), <em>immutable data structures</em> and <em>recursion</em> help, too.  
-A functional program is more <em>declarative</em>, [simpler](https://www.youtube.com/watch?v=SxdOUGdseq4) and less <em>coupled</em> <em>by default.</em>  
-Especially if you have some previous programming experience before, Functional Programming [feels weird](https://paulgraham.com/avg.html) in the beginning. It's probably due to you coming from [Turing Machine](https://samwho.dev/turing-machines/)-based programing languages. Functional programming stems from the <em>Lambda Calculus</em> and is ... different.
+<v-click>
 
+Functional Programming is a <em>programming style</em> in which one models the real world as a <em>pure function</em>.
+
+</v-click>  
+<v-click>
+
+You can write a functional program in almost every language—all you need are [first class functions](https://developer.mozilla.org/en-US/docs/Glossary/First-class_Function).
+
+</v-click>
+<v-click>
+
+[Closures](https://stackoverflow.com/questions/36636/what-is-a-closure), <em>immutable data structures</em> and <em>recursion</em> help, too.
+
+</v-click>
+<v-click>
+
+A functional program is more <em>declarative</em>, [simpler](https://www.youtube.com/watch?v=SxdOUGdseq4) and less <em>coupled</em> <em>by default.</em>
+
+</v-click>
+<v-click>
+
+Especially if you have some previous programming experience before, Functional Programming [feels weird](https://paulgraham.com/avg.html) in the beginning.
+
+</v-click>
+<v-click>
+
+That's probably due to you coming from [Turing Machine](https://samwho.dev/turing-machines/)-based programing languages. Functional programming stems from the <em>Lambda Calculus</em> and is ... different.
+
+</v-click>
 </div>
 
 ---
@@ -160,14 +186,18 @@ layout: mono-header
 
 ::header::
 
-<Heading>Good explanations</Heading>
+<Heading>A Good explanation?</Heading>
 
 ::main::
+
+<v-clicks>
 
 - Are clear: They [_replace the symbol with the substance_](https://www.lesswrong.com/posts/GKfPL6LQFgB49FEnv/replace-the-symbol-with-the-substance)
 - Are hard-to-vary: They provide specific details why something has to be the way it is
 - Offer an easy way to learn more
 - Take cognitive load into account: They don't overwhelm
+
+</v-clicks>
 
 ---
 layout: mono-header
