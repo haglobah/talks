@@ -179,7 +179,6 @@ layout: mono-header
 
 <Highlight>a way to write programs</Highlight>
 
-
 ---
 
 ## And 2025?
