@@ -37,6 +37,7 @@ layout: mono-header
 <div class="my-6 self-start">
   You're interested in <em>that</em>?
 </div>
+
 </v-clicks>
 
 ---
@@ -58,13 +59,14 @@ layout: mono-header
   Programming, but with (university) math.
 </div>
 <div class="my-6 self-start">
-  It's just <em>simpler</em>.
+  (Some analogy that doesn't really work)
 </div>
 
 </v-clicks>
 
 ---
 layout: mono-header
+hide: true
 ---
 
 ::header::
@@ -99,7 +101,8 @@ layout: top-bottom-header
 
 - Are clear: They [_replace the symbol with the substance_](https://www.lesswrong.com/posts/GKfPL6LQFgB49FEnv/replace-the-symbol-with-the-substance)
 - Are hard-to-vary: They provide specific details why something has to be the way it is
-- Make curious for more
+- Offer an easy way to learn more
+- Take cognitive load into account: They don't overwhelm
 
 </v-clicks>
 
@@ -111,7 +114,7 @@ layout: top-bottom-header
 
 <Quote> I program in Haskell</Quote>
 <Quote> It's like math </Quote>
-<Quote> It's simple </Quote>
+<Quote> Let's compare it to building houses... </Quote>
 
 </v-clicks>
 
@@ -120,8 +123,8 @@ layout: top-bottom-header
 ---
 src: ./parts/style.md
 hide: false
----
 
+---
 ---
 src: ./parts/features.md
 hide: false
@@ -130,6 +133,7 @@ hide: false
 ---
 src: ./parts/characteristics.md
 hide: false
+
 ---
 ---
 src: ./parts/church-and-turing.md
@@ -140,63 +144,77 @@ hide: false
 layout: mono-header
 ---
 
-::header::
-
-<Heading>2 | Programming Language Features</Heading>
-
 ::main::
 
-<div class="grid grid-cols-3 self-start">
-<v-clicks>
-  <div class="flex flex-col">
-    <Highlight class="text-sienna mb-4">Procedural</Highlight>
-    <Quote>
-      Let's model everything as a sequence of steps!
-    </Quote>
-  </div>
-  <div class="flex flex-col">
-    <Highlight class="text-sienna mb-4">Object Oriented</Highlight>
-    <Quote>
-      Let's model everything as an object!
-    </Quote>
-  </div>
-  <div class="flex flex-col">
-    <Highlight class="text-sienna mb-4">Functional</Highlight>
-    <Quote>
-      Let's model everything as a (pure) function!
-    </Quote>
-  </div>
-</v-clicks>
+<div class="my-10 w-prose">
+
+<v-click>
+
+Functional Programming is a <em>programming style</em> in which one models the real world as a <em>pure function</em>.
+
+</v-click>  
+<v-click>
+
+You can write a functional program in almost every language—all you need are [first class functions](https://developer.mozilla.org/en-US/docs/Glossary/First-class_Function).
+
+</v-click>
+<v-click>
+
+[Closures](https://stackoverflow.com/questions/36636/what-is-a-closure), <em>immutable data structures</em> and <em>recursion</em> help, too.
+
+</v-click>
+<v-click>
+
+A functional program is more <em>declarative</em>, [simpler](https://www.youtube.com/watch?v=SxdOUGdseq4) and less <em>coupled</em> <em>by default.</em>
+
+</v-click>
+<v-click>
+
+Especially if you have some previous programming experience before, Functional Programming [feels weird](https://paulgraham.com/avg.html) in the beginning.
+
+</v-click>
+<v-click>
+
+That's probably due to you coming from [Turing Machine](https://samwho.dev/turing-machines/)-based programing languages. Functional programming stems from the <em>Lambda Calculus</em> and is ... different.
+
+</v-click>
 </div>
 
 ---
 layout: mono-header
 ---
 
+::header::
+
+<Heading>A Good explanation?</Heading>
+
 ::main::
-
-<div class="text-xl absolute top-30">Functional Programming is</div>
-
-<Highlight>a way to write programs</Highlight>
-
----
-
-## And 2025?
-
-<br/>
 
 <v-clicks>
 
-1. Digital Garden
-2. [CO2 Watch](https://github.com/cscott/watchy-co2-pcb#readme)?
-3. [Smart Mirror](https://supersimple.org/blog/smart-mirror)?
-4. Moral Ambition
+- Are clear: They [_replace the symbol with the substance_](https://www.lesswrong.com/posts/GKfPL6LQFgB49FEnv/replace-the-symbol-with-the-substance)
+- Are hard-to-vary: They provide specific details why something has to be the way it is
+- Offer an easy way to learn more
+- Take cognitive load into account: They don't overwhelm
 
 </v-clicks>
 
 ---
-layout: intro
+layout: mono-header
+hide: true
 ---
+
+::header::
+
+<Heading>Resources</Heading>
+
+::main::
+
+---
+layout: mono-header
+---
+
+::main::
 
 # Beat Hagenlocher
 
@@ -222,5 +240,3 @@ Software Architect <a href="https://active-group.de">@active group</a><br>
 
 <img src="https://avatars.githubusercontent.com/u/83699832?s=400&u=02b324dc21d8da4d6f179daaf7e14f4b4d01cac5&v=4" class="rounded-full w-40 abs-tr mt-16 mr-12"/>
 
-
----
