@@ -84,11 +84,9 @@ layout: mono-header
 
 ::main::
 
-- https://utopia.fyi/
-- https://www.youtube.com/watch?v=DDuGtN-GakA
-
----
-
+- [Utopia Website](https://utopia.fyi/)
+- [Utopia Introduction](https://www.youtube.com/watch?v=DDuGtN-GakA)
+- [UnoCSS preset fluid](https://renatomoor.github.io/unocss-preset-fluid/)
 
 ---
 layout: mono-header
