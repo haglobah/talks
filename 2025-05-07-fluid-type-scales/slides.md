@@ -1,8 +1,8 @@
 ---
 theme: ../yoarhe
-title: Your title
+title: Fluid Type Scales
 info: |
-  Most of us have been there. Some more text.
+  How to get rid of almost all of the breakpoints in CSS.
 author: Beat Hagenlocher
 class: text-center
 fonts:
@@ -12,187 +12,68 @@ transition: slide-left
 mdc: true
 ---
 
-<Title>Explaining Functional Programming</Title>
+<Title>Fluid Type Scales</Title>
 
-<Subtitle>Beat Hagenlocher</Subtitle>
-
----
-layout: mono-header
----
-
-::header::
-
-<Heading>Explaining Functional Programming</Heading>
-
-::main::
-
-<v-clicks>
-
-<div class="my-6 self-start">
-  What are you doing for work again?
-</div>
-<div class="my-6 self-end">
-  What is this meetup you're going to about?
-</div>
-<div class="my-6 self-start">
-  You're interested in <em>that</em>?
-</div>
-
-</v-clicks>
+<Subtitle>Getting rid of those breakpoints</Subtitle>
 
 ---
-layout: mono-header
+layout: iframe
+
+url: https://utopia.fyi
 ---
 
-::header::
-
-<Heading>Explaining Functional Programming</Heading>
-
-::main::
-
-<v-clicks>
-
-<div class="my-6 self-start">
-  Ah, I'm a programmer, and I write in Haskell/Clojure/whatever.
-</div>
-<div class="my-6 self-end">
-  Programming, but with (university) math.
-</div>
-<div class="my-6 self-start">
-  (Some analogy that doesn't really work)
-</div>
-
-</v-clicks>
-
 ---
-layout: mono-header
-hide: true
+layout: center
 ---
 
-::header::
+This is how we define it:
 
-<Heading>Roadmap</Heading>
+```js {*}{lines:true, startLine:62}
+    presetFluid({
+      maxWidth: 1440,
+      minWidth: 320,
+      extendMaxWidth: null,
+      extendMinWidth: null,
+      remBase: 16,
+      useRemByDefault: false,
+      ranges: {
+        // Got by doing {320px, 16px, 1.125}, {1440px, 18px, 1.25} on https://utopia.fyi
+        '4xl': [32.44, 68.66],
+        '3xl': [28.83, 54.93],
+        '2xl': [25.63, 43.95],
+        xl: [22.78, 35.16],
+        lg: [20.25, 28.13],
+        md: [18.00, 22.50],
+        sm: [16.00, 18.00],
+        xs: [14.22, 14.40],
+        '2xs': [12.64, 11.52],
+      },
+      commentHelpers: false,
+    })
+```
 
-::main::
-
-<Highlight>
-
-<v-clicks>
-
-1. Good explanations
-2. What? (should we include?)
-3. Why? (might it be a good idea?)
-
-</v-clicks>
-
-</Highlight>
-
----
-layout: top-bottom-header
----
-
-::header::
-
-<Heading>Good explanations</Heading>
-
-::top::
-
-<v-clicks>
-
-- Are clear: They [_replace the symbol with the substance_](https://www.lesswrong.com/posts/GKfPL6LQFgB49FEnv/replace-the-symbol-with-the-substance)
-- Are hard-to-vary: They provide specific details why something has to be the way it is
-- Offer an easy way to learn more
-- Take cognitive load into account: They don't overwhelm
-
-</v-clicks>
-
-::bottom::
-
-<div class="flex justify-between *:mx-10">
-
-<v-clicks>
-
-<Quote> I program in Haskell</Quote>
-<Quote> It's like math </Quote>
-<Quote> Let's compare it to building houses... </Quote>
-
-</v-clicks>
-
-</div>
+Code from here: [uno.config.ts | beathagenlocher.com](https://github.com/haglobah/beathagenlocher.com/blob/a863b6c53693a29408545d1b7f659af024074d67/uno.config.ts#L62)
 
 ---
-src: ./parts/example-part.md
-hide: false
-
----
-layout: mono-header
+layout: center
 ---
 
-::main::
+And this is how we use it:
 
-<div class="my-10 w-prose">
+```html {*}{lines:true, startLine: 37}
+  <div class="f-my-lg f-mx-md">
+    <div class="f-py-lg">
+      <h1 class="f-text-3xl leading-snug">
+        <Il href="me">Beat Hagenlocher</Il> <br> thinking out loud.
+      </h1>
+      <ClampWrapper clampHeight="250">
+        <BadgeSelection size="f-text-sm" topics={topics}/>
+      </ClampWrapper>
+    </div>
+  </div>
+```
 
-<v-click>
-
-Functional Programming is a <em>programming style</em> in which one models the real world as a <em>pure function</em>.
-
-</v-click>
-<v-click>
-
-You can write a functional program in almost every language—all you need are [first class functions](https://developer.mozilla.org/en-US/docs/Glossary/First-class_Function).
-
-</v-click>
-<v-click>
-
-[Closures](https://stackoverflow.com/questions/36636/what-is-a-closure), <em>immutable data structures</em> and <em>recursion</em> help, too.
-
-</v-click>
-<v-click>
-
-A functional program is more <em>declarative</em>, [simpler](https://www.youtube.com/watch?v=SxdOUGdseq4) and less <em>coupled</em> <em>by default.</em>
-
-</v-click>
-<v-click>
-
-Especially if you have some previous programming experience before, Functional Programming [feels weird](https://paulgraham.com/avg.html) in the beginning.
-
-</v-click>
-<v-click>
-
-That's probably due to you coming from [Turing Machine](https://samwho.dev/turing-machines/)-based programing languages. Functional programming stems from the <em>Lambda Calculus</em> and is ... different.
-
-</v-click>
-</div>
-
----
-layout: mono-header
----
-
-::header::
-
-<Heading>A Good explanation?</Heading>
-
-::main::
-
-<v-clicks>
-
-- Are clear: They [_replace the symbol with the substance_](https://www.lesswrong.com/posts/GKfPL6LQFgB49FEnv/replace-the-symbol-with-the-substance)
-- Are hard-to-vary: They provide specific details why something has to be the way it is
-- Offer an easy way to learn more
-- Take cognitive load into account: They don't overwhelm
-
-</v-clicks>
-
----
-layout: mono-header
-hide: true
----
-
-::header::
-
-<Heading>Resources</Heading>
-
-::main::
+-> [src/pages/index.astro | beathagenlocher.com](https://github.com/haglobah/beathagenlocher.com/blob/6c23ddd211aa19284452c93877537781d18525c4/src/pages/index.astro#L37)
 
 ---
 layout: mono-header
