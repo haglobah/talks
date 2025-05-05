@@ -1,38 +1,3 @@
-# name: Deploy to GitHub Pages
-
-# on:
-#   push:
-#     branches: [main]  # Set this to your default branch
-
-# jobs:
-#   build-and-deploy:
-#     runs-on: ubuntu-latest
-#     steps:
-#       - uses: actions/checkout@v2
-
-#       - name: Setup Node.js
-#         uses: actions/setup-node@v2
-#         with:
-#           node-version: '14'  # Adjust this to your Node.js version
-
-#       - name: Build all presentations
-#         run: |
-#           for dir in ./*/; do
-#             talk_path=${dir%*/}  # Remove trailing slash
-#             talk_name=${talk_path##*/}  # Extract folder name
-#             echo "Building $talk_name"
-#             cd "$dir"
-#             npm install
-#             npm run build -- --base "/${{ github.event.repository.name }}/$talk_name/" --out "../../../docs/talks/$talk_name"
-#             cd ../..
-#           done
-
-#       - name: Deploy to GitHub Pages
-#         uses: peaceiris/actions-gh-pages@v3
-#         with:
-#           github_token: ${{ secrets.GITHUB_TOKEN }}
-#           publish_dir: ./docs
-
 name: Deploy to GitHub Pages
 
 on:
@@ -57,21 +22,26 @@ jobs:
       - name: Setup @antfu/ni
         run: npm i -g @antfu/ni
 
+      - name: Setup yoarhe template
+        run: |
+          cd "./yoarhe"
+          nci
+
       - name: Install dependencies & build
         run: |
           mkdir -p ./dist
           pwd
-          for dir in ./*/; do
+          for dir in ./talks/*/; do
             if [ -f "$dir/package.json" ]; then
-              talk_path=${dir%*/}
-              talk_name=${talk_path##*/}
+              talk_path=${dir%*/}        # Remove trailing slash
+              talk_name=${talk_path##*/} # Extract folder name
               echo "Building $talk_name"
               cd "$dir"
               echo "Current directory: $(pwd)"
               echo "Contents of current directory:"
               ls -la
               nci
-              echo "Contents after ni:"
+              echo "Contents after nci:"
               ls -la
               echo "Running build command..."
               nr build --base "/${{ github.event.repository.name }}/$talk_name/" --out "../dist/$talk_name" # -> https://sli.dev/guide/hosting
