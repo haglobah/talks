@@ -79,6 +79,21 @@ And this is how we use it:
 layout: mono-header
 ---
 
+::header::
+<Subtitle>RESOURCES</Subtitle>
+
+::main::
+
+- https://utopia.fyi/
+- https://www.youtube.com/watch?v=DDuGtN-GakA
+
+---
+
+
+---
+layout: mono-header
+---
+
 ::main::
 
 # Beat Hagenlocher
