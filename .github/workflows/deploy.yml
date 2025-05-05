@@ -9,12 +9,12 @@
 #     runs-on: ubuntu-latest
 #     steps:
 #       - uses: actions/checkout@v2
-      
+
 #       - name: Setup Node.js
 #         uses: actions/setup-node@v2
 #         with:
 #           node-version: '14'  # Adjust this to your Node.js version
-      
+
 #       - name: Build all presentations
 #         run: |
 #           for dir in ./*/; do
@@ -26,7 +26,7 @@
 #             npm run build -- --base "/${{ github.event.repository.name }}/$talk_name/" --out "../../../docs/talks/$talk_name"
 #             cd ../..
 #           done
-      
+
 #       - name: Deploy to GitHub Pages
 #         uses: peaceiris/actions-gh-pages@v3
 #         with:
@@ -53,10 +53,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 'lts/*'
-      
+
       - name: Setup @antfu/ni
         run: npm i -g @antfu/ni
-      
+
       - name: Install dependencies & build
         run: |
           mkdir -p ./dist
@@ -70,11 +70,11 @@ jobs:
               echo "Current directory: $(pwd)"
               echo "Contents of current directory:"
               ls -la
-              ni
+              nci
               echo "Contents after ni:"
               ls -la
               echo "Running build command..."
-              nr build --base "/${{ github.event.repository.name }}/$talk_name/" --out "../dist/$talk_name"
+              nr build --base "/${{ github.event.repository.name }}/$talk_name/" --out "../dist/$talk_name" # -> https://sli.dev/guide/hosting
               echo "Build complete. Contents of ../dist/$talk_name:"
               ls -la ../dist/$talk_name
               pwd
@@ -82,15 +82,15 @@ jobs:
               pwd
             fi
           done
-      
+
       - name: List contents of dist directory
         run: |
           echo "Contents of ./dist:"
           ls -R ./dist
-      
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
-      
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
