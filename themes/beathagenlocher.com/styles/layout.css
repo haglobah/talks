@@ -5,7 +5,11 @@
 }
 
 a {
-  @apply opacity-80 underline underline-offset-3 hover:opacity-100 hover:text-cornflower-light transition duration-300 italic
+  @apply cursor-pointer font-bold hover:text-cornflower-light transition duration-300 ease-in-out group
+}
+
+a::after {
+  @apply content-['____'] w-12 i-heroicons-arrow-up-right-20-solid relative text-cornflower
 }
 
 ol {
@@ -13,7 +17,7 @@ ol {
 }
 
 ul {
-  @apply list-none *:my-6
+  @apply list-disc *:my-6 *:pl-2 marker:text-sienna
 }
 
 li {
@@ -21,24 +25,5 @@ li {
 }
 
 #slideshow {
-  @apply bg-zinc-800 text-lg leading-[1.6] text-white
+  @apply bg-zinc-800 text-lg leading-[1.6] text-zinc-300 selection:bg-sienna-light selection:text-zinc-800
 }
-
-/* .slidev-layout.cover, */
-/* .slidev-layout.intro { */
-/*   @apply h-full grid; */
-
-/*   h1 { */
-/*     @apply text-6xl leading-20; */
-/*   } */
-
-/*   h1 + p { */
-/*     @apply -mt-2 opacity-50 mb-4; */
-/*   } */
-
-/*   p + h2, */
-/*   ul + h2, */
-/*   table + h2 { */
-/*     @apply mt-10; */
-/*   } */
-/* } */
