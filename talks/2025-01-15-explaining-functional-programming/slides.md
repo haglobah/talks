@@ -1,5 +1,5 @@
 ---
-theme: ../../yoarhe
+theme: ../../themes/yoarhe
 title: Explaining Functional Programming
 info: |
   Most of us have been there—explaining functional programming is hard. This talk first gathers the prerequisites for understanding functional programming and then provides a template for explaining it. In the meantime, it touches on the history of programming, programming languages, and some general concepts such as coupling and complexity.

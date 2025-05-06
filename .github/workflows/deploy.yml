@@ -22,10 +22,13 @@ jobs:
       - name: Setup @antfu/ni
         run: npm i -g @antfu/ni
 
-      - name: Setup yoarhe template
+      - name: Setup themes
         run: |
-          cd "./yoarhe"
-          nci
+          for dir in ./themes/*/; do
+            cd $dir
+            nci
+            cd ../..
+          done
 
       - name: Install dependencies & build
         run: |
