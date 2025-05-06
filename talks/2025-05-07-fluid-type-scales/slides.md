@@ -1,5 +1,5 @@
 ---
-theme: ../../themes/yoarhe
+theme: ../../themes/beathagenlocher.com
 title: Fluid Type Scales
 info: |
   How to get rid of almost all of the breakpoints in CSS.

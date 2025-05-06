@@ -1,0 +1,44 @@
+:root {
+  /* default theme color */
+  /* can be overridden by uses `themeConfig` option */
+  --slidev-theme-primary: #5d8392;
+}
+
+a {
+  @apply opacity-80 underline underline-offset-3 hover:opacity-100 hover:text-cornflower-light transition duration-300 italic
+}
+
+ol {
+  @apply list-decimal marker:text-sienna *:my-6
+}
+
+ul {
+  @apply list-none *:my-6
+}
+
+li {
+  @apply
+}
+
+#slideshow {
+  @apply bg-space-cadet text-lg leading-relaxed text-white
+}
+
+/* .slidev-layout.cover, */
+/* .slidev-layout.intro { */
+/*   @apply h-full grid; */
+
+/*   h1 { */
+/*     @apply text-6xl leading-20; */
+/*   } */
+
+/*   h1 + p { */
+/*     @apply -mt-2 opacity-50 mb-4; */
+/*   } */
+
+/*   p + h2, */
+/*   ul + h2, */
+/*   table + h2 { */
+/*     @apply mt-10; */
+/*   } */
+/* } */
