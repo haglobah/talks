@@ -44,11 +44,11 @@ jobs:
               echo "Contents after nci:"
               ls -la
               echo "Running build command..."
-              nr build --base "/${{ github.event.repository.name }}/$talk_name/" --out "../dist/$talk_name" # -> https://sli.dev/guide/hosting
-              echo "Build complete. Contents of ../dist/$talk_name:"
-              ls -la ../dist/$talk_name
+              nr build --base "/${{ github.event.repository.name }}/$talk_name/" --out "../../dist/$talk_name" # -> https://sli.dev/guide/hosting
+              echo "Build complete. Contents of ../../dist/$talk_name:"
+              ls -la ../../dist/$talk_name
               pwd
-              cd ..
+              cd ../..
               pwd
             fi
           done
