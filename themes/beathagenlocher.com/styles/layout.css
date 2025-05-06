@@ -25,5 +25,5 @@ li {
 }
 
 #slideshow {
-  @apply bg-zinc-800 text-lg leading-[1.6] text-zinc-300 selection:bg-sienna-light selection:text-zinc-800
+  @apply bg-zinc-800 text-lg leading-[1.6] text-zinc-100 selection:bg-sienna-light selection:text-zinc-800
 }
