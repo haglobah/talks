@@ -21,7 +21,7 @@ li {
 }
 
 #slideshow {
-  @apply bg-space-cadet text-lg leading-relaxed text-white
+  @apply bg-zinc-800 text-lg leading-[1.6] text-white
 }
 
 /* .slidev-layout.cover, */
