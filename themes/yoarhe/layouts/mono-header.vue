@@ -2,7 +2,7 @@
 <!--
 ```md
 ---
-layout: left-right
+layout: mono-header
 ---
 
 ::header::
