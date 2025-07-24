@@ -4,5 +4,6 @@
     "blanks-around-headings": false,
     "no-duplicate-heading": false,
     "heading-style": false,
-    "single-h1": false
+    "single-h1": false,
+    "first-line-h1": false
 }
