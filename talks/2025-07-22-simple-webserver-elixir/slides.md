@@ -47,51 +47,12 @@ layout: mono-header
 src: ./parts/internet.md
 ---
 ---
-layout: left-right-header
+src: ./parts/request-response.md
 ---
-
-::header::
-<Heading>Server: HTTP</Heading>
-
-::left::
-
-```shell
-$ curl -v "telnet://beathagenlocher.com:80"
-```
-
-::right::
-
 ---
-layout: center
+src: ./parts/http.md
 ---
-
-This is how we define it:
-
-```js {*}{lines:true, startLine:62}
-    presetFluid({
-      maxWidth: 1440,
-      minWidth: 320,
-      extendMaxWidth: null,
-      extendMinWidth: null,
-      remBase: 16,
-      useRemByDefault: false,
-      ranges: {
-        // Got by doing {320px, 16px, 1.125}, {1440px, 18px, 1.25} on https://utopia.fyi
-        '4xl': [32.44, 68.66],
-        '3xl': [28.83, 54.93],
-        '2xl': [25.63, 43.95],
-        xl: [22.78, 35.16],
-        lg: [20.25, 28.13],
-        md: [18.00, 22.50],
-        sm: [16.00, 18.00],
-        xs: [14.22, 14.40],
-        '2xs': [12.64, 11.52],
-      },
-      commentHelpers: false,
-    })
-```
-
-Code from here: [uno.config.ts | beathagenlocher.com](https://github.com/haglobah/beathagenlocher.com/blob/a863b6c53693a29408545d1b7f659af024074d67/uno.config.ts#L62)
+---
 
 ---
 layout: center
@@ -119,13 +80,21 @@ layout: mono-header
 ---
 
 ::header::
-<Subtitle>RESOURCES</Subtitle>
+<Heading>Resources</Heading>
 
 ::main::
 
-- [Utopia Website](https://utopia.fyi/)
-- [Utopia Introduction](https://www.youtube.com/watch?v=DDuGtN-GakA)
-- [UnoCSS preset fluid](https://renatomoor.github.io/unocss-preset-fluid/)
+<Highlight>Web</Highlight>
+
+- [Port (computer networking)](https://en.wikipedia.org/wiki/Port_(computer_networking)) & [List of port numbers](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)
+- [IP address](https://en.wikipedia.org/wiki/IP_address) & [Internet Protocol](https://en.wikipedia.org/wiki/Internet_Protocol)
+
+<Highlight>Server</Highlight>
+
+- [HyperText Transfer Protocol](https://developer.mozilla.org/en-US/docs/Web/HTTP) & [HTTP Overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview)
+- [It Took Me Years Until I Understood Web Servers—You Can Do It In 10 Minutes](https://beathagenlocher.com/it-took-me-years-until-i-understood-web-serversyou-can-do-it-in-10-minutes/)
+<Highlight>Elixir</Highlight>
+- [Elixir: Getting Started Guide](https://hexdocs.pm/elixir/introduction.html)
 
 ---
 layout: mono-header
