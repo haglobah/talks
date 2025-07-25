@@ -40,7 +40,6 @@
             # { name = "MY_ENV_VAR"; value = "SOTRUE"; }
           ];
           packages = with pkgs; [
-            nodejs_22
             just
           ];
           commands = [
