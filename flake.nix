@@ -41,13 +41,7 @@
           ];
           packages = with pkgs; [
             just
-          ];
-          commands = [
-            {
-              name = "run";
-              command = "echo \"Run me!\"";
-              help = "Launch the application";
-            }
+            nodejs_22
           ];
         };
       };
