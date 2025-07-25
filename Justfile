@@ -4,4 +4,5 @@ setup:
     for talk in talks/*; do cd $talk && npm clean-install && cd ../..; done
 
 dev:
+    # Finds the latest talk and runs it.
     cd $(find -mindepth 2 -maxdepth 2 -type d | grep ./talks | sort | tail -n 1) && npm run dev
