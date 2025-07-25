@@ -84,17 +84,28 @@ layout: mono-header
 
 ::main::
 
-<Highlight>Web</Highlight>
+<div class="flex flex-row w-full items-center justify-start">
+  <Highlight class="basis-1/5">Web</Highlight>
 
-- [Port (computer networking)](https://en.wikipedia.org/wiki/Port_(computer_networking)) & [List of port numbers](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)
-- [IP address](https://en.wikipedia.org/wiki/IP_address) & [Internet Protocol](https://en.wikipedia.org/wiki/Internet_Protocol)
+  - [Port (computer networking)](https://en.wikipedia.org/wiki/Port_(computer_networking)) & [List of port numbers](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)
+  - [IP address](https://en.wikipedia.org/wiki/IP_address) & [Internet Protocol](https://en.wikipedia.org/wiki/Internet_Protocol)
+</div>
 
-<Highlight>Server</Highlight>
+<div class="flex flex-row w-full items-center justify-start">
+<Highlight class="basis-1/5">Server</Highlight>
 
 - [HyperText Transfer Protocol](https://developer.mozilla.org/en-US/docs/Web/HTTP) & [HTTP Overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview)
 - [It Took Me Years Until I Understood Web Servers—You Can Do It In 10 Minutes](https://beathagenlocher.com/it-took-me-years-until-i-understood-web-serversyou-can-do-it-in-10-minutes/)
-<Highlight>Elixir</Highlight>
+
+</div>
+
+<div class="flex flex-row w-full items-center justify-start">
+
+<Highlight class="basis-1/5">Elixir</Highlight>
+
 - [Elixir: Getting Started Guide](https://hexdocs.pm/elixir/introduction.html)
+
+</div>
 
 ---
 layout: mono-header
