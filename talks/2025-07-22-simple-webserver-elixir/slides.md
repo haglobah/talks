@@ -53,27 +53,14 @@ src: ./parts/request-response.md
 src: ./parts/http.md
 ---
 ---
-
----
-layout: center
+layout: mono-header
 ---
 
-And this is how we use it:
+::header::
+<Heading>Elixir</Heading>
+::main::
 
-```html {*}{lines:true, startLine: 37}
-  <div class="f-my-lg f-mx-md">
-    <div class="f-py-lg">
-      <h1 class="f-text-3xl leading-snug">
-        <Il href="me">Beat Hagenlocher</Il> <br> thinking out loud.
-      </h1>
-      <ClampWrapper clampHeight="250">
-        <BadgeSelection size="f-text-sm" topics={topics}/>
-      </ClampWrapper>
-    </div>
-  </div>
-```
-
--> [src/pages/index.astro | beathagenlocher.com](https://github.com/haglobah/beathagenlocher.com/blob/6c23ddd211aa19284452c93877537781d18525c4/src/pages/index.astro#L37)
+<Title>Demo</Title>
 
 ---
 layout: mono-header
