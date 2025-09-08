@@ -1,5 +1,5 @@
 {
-  description = "A project by ?.";
+  description = "beathagenlocher.com's talks";
 
   inputs = {
     nixpkgs.url = "https://flakehub.com/f/DeterminateSystems/nixpkgs-weekly/*.tar.gz";
