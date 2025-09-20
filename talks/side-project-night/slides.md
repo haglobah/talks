@@ -50,3 +50,7 @@ layout: mono-header
     <Timeslot>Work II</Timeslot><Highlight>~50min</Highlight>
     <Timeslot>Demos & End</Timeslot><Highlight>~15min</Highlight>
 </div>
+
+---
+<Clock>
+</Clock>
