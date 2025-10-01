@@ -1,7 +1,7 @@
 :root {
   /* default theme color */
   /* can be overridden by uses `themeConfig` option */
-  --slidev-theme-primary: #5d8392;
+  /* --slidev-theme-primary: #5d8392; */
 }
 
 a {
@@ -20,10 +20,10 @@ ul {
   @apply list-disc *:my-6 *:pl-2 marker:text-sienna
 }
 
-li {
-  @apply
-}
+/* li { */
+/*   @apply */
+/* } */
 
-#slideshow {
-  @apply bg-zinc-800 text-lg leading-[1.6] text-zinc-100 selection:bg-sienna-light selection:text-zinc-800
+.slidev-page {
+  @apply bg-zinc-900 text-lg leading-[1.6] text-zinc-100 selection:bg-sienna-light selection:text-zinc-800
 }
