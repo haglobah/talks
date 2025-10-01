@@ -10,7 +10,7 @@ fonts:
   mono: "Fira Code"
 transition: slide-left
 addons:
- - "@katzumi/slidev-addon-qrcode"
+ - "slidev-addon-qrcode"
 mdc: true
 ---
 
@@ -47,12 +47,6 @@ layout: mono-header
 ---
 layout: mono-header
 ---
-
-<style>
-h2 {
-  color: theme('colors.cornflower.light')
-}
-</style>
 
 ::header::
 <Heading>Break</Heading>
@@ -94,10 +88,9 @@ layout: mono-header
 ::main::
 <div class="bg-white max-w-min my-10 mx-auto">
   <QRCode
-    value="https://luma.com/side-project-night/"
+    data="https://luma.com/side-project-night/"
     :width="400"
     :height="400"
-    color="white"
   />
 </div>
 
@@ -112,9 +105,8 @@ layout: mono-header
 ::main::
 <div class="bg-white max-w-min my-10 mx-auto">
   <QRCode
-    value="https://discord.gg/SyHCXBJ6"
+    data="https://discord.gg/SyHCXBJ6"
     :width="400"
     :height="400"
-    color="white"
   />
 </div>
