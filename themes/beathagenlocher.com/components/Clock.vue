@@ -1,7 +1,6 @@
 <template>
-  <div class="inline-block text-center font-mono bg-gray-900 text-green-400 p-5 rounded-lg shadow-lg shadow-green-400/30">
-    <div class="text-4xl font-bold mb-2 drop-shadow-lg">{{ currentTime }}</div>
-    <div class="text-lg opacity-80">{{ currentDate }}</div>
+  <div class="font-mono text-cornflower p-5">
+    <div class="text-6xl mb-2 drop-shadow-xl">{{ currentTime }}</div>
   </div>
 </template>
 
@@ -27,8 +26,7 @@ export default {
   methods: {
     updateTime() {
       const now = new Date()
-      this.currentTime = now.toLocaleTimeString()
-      this.currentDate = now.toLocaleDateString()
+      this.currentTime = now.toLocaleTimeString('de-DE')
     }
   }
 }
