@@ -138,7 +138,7 @@ layout: mono-header
 
 ::main::
 
-<div class="bg-white max-w-min my-10 mx-auto">
+<div class="bg-white max-w-min p-2 my-10 mx-auto">
   <QRCode
     data="https://luma.com/side-project-night/"
     :width="400"
@@ -155,7 +155,7 @@ layout: mono-header
 <Heading>Hop onto discord</Heading>
 
 ::main::
-<div class="bg-white max-w-min my-10 mx-auto">
+<div class="bg-white max-w-min p-2 my-10 mx-auto">
   <QRCode
     data="https://discord.gg/SyHCXBJ6"
     :width="400"
