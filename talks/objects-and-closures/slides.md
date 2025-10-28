@@ -178,7 +178,7 @@ layout: mono-header
 
 ::main::
 
-<<< @/snippets/main.rkt#closures-work scheme
+<<< @/snippets/racket-closures-work.rkt scheme
 
 ---
 layout: mono-header
@@ -190,7 +190,7 @@ layout: mono-header
 
 ::main::
 
-<<< @/snippets/main.rkt#message-passing scheme
+<<< @/snippets/racket-message-passing.rkt scheme
 
 ---
 layout: mono-header
@@ -202,7 +202,7 @@ layout: mono-header
 
 ::main::
 
-<<< @/snippets/main.rkt#constructors scheme
+<<< @/snippets/racket-constructors.rkt scheme
 
 ---
 layout: mono-header
@@ -214,7 +214,7 @@ layout: mono-header
 
 ::main::
 
-<<< @/snippets/main.rkt#with-state scheme
+<<< @/snippets/racket-with-state.rkt scheme
 
 ---
 layout: mono-header
@@ -226,7 +226,7 @@ layout: mono-header
 
 ::main::
 
-<<< @/snippets/main.rkt#with-static scheme
+<<< @/snippets/racket-with-static.rkt scheme
 
 ---
 layout: mono-header
