@@ -118,7 +118,7 @@ layout: mono-header
 
 ::main::
 
-<<< @/snippets/main.ts#closures-work
+<<< @/snippets/main.ts#closures-work {*}{maxHeight:'400px'}
 
 ---
 layout: mono-header
@@ -130,7 +130,7 @@ layout: mono-header
 
 ::main::
 
-<<< @/snippets/main.ts#message-passing
+<<< @/snippets/main.ts#message-passing {*}{maxHeight:'400px'}
 
 ---
 layout: mono-header
@@ -142,7 +142,7 @@ layout: mono-header
 
 ::main::
 
-<<< @/snippets/main.ts#constructors
+<<< @/snippets/main.ts#constructors {*}{maxHeight:'400px'}
 
 ---
 layout: mono-header
@@ -154,7 +154,7 @@ layout: mono-header
 
 ::main::
 
-<<< @/snippets/main.ts#with-state
+<<< @/snippets/main.ts#with-state {*}{maxHeight:'400px'}
 
 ---
 layout: mono-header
@@ -166,7 +166,7 @@ layout: mono-header
 
 ::main::
 
-<<< @/snippets/main.ts#with-static
+<<< @/snippets/main.ts#with-static {*}{maxHeight:'400px'}
 
 ---
 layout: mono-header
