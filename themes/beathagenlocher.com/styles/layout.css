@@ -8,10 +8,6 @@ a {
   @apply cursor-pointer font-bold hover:text-cornflower-light transition duration-300 ease-in-out group
 }
 
-a::after {
-  @apply content-['____'] w-12 i-heroicons-arrow-up-right-20-solid relative text-cornflower
-}
-
 ol {
   @apply list-decimal marker:text-sienna *:my-6
 }
