@@ -17,7 +17,7 @@ mdc: true
 <Title>{{ $frontmatter.title }}</Title>
 
 <Subtitle>
-  TL;DR: <OuterLink href="https://wiki.c2.com/?ClosuresAndObjectsAreEquivalent" arrow="true">Closures and Objects are Equivalent</OuterLink>.
+  TL;DR: <OuterLink href="https://wiki.c2.com/?ClosuresAndObjectsAreEquivalent">Closures and Objects are Equivalent</OuterLink>.
 </Subtitle>
 
 ---
@@ -57,74 +57,196 @@ layout: mono-header
 </div>
 
 ---
-layout: mono-header
----
-::header::
-<Heading>Overview</Heading>
+layout: iframe
 
-::main::
-<div class="flex w-full justify-around items-start">
-  <Point class="w-64 text-center">
-    <Highlight>Web</Highlight>
-  </Point>
-  <Line/>
-  <Point class="w-64 text-center">
-    <Highlight>Server</Highlight>
-  </Point>
-  <Line/>
-  <Point class="w-64 text-center">
-    <Highlight>Elixir</Highlight>
-  </Point>
-</div>
-
----
-src: ./parts/internet.md
+url: https://wiki.c2.com/?ClosuresAndObjectsAreEquivalent
 ---
 ---
-src: ./parts/request-response.md
----
----
-src: ./parts/http.md
----
----
-layout: mono-header
+layout: left-right-header
 ---
 
 ::header::
-<Heading>Elixir</Heading>
-::main::
 
-<Title>Demo</Title>
+<Heading>What We'll Learn</Heading>
+
+::left::
+
+<Highlight>What is a Closure?</Highlight>
+
+1. A function as a value
+2. That closes over its lexical scope
+
+::right::
+
+<Highlight>What is an Object?</Highlight>
+
+1. A value
+2. That maps names
+3. To other values or functions ("methods")
 
 ---
 layout: mono-header
 ---
 
 ::header::
-<Heading>Resources</Heading>
+
+<Heading>Python: The Problem</Heading>
 
 ::main::
 
-<div class="flex flex-row w-full items-center justify-start">
-  <Highlight class="basis-1/5">Web</Highlight>
+<<< @/snippets/main.py#problem
 
-  - [Port (computer networking)](https://en.wikipedia.org/wiki/Port_(computer_networking)) & [List of port numbers](https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers)
-  - [IP address](https://en.wikipedia.org/wiki/IP_address) & [Internet Protocol](https://en.wikipedia.org/wiki/Internet_Protocol)
-</div>
+---
+layout: mono-header
+---
 
-<div class="flex flex-row w-full items-center justify-start">
-<Highlight class="basis-1/5">Server</Highlight>
+::header::
 
-- [HyperText Transfer Protocol](https://developer.mozilla.org/en-US/docs/Web/HTTP) & [HTTP Overview](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview)
-- [It Took Me Years Until I Understood Web Servers—You Can Do It In 10 Minutes](https://beathagenlocher.com/it-took-me-years-until-i-understood-web-serversyou-can-do-it-in-10-minutes/)
+<Heading>Python: The Solution</Heading>
 
-</div>
+::main::
 
-<div class="flex flex-row w-full items-center justify-start">
+<<< @/snippets/main.py#solution
 
-<Highlight class="basis-1/5">Elixir</Highlight>
+---
+layout: mono-header
+---
 
-- [Elixir: Getting Started Guide](https://hexdocs.pm/elixir/introduction.html)
+::header::
+
+<Heading>TypeScript: Closures Work</Heading>
+
+::main::
+
+<<< @/snippets/main.ts#closures-work
+
+---
+layout: mono-header
+---
+
+::header::
+
+<Heading>TypeScript: Message Passing</Heading>
+
+::main::
+
+<<< @/snippets/main.ts#message-passing
+
+---
+layout: mono-header
+---
+
+::header::
+
+<Heading>TypeScript: Constructors</Heading>
+
+::main::
+
+<<< @/snippets/main.ts#constructors
+
+---
+layout: mono-header
+---
+
+::header::
+
+<Heading>TypeScript: With State</Heading>
+
+::main::
+
+<<< @/snippets/main.ts#with-state
+
+---
+layout: mono-header
+---
+
+::header::
+
+<Heading>TypeScript: With Static</Heading>
+
+::main::
+
+<<< @/snippets/main.ts#with-static
+
+---
+layout: mono-header
+---
+
+::header::
+
+<Heading>Racket: The Same Ideas</Heading>
+
+::main::
+
+<<< @/snippets/main.rkt#closures-work scheme
+
+---
+layout: mono-header
+---
+
+::header::
+
+<Heading>Racket: Message Passing</Heading>
+
+::main::
+
+<<< @/snippets/main.rkt#message-passing scheme
+
+---
+layout: mono-header
+---
+
+::header::
+
+<Heading>Racket: Constructors</Heading>
+
+::main::
+
+<<< @/snippets/main.rkt#constructors scheme
+
+---
+layout: mono-header
+---
+
+::header::
+
+<Heading>Racket: With State</Heading>
+
+::main::
+
+<<< @/snippets/main.rkt#with-state scheme
+
+---
+layout: mono-header
+---
+
+::header::
+
+<Heading>Racket: With Static</Heading>
+
+::main::
+
+<<< @/snippets/main.rkt#with-static scheme
+
+---
+layout: mono-header
+---
+
+::header::
+
+<Heading>What We Learned</Heading>
+
+::main::
+
+<div class="text-left text-2xl">
+
+**Closures and Objects are Equivalent**
+
+- Objects are closures that map names to values/functions
+- Closures are objects that respond to messages
+- Both can encapsulate state through lexical scope
+- Both enable data abstraction and modularity
+- The choice between them is often a matter of language and style
 
 </div>
 
