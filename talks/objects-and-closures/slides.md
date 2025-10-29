@@ -252,7 +252,7 @@ layout: left-right-header
 
 <Highlight>Closures</Highlight>
 
-_are Objects_:
+_are Objects:_
 
 - with fields as lexically bound variables
 - with exactly one method: `call`
@@ -261,7 +261,7 @@ _are Objects_:
 
 <Highlight>Objects</Highlight>
 
-_are Closures_:
+_are Closures:_
 
 - with local state in `let`s
 - you can send messages to
