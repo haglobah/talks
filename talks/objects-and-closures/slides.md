@@ -267,6 +267,16 @@ _are Closures:_
 - you can send messages to
 
 ---
+layout: mono-header
+---
+
+::header::
+<Heading>Resources</Heading>
+
+- [Programming Languages: Application and Intepretation](https://www.plai.org/)
+- [Closures And Objects Are Equivalent](https://wiki.c2.com/?ClosuresAndObjectsAreEquivalent)
+
+---
 layout: header
 ---
 
