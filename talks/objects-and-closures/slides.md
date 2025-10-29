@@ -273,8 +273,8 @@ layout: mono-header
 ::header::
 <Heading>Resources</Heading>
 
-- [Programming Languages: Application and Intepretation](https://www.plai.org/)
-- [Closures And Objects Are Equivalent](https://wiki.c2.com/?ClosuresAndObjectsAreEquivalent)
+- <OuterLink href="https://www.plai.org/">Programming Languages: Application and Intepretation</OuterLink>,<br> specifically _A Standard Model of Objects_
+- <OuterLink href="https://wiki.c2.com/?ClosuresAndObjectsAreEquivalent">Closures And Objects Are Equivalent</OuterLink>
 
 ---
 layout: header
