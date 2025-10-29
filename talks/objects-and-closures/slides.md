@@ -65,24 +65,28 @@ url: https://wiki.c2.com/?ClosuresAndObjectsAreEquivalent
 layout: left-right-header
 ---
 
-::header::
-
-<Heading>What We'll Learn</Heading>
-
 ::left::
 
 <Highlight>What is a Closure?</Highlight>
 
-1. A function as a value
-2. That closes over its lexical scope
+- A function as a value (1)
+- That can capture (_close over_) variables <br> in its scope on creation (2)
 
 ::right::
 
 <Highlight>What is an Object?</Highlight>
 
-1. A value
-2. That maps names
-3. To other values or functions ("methods")
+- A value (1)
+- That maps names (2)
+- To other values or functions ("methods") (3)
+
+---
+layout: mono-header
+---
+
+::main::
+
+<Title>DEMO</Title>
 
 ---
 layout: mono-header
@@ -90,7 +94,7 @@ layout: mono-header
 
 ::header::
 
-<Heading>Python: The Problem</Heading>
+<Heading>Python</Heading>
 
 ::main::
 
@@ -102,7 +106,7 @@ layout: mono-header
 
 ::header::
 
-<Heading>Python: The Solution</Heading>
+<Heading>Python</Heading>
 
 ::main::
 
@@ -114,7 +118,79 @@ layout: mono-header
 
 ::header::
 
-<Heading>TypeScript: Closures Work</Heading>
+<Heading>Python</Heading>
+
+::main::
+
+<<< @/snippets/main.py#more
+
+---
+layout: mono-header
+---
+
+::header::
+
+<Heading>Racket</Heading>
+
+::main::
+
+<<< @/snippets/racket-closures-work.rkt scheme {*}{maxHeight:'400px'}
+
+---
+layout: mono-header
+---
+
+::header::
+
+<Heading>Racket: Message Passing</Heading>
+
+::main::
+
+<<< @/snippets/racket-message-passing.rkt scheme {*}{maxHeight:'400px'}
+
+---
+layout: mono-header
+---
+
+::header::
+
+<Heading>Racket: Constructors</Heading>
+
+::main::
+
+<<< @/snippets/racket-constructors.rkt scheme {*}{maxHeight:'400px'}
+
+---
+layout: mono-header
+---
+
+::header::
+
+<Heading>Racket: With State</Heading>
+
+::main::
+
+<<< @/snippets/racket-with-state.rkt scheme {*}{maxHeight:'400px'}
+
+---
+layout: mono-header
+---
+
+::header::
+
+<Heading>Racket: With Static</Heading>
+
+::main::
+
+<<< @/snippets/racket-with-static.rkt scheme {*}{maxHeight:'400px'}
+
+---
+layout: mono-header
+---
+
+::header::
+
+<Heading>TypeScript</Heading>
 
 ::main::
 
@@ -169,86 +245,26 @@ layout: mono-header
 <<< @/snippets/main.ts#with-static {*}{maxHeight:'400px'}
 
 ---
-layout: mono-header
+layout: left-right-header
 ---
 
-::header::
+::left::
 
-<Heading>Racket: The Same Ideas</Heading>
+<Highlight>Closures</Highlight>
 
-::main::
+_are Objects_:
 
-<<< @/snippets/racket-closures-work.rkt scheme
+- with fields as lexically bound variables
+- with exactly one method: `call`
 
----
-layout: mono-header
----
+::right::
 
-::header::
+<Highlight>Objects</Highlight>
 
-<Heading>Racket: Message Passing</Heading>
+_are Closures_:
 
-::main::
-
-<<< @/snippets/racket-message-passing.rkt scheme
-
----
-layout: mono-header
----
-
-::header::
-
-<Heading>Racket: Constructors</Heading>
-
-::main::
-
-<<< @/snippets/racket-constructors.rkt scheme
-
----
-layout: mono-header
----
-
-::header::
-
-<Heading>Racket: With State</Heading>
-
-::main::
-
-<<< @/snippets/racket-with-state.rkt scheme
-
----
-layout: mono-header
----
-
-::header::
-
-<Heading>Racket: With Static</Heading>
-
-::main::
-
-<<< @/snippets/racket-with-static.rkt scheme
-
----
-layout: mono-header
----
-
-::header::
-
-<Heading>What We Learned</Heading>
-
-::main::
-
-<div class="text-left text-2xl">
-
-**Closures and Objects are Equivalent**
-
-- Objects are closures that map names to values/functions
-- Closures are objects that respond to messages
-- Both can encapsulate state through lexical scope
-- Both enable data abstraction and modularity
-- The choice between them is often a matter of language and style
-
-</div>
+- with local state in `let`s
+- you can send messages to
 
 ---
 layout: header
