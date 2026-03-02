@@ -1,6 +1,6 @@
 ---
 theme: ../../themes/beathagenlocher.com
-title: On Closures and Objects
+title: Functional Programming in TypeScript
 info: |
 
 author: Beat Hagenlocher
@@ -9,15 +9,13 @@ fonts:
   sans: "Fira Sans"
   mono: "Fira Code"
 transition: slide-left
-addons:
- - "@katzumi/slidev-addon-qrcode"
 mdc: true
 ---
 
 <Title>{{ $frontmatter.title }}</Title>
 
 <Subtitle>
-  TL;DR: <OuterLink href="https://wiki.c2.com/?ClosuresAndObjectsAreEquivalent">Closures and Objects are Equivalent</OuterLink>.
+  bobkonf 2026
 </Subtitle>
 
 ---
@@ -31,10 +29,9 @@ layout: mono-header
 ::main::
 <div class="bg-white max-w-min my-10 mx-auto">
   <QRCode
-    value="https://haglobah.github.io/talks/objects-and-closures"
-    :width="400"
-    :height="400"
-    color="white"
+    value="https://haglobah.github.io/talks/functional-programming-in-typescript"
+    :width="320"
+    :height="320"
   />
 </div>
 
@@ -44,17 +41,13 @@ layout: mono-header
 
 ::header::
 
-<Heading>Link to Repo</Heading>
+<Heading>Links</Heading>
 
 ::main::
-<div class="bg-white max-w-min my-10 mx-auto">
-  <QRCode
-    value="https://github.com/haglobah/objects-and-closures"
-    :width="400"
-    :height="400"
-    color="white"
-  />
-</div>
+
+- [functional-programming-typescript | Github](https://github.com/haglobah/functional-programming-typescript/tree/tutorial)
+- [Audio Player | SolidJS playground](https://github.com/haglobah/functional-programming-typescript/tree/tutorial)
+
 
 ---
 layout: iframe
