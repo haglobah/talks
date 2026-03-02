@@ -46,38 +46,26 @@ layout: mono-header
 ::main::
 
 - [functional-programming-typescript | Github](https://github.com/haglobah/functional-programming-typescript/tree/tutorial)
-- [Audio Player | SolidJS playground](https://github.com/haglobah/functional-programming-typescript/tree/tutorial)
-
+- [Audio Player | SolidJS playground](https://playground.solidjs.com/anonymous/ca35d06f-0f0f-499f-a035-2b83804015b4)
 
 ---
-layout: iframe
-
-url: https://wiki.c2.com/?ClosuresAndObjectsAreEquivalent
----
----
-layout: left-right-header
+layout: mono-header
 ---
 
-::left::
+::header::
+
+<Heading>Overview</Heading>
+
+::main::
 
 <v-clicks>
 
-<Highlight>What is a Closure?</Highlight>
-
-- A function as a value (1)
-- That can capture (_close over_) variables <br> in its scope on creation (2)
-
-</v-clicks>
-
-::right::
-
-<v-clicks>
-
-<Highlight>What is an Object?</Highlight>
-
-- A value (1)
-- That maps names (2)
-- To other values or functions ("methods") (3)
+0. Imperative, hidden-model audio player application.
+1. Refactoring to: _Making Illegal States Unrepresentable_ + explicit model
+2. Refactoring to: `reduce`-style state transitions
+3. Refactoring to: Explicit side effects
+4. Extensibility & Maintainability: Adding functionality
+5. Outlook
 
 </v-clicks>
 
@@ -87,190 +75,22 @@ layout: mono-header
 
 ::main::
 
-<Title>DEMO</Title>
+<Title>CODE</Title>
 
 ---
 layout: mono-header
 ---
 
 ::header::
-
-<Heading>Python</Heading>
-
-::main::
-
-<<< @/snippets/main.py#problem
-
----
-layout: mono-header
----
-
-::header::
-
-<Heading>Python</Heading>
+<Heading>Outlook</Heading>
 
 ::main::
-
-<<< @/snippets/main.py#solution
-
----
-layout: mono-header
----
-
-::header::
-
-<Heading>Python</Heading>
-
-::main::
-
-<<< @/snippets/main.py#more
-
----
-layout: mono-header
----
-
-::header::
-
-<Heading>Racket</Heading>
-
-::main::
-
-<<< @/snippets/racket-closures-work.rkt scheme {*}{maxHeight:'400px'}
-
----
-layout: mono-header
----
-
-::header::
-
-<Heading>Racket: Message Passing</Heading>
-
-::main::
-
-<<< @/snippets/racket-message-passing.rkt scheme {*}{maxHeight:'400px'}
-
----
-layout: mono-header
----
-
-::header::
-
-<Heading>Racket: Constructors</Heading>
-
-::main::
-
-<<< @/snippets/racket-constructors.rkt scheme {*}{maxHeight:'400px'}
-
----
-layout: mono-header
----
-
-::header::
-
-<Heading>Racket: With State</Heading>
-
-::main::
-
-<<< @/snippets/racket-with-state.rkt scheme {*}{maxHeight:'400px'}
-
----
-layout: mono-header
----
-
-::header::
-
-<Heading>Racket: With Static</Heading>
-
-::main::
-
-<<< @/snippets/racket-with-static.rkt scheme {*}{maxHeight:'400px'}
-
----
-layout: mono-header
----
-
-::header::
-
-<Heading>TypeScript</Heading>
-
-::main::
-
-<<< @/snippets/main.ts#closures-work {*}{maxHeight:'400px'}
-
----
-layout: mono-header
----
-
-::header::
-
-<Heading>TypeScript: Message Passing</Heading>
-
-::main::
-
-<<< @/snippets/main.ts#message-passing {*}{maxHeight:'400px'}
-
----
-layout: mono-header
----
-
-::header::
-
-<Heading>TypeScript: Constructors</Heading>
-
-::main::
-
-<<< @/snippets/main.ts#constructors {*}{maxHeight:'400px'}
-
----
-layout: mono-header
----
-
-::header::
-
-<Heading>TypeScript: With State</Heading>
-
-::main::
-
-<<< @/snippets/main.ts#with-state {*}{maxHeight:'400px'}
-
----
-layout: mono-header
----
-
-::header::
-
-<Heading>TypeScript: With Static</Heading>
-
-::main::
-
-<<< @/snippets/main.ts#with-static {*}{maxHeight:'400px'}
-
----
-layout: left-right-header
----
-
-::left::
-
-<v-clicks>
-<Highlight>Closures</Highlight>
-
-_are Objects:_
-
-- with fields as lexically bound variables
-- with exactly one method: `call`
-
-</v-clicks>
-
-::right::
 
 <v-clicks>
 
-<Highlight>Objects</Highlight>
-
-_are Closures:_
-
-- with local state in `let`s
-- you can send messages to
+- [Immutable.js](https://immutable-js.com/)
+- [purify-ts](https://gigobyte.github.io/purify/getting-started)
+- [Effect](https://effect.website/)
 
 </v-clicks>
 
@@ -281,8 +101,11 @@ layout: mono-header
 ::header::
 <Heading>Resources</Heading>
 
-- <OuterLink href="https://www.plai.org/">Programming Languages: Application and Intepretation</OuterLink>,<br> specifically _A Standard Model of Objects_
-- <OuterLink href="https://wiki.c2.com/?ClosuresAndObjectsAreEquivalent">Closures And Objects Are Equivalent</OuterLink>
+::main::
+
+- <OuterLink href="https://functional-architecture.org/make_illegal_states_unrepresentable/">Making Illegal States Unrepresentable</OuterLink>
+- <OuterLink href="https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/">Parse, don't Validate</OuterLink>
+- <OuterLink href="https://functional-architecture.org/functional_core_imperative_shell/">move effects out of the core of your application</OuterLink>
 
 ---
 src: ./parts/beat.md
