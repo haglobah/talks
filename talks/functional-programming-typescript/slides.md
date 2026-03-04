@@ -78,6 +78,11 @@ layout: mono-header
 <Title>Code, Part 0</Title>
 
 ---
+layout: iframe
+
+url: https://playground.solidjs.com/anonymous/ca35d06f-0f0f-499f-a035-2b83804015b4
+---
+---
 layout: mono-header
 ---
 
@@ -102,6 +107,11 @@ layout: mono-header
 
 <Title>Code, Part 1</Title>
 
+---
+layout: iframe
+
+url: https://playground.solidjs.com/anonymous/9cf89bcf-934b-4702-9457-302e02ad0e83
+---
 ---
 layout: mono-header
 ---
@@ -129,6 +139,11 @@ layout: mono-header
 <Title>Code, Part 2</Title>
 
 ---
+layout: iframe
+
+url: https://playground.solidjs.com/anonymous/996c9776-a603-4913-a2a9-7c8fa67b380a
+---
+---
 layout: mono-header
 ---
 
@@ -155,6 +170,11 @@ layout: mono-header
 
 <Title>Code, Part 3</Title>
 
+---
+layout: iframe
+
+url: https://playground.solidjs.com/anonymous/26c8f123-71c6-4777-89e0-d74a8a4b3793
+---
 ---
 layout: mono-header
 ---
