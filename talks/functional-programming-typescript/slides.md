@@ -134,6 +134,29 @@ layout: mono-header
 layout: mono-header
 ---
 
+::header::
+<Heading>What We Want</Heading>
+
+::main::
+
+```mermaid
+flowchart TD
+    Initial -->|SelectTrack| Loading
+
+    Loading -->|AudioReady| Playing
+
+    Playing -->|Tick| Playing
+    Playing -->|TogglePlay| Paused
+    Playing -->|SelectTrack| Loading
+
+    Paused -->|TogglePlay| Playing
+    Paused -->|SelectTrack| Loading
+```
+
+---
+layout: mono-header
+---
+
 ::main::
 
 <Title>Code, Part 2</Title>
@@ -156,7 +179,7 @@ layout: mono-header
 
 - `reduce` function: `(s: State, a: Action): State`
 - `setState` calls become `dispatch` calls (that `dispatch` actions to the state)
-- `createReducer`: Wrapper around a solid store with immutable update diffing (<OuterLink href="https://www.solidjs.com/tutorial/stores_immutable">`reconcile`</OuterLink>)
+- `createReducer`: Wrapper around a <OuterLink href="https://docs.solidjs.com/concepts/stores">solid store</OuterLink> with immutable update diffing (<OuterLink href="https://www.solidjs.com/tutorial/stores_immutable">`reconcile`</OuterLink>)
 - `reduce` is a pure function -> _very_ easy to test
 - Effects are still implicit
 
