@@ -93,8 +93,8 @@ layout: mono-header
 
 <v-clicks>
 
-- Hidden model
-- State managed with 4 separate variables
+- The intent of the programmer is hidden; no explicit model in code
+- State is managed with 4 independent variables (`isPlaying`, `isLoading`, `currentTrack`, `currentTime`) that shouldn't be independent according to our intent
 - No pure function in the whole example
 
 </v-clicks>
@@ -123,7 +123,7 @@ layout: mono-header
 
 <v-clicks>
 
-- Hidden model -> explicit model
+- Hidden intent becomes explicit model
 - Illegal states are unrepresentable now
 - Minor TypeScript annoyances: Explicit type casting
 - But still imperative state setting
@@ -148,15 +148,15 @@ layout: mono-header
 ---
 
 ::header::
-<Heading>2. Purely functional state transitions</Heading>
+<Heading>2. Purely Functional State Transitions</Heading>
 
 ::main::
 
 <v-clicks>
 
-- `reduce` function
-- `setState` -> `dispatch`
-- `createReducer`
+- `reduce` function: `(s: State, a: Action): State`
+- `setState` calls become `dispatch` calls (that `dispatch` actions to the state)
+- `createReducer`: Wrapper around a solid store with immutable update diffing (<OuterLink href="https://www.solidjs.com/tutorial/stores_immutable">`reconcile`</OuterLink>)
 - `reduce` is a pure function -> _very_ easy to test
 - Effects are still implicit
 
@@ -186,10 +186,12 @@ layout: mono-header
 
 <v-clicks>
 
-- `execute` function
-- `reduce` -> `update`
-- `createUpdater`
-- Type construction helpers
+- Side effects to be executed become explicit: `Cmd`
+- Effect interpreter uses `Cmd`s, and performs them: `execute`: `(c: Cmd) => void`
+- `Action` becomes `Msg` (for disambiguation only)
+- `reduce` becomes `update` (as in Elm): `(s: State, m: Msg) => [State, Cmd]`
+- We need to call execute somewhere: In `createUpdater` (successor of `createReducer`)
+- Added: Type construction helpers
 - Code blew up: Is that worth it?
 
 </v-clicks>
@@ -206,7 +208,7 @@ layout: mono-header
 <v-clicks>
 
 1. Review one of the previous refactorings
-2. Add a `Seek` functionality with an input slider
+2. Add a `Seek` functionality (for selecting any timestamp of a song) with an input slider
 3. The `tracks` aren't currently in the state. Add them.
 4. Explore the codebase: There's an imperative `SignInForm` and `SignUpForm` you could improve, and/or use the `Auth` model in the auth-related code.
 
