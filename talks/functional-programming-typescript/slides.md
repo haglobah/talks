@@ -271,12 +271,6 @@ layout: mono-header
 
 </v-clicks>
 
-<v-clicks>
-
-I find that I rarely need them.
-
-</v-clicks>
-
 ---
 layout: mono-header
 ---
