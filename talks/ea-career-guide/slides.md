@@ -1,5 +1,5 @@
 ---
-theme: seriph
+theme: default
 title: "Effective Altruism Career Guide — EA Tübingen 2026"
 transition: slide-left
 duration: 35min
@@ -59,7 +59,7 @@ class: text-center
 
 <h1 class="!text-[#2DBDD1]">„Money makes happy"</h1>
 
-<img src="/images/slide-5-google-shape-90-p43.png" class="mx-auto h-70" />
+<img src="/images/slide-4-google-shape-90-p43.png" class="mx-auto h-70" />
 
 ---
 class: text-center
@@ -67,7 +67,7 @@ class: text-center
 
 <h1 class="!text-[#2DBDD1]">Money makes you happier, but only a little</h1>
 
-<img src="/images/slide-6-google-shape-96-g2957b2aaab7-0-3.png" class="mx-auto h-70" />
+<img src="/images/slide-5-google-shape-96-g2957b2aaab7-0-3.png" class="mx-auto h-70" />
 
 <small>[Source](https://80000hours.org/articles/money-and-happiness/)</small>
 
@@ -77,7 +77,7 @@ class: text-center
 
 <h1 class="!text-[#2DBDD1]">„Low stress"</h1>
 
-<img src="/images/slide-7-google-shape-102-p44.png" class="mx-auto h-70" />
+<img src="/images/slide-6-google-shape-102-p44.png" class="mx-auto h-70" />
 
 <small>[Source](https://80000hours.org/2016/02/should-you-look-for-a-low-stress-job/)</small>
 
@@ -87,13 +87,13 @@ class: text-center
 
 <h1 class="!text-[#2DBDD1]">"Follow your passion"</h1>
 
-<img src="/images/slide-8-google-shape-109-p5.png" class="mx-auto h-70" />
+<img src="/images/slide-7-google-shape-109-p5.png" class="mx-auto h-70" />
 
 <small>Source: Google Ngram</small>
 
 ---
 
-<img src="/images/slide-9-google-shape-117-p7.png" class="mx-auto h-90" />
+<img src="/images/slide-8-google-shape-117-p7.png" class="mx-auto h-90" />
 
 ---
 layout: two-cols
@@ -110,17 +110,27 @@ layout: two-cols
 
 ::right::
 
-<img src="/images/slide-10-google-shape-122-p61.png" class="h-full max-h-80 mx-auto mt-12" />
+<img src="/images/slide-9-google-shape-122-p61.png" class="h-full max-h-80 mx-auto mt-12" />
 
+---
+
+---
+layout: two-cols
 ---
 
 # The End of History Illusion
 
-<p class="opacity-70">Quoidbach, Gilbert & Wilson (2013)</p>
+<p class="text-sm opacity-70">Quoidbach, Gilbert & Wilson (2013)</p>
 
 > "[People of all ages] all believed they had changed a lot in the past but would change relatively little in the future. People, it seems, regard the present as a watershed moment at which they have finally become the person they will be for the rest of their lives."
 
-<small>**The End of History Illusion, Volume: 339, Issue: 6115, Pages: 96-98, DOI: (10.1126/science.1229294)**</small>
+<p class="text-xs mt-2">Vol. 339, Issue 6115, pp. 96-98, DOI: 10.1126/science.1229294</p>
+
+<img src="/images/slide-11-google-shape-138-p62.jpg" class="h-8 mt-2" />
+
+::right::
+
+<img src="/images/slide-11-google-shape-139-p62.jpg" class="mx-auto mt-12 h-70" />
 
 ---
 layout: two-cols
@@ -128,10 +138,9 @@ layout: two-cols
 
 # So what works?
 
-<div class="flex gap-4 mt-4">
-  <img src="/images/slide-12-google-shape-138-p62.jpg" class="h-50" />
-  <img src="/images/slide-12-google-shape-139-p62.jpg" class="h-50" />
-</div>
+<img src="/images/slide-12-google-shape-145-p12.png" class="mt-4 h-60" />
+
+<p class="text-sm text-[#2DBDD1] font-bold mt-2">80.000 hours = dots</p>
 
 ::right::
 
@@ -141,7 +150,6 @@ layout: two-cols
 <p><span style="color: #FF6B00; font-weight: bold" class="text-3xl">(800 hours) work</span></p>
 <p>to make your career</p>
 <p class="italic">just 1% more impactful</p>
-<p class="mt-8 text-[#2DBDD1] font-bold">80.000 hours = dots</p>
 </div>
 
 ---
@@ -156,8 +164,6 @@ class: text-center
 - Supportive colleagues
 - No major negatives, like long hours or unfair pay
 - A job that fits your personal life
-
-<img src="/images/slide-13-google-shape-145-p12.png" class="mx-auto h-40" />
 
 <small>[Source](https://80000hours.org/career-guide/job-satisfaction/)</small>
 
@@ -212,7 +218,7 @@ layout: two-cols
 
 # Lives saved by
 
-<img src="/images/slide-17-google-shape-181-p16.png" class="h-60" />
+<img src="/images/slide-16-google-shape-181-p16.png" class="h-60" />
 
 ::right::
 
@@ -227,8 +233,8 @@ layout: two-cols
 # Lives saved by
 
 <div class="flex gap-4">
-  <img src="/images/slide-18-google-shape-187-p17.png" class="h-50" />
-  <img src="/images/slide-18-google-shape-189-p17.png" class="h-50" />
+  <img src="/images/slide-17-google-shape-187-p17.png" class="h-50" />
+  <img src="/images/slide-17-google-shape-189-p17.png" class="h-50" />
 </div>
 
 ::right::
@@ -244,8 +250,8 @@ layout: two-cols
 # Lives saved by
 
 <div class="flex gap-4">
-  <img src="/images/slide-19-google-shape-195-p18.png" class="h-50" />
-  <img src="/images/slide-19-google-shape-196-p18.png" class="h-50" />
+  <img src="/images/slide-18-google-shape-195-p18.png" class="h-50" />
+  <img src="/images/slide-18-google-shape-196-p18.png" class="h-50" />
 </div>
 
 ::right::
@@ -262,17 +268,17 @@ layout: two-cols
 # Two ways to have more social impact
 
 <div class="flex gap-4 justify-center flex-wrap items-center">
-  <img src="/images/slide-20-google-shape-203-p19.png" class="h-50" />
-  <img src="/images/slide-20-google-shape-205-p19.png" class="h-50" />
-  <img src="/images/slide-20-google-shape-206-p19.jpg" class="h-50" />
-  <img src="/images/slide-20-google-shape-207-p19.png" class="h-50" />
+  <img src="/images/slide-19-google-shape-203-p19.png" class="h-50" />
+  <img src="/images/slide-19-google-shape-205-p19.png" class="h-50" />
+  <img src="/images/slide-19-google-shape-206-p19.jpg" class="h-50" />
+  <img src="/images/slide-19-google-shape-207-p19.png" class="h-50" />
 </div>
 
 ---
 
 # „Normal" humans with impactful careers..
 
-<img src="/images/slide-21-google-shape-213-p65.png" class="mx-auto h-60" />
+<img src="/images/slide-20-google-shape-213-p65.png" class="mx-auto h-60" />
 
 <p class="text-center mt-4">Sarah Tegeler — <a href="https://effektiveraltruismus.de">effektiveraltruismus.de</a><br/>
 Sebastian Schwiecker — <a href="https://effektiv-spenden.org">effektiv-spenden.org</a></p>
@@ -295,13 +301,13 @@ layout: two-cols
 ::right::
 
 <div class="flex flex-col gap-2 items-center mt-8">
-  <img src="/images/slide-22-google-shape-221-p66.png" class="h-20" />
-  <img src="/images/slide-22-google-shape-222-p66.png" class="h-20" />
-  <img src="/images/slide-22-google-shape-224-p66.png" class="h-20" />
-  <img src="/images/slide-22-google-shape-225-p66.png" class="h-20" />
-  <img src="/images/slide-22-google-shape-226-p66.png" class="h-20" />
-  <img src="/images/slide-22-google-shape-227-p66.png" class="h-20" />
-  <img src="/images/slide-22-google-shape-228-p66.jpg" class="h-20" />
+  <img src="/images/slide-21-google-shape-221-p66.png" class="h-20" />
+  <img src="/images/slide-21-google-shape-222-p66.png" class="h-20" />
+  <img src="/images/slide-21-google-shape-224-p66.png" class="h-20" />
+  <img src="/images/slide-21-google-shape-225-p66.png" class="h-20" />
+  <img src="/images/slide-21-google-shape-226-p66.png" class="h-20" />
+  <img src="/images/slide-21-google-shape-227-p66.png" class="h-20" />
+  <img src="/images/slide-21-google-shape-228-p66.jpg" class="h-20" />
 </div>
 
 ---
@@ -317,7 +323,7 @@ class: text-center
 
 # Cause Areas
 
-<img src="/images/slide-24-google-shape-248-p15.png" class="mx-auto h-70" />
+<img src="/images/slide-23-google-shape-248-p15.png" class="mx-auto h-70" />
 
 ---
 
@@ -343,12 +349,12 @@ class: text-center
 - If we commit beforehand, we might miss out!
 
 <div class="flex gap-4 justify-center flex-wrap mt-4">
-  <img src="/images/slide-26-google-shape-260-p37.png" class="h-20" />
-  <img src="/images/slide-26-google-shape-261-p37.png" class="h-20" />
-  <img src="/images/slide-26-google-shape-262-p37.png" class="h-20" />
-  <img src="/images/slide-26-google-shape-263-p37.png" class="h-20" />
-  <img src="/images/slide-26-google-shape-264-p37.png" class="h-20" />
-  <img src="/images/slide-26-google-shape-265-p37.png" class="h-20" />
+  <img src="/images/slide-25-google-shape-260-p37.png" class="h-20" />
+  <img src="/images/slide-25-google-shape-261-p37.png" class="h-20" />
+  <img src="/images/slide-25-google-shape-262-p37.png" class="h-20" />
+  <img src="/images/slide-25-google-shape-263-p37.png" class="h-20" />
+  <img src="/images/slide-25-google-shape-264-p37.png" class="h-20" />
+  <img src="/images/slide-25-google-shape-265-p37.png" class="h-20" />
 </div>
 
 <small>[Source](https://80000hours.org/career-guide/)</small>
@@ -414,9 +420,9 @@ class: text-center
 <h1 class="!text-[#2DBDD1]">Was ist das drängendste Problem?</h1>
 
 <div class="flex gap-4 justify-center mt-4">
-  <img src="/images/slide-30-google-shape-297-p27.png" class="h-60" />
-  <img src="/images/slide-30-google-shape-299-p27.png" class="h-60" />
-  <img src="/images/slide-30-google-shape-301-p27.png" class="h-60" />
+  <img src="/images/slide-29-google-shape-297-p27.png" class="h-60" />
+  <img src="/images/slide-29-google-shape-299-p27.png" class="h-60" />
+  <img src="/images/slide-29-google-shape-301-p27.png" class="h-60" />
 </div>
 
 ---
@@ -432,11 +438,11 @@ class: text-center
 </ol>
 
 <div class="flex gap-4 justify-center flex-wrap mt-4">
-  <img src="/images/slide-31-google-shape-309-p22.png" class="h-40" />
-  <img src="/images/slide-31-google-shape-310-p22.png" class="h-40" />
-  <img src="/images/slide-31-google-shape-311-p22.png" class="h-40" />
-  <img src="/images/slide-31-google-shape-312-p22.png" class="h-40" />
-  <img src="/images/slide-31-google-shape-313-p22.png" class="h-40" />
+  <img src="/images/slide-30-google-shape-309-p22.png" class="h-40" />
+  <img src="/images/slide-30-google-shape-310-p22.png" class="h-40" />
+  <img src="/images/slide-30-google-shape-311-p22.png" class="h-40" />
+  <img src="/images/slide-30-google-shape-312-p22.png" class="h-40" />
+  <img src="/images/slide-30-google-shape-313-p22.png" class="h-40" />
 </div>
 
 ---
@@ -468,8 +474,8 @@ class: text-center
 <p class="mt-4 text-sm">Animals used for research, fur/apparel, and in shelters · Land Animals Used — Donations to Animal Charities · Animals used for food</p>
 
 <div class="flex gap-4 justify-center mt-4">
-  <img src="/images/slide-33-google-shape-329-p68.png" class="h-50" />
-  <img src="/images/slide-33-google-shape-330-p68.png" class="h-50" />
+  <img src="/images/slide-32-google-shape-329-p68.png" class="h-50" />
+  <img src="/images/slide-32-google-shape-330-p68.png" class="h-50" />
 </div>
 
 ---
@@ -488,9 +494,9 @@ class: text-center
 <p class="text-sm">Atomkrieg · Neue Technologien · Pandemien</p>
 
 <div class="flex gap-4 justify-center mt-4">
-  <img src="/images/slide-34-google-shape-339-p69.png" class="h-40" />
-  <img src="/images/slide-34-google-shape-340-p69.png" class="h-40" />
-  <img src="/images/slide-34-google-shape-347-p69.png" class="h-40" />
+  <img src="/images/slide-33-google-shape-339-p69.png" class="h-40" />
+  <img src="/images/slide-33-google-shape-340-p69.png" class="h-40" />
+  <img src="/images/slide-33-google-shape-347-p69.png" class="h-40" />
 </div>
 
 ---
@@ -499,7 +505,7 @@ class: text-center
 
 <h1 class="!text-[#2DBDD1]">Was sind die drängendsten Probleme?</h1>
 
-<img src="/images/slide-35-google-shape-356-p70.png" class="mx-auto h-80" />
+<img src="/images/slide-34-google-shape-356-p70.png" class="mx-auto h-80" />
 
 ---
 class: text-center
@@ -507,13 +513,13 @@ class: text-center
 
 <h1 class="!text-[#2DBDD1]">Was sind die drängendsten Probleme?</h1>
 
-<img src="/images/slide-36-google-shape-361-p30.png" class="mx-auto h-80" />
+<img src="/images/slide-35-google-shape-361-p30.png" class="mx-auto h-80" />
 
 ---
 
 # Ein paar der drängendsten Probleme
 
-<img src="/images/slide-37-google-shape-368-p31.png" class="mx-auto h-80" />
+<img src="/images/slide-36-google-shape-368-p31.png" class="mx-auto h-80" />
 
 <small>*Based on 80,000 Hours*</small>
 
@@ -527,9 +533,9 @@ class: text-center
 - **Strong evidence for interventions in this area**
 
 <div class="flex gap-4 justify-center mt-4">
-  <img src="/images/slide-38-google-shape-376-p71.png" class="h-40" />
-  <img src="/images/slide-38-google-shape-377-p71.png" class="h-40" />
-  <img src="/images/slide-38-google-shape-383-p71.png" class="h-40" />
+  <img src="/images/slide-37-google-shape-376-p71.png" class="h-40" />
+  <img src="/images/slide-37-google-shape-377-p71.png" class="h-40" />
+  <img src="/images/slide-37-google-shape-383-p71.png" class="h-40" />
 </div>
 
 ---
@@ -541,8 +547,8 @@ class: text-center
 - **Tractable solutions: eliminating factory farms, promoting dietary change, developing alternatives to animal products**
 
 <div class="flex gap-4 justify-center mt-4">
-  <img src="/images/slide-39-google-shape-394-p29.png" class="h-50" />
-  <img src="/images/slide-39-google-shape-395-p29.png" class="h-50" />
+  <img src="/images/slide-38-google-shape-394-p29.png" class="h-50" />
+  <img src="/images/slide-38-google-shape-395-p29.png" class="h-50" />
 </div>
 
 ---
@@ -554,7 +560,7 @@ class: text-center
 
 > *"Setting aside climate change, all spending on biosecurity, natural risks and risks from AI and nuclear war is still substantially less than we spend on ice cream." (Toby Ord)*
 
-<img src="/images/slide-40-google-shape-402-g2948d3ced6a-1-318.png" class="mx-auto h-30" />
+<img src="/images/slide-39-google-shape-402-g2948d3ced6a-1-318.png" class="mx-auto h-30" />
 
 ---
 
@@ -565,7 +571,7 @@ class: text-center
 - EA is quite a new research field and there are a lot of unanswered questions
 - Reflecting one's beliefs and staying open and curious for new arguments is important
 
-<img src="/images/slide-41-google-shape-409-p32.png" class="mx-auto h-50" />
+<img src="/images/slide-40-google-shape-409-p32.png" class="mx-auto h-50" />
 
 ---
 layout: center
@@ -619,7 +625,7 @@ class: text-center
 
 **Multiplikatoreffekt**
 
-<img src="/images/slide-46-google-shape-455-p75.png" class="h-50" />
+<img src="/images/slide-45-google-shape-455-p75.png" class="h-50" />
 
 ---
 
@@ -630,7 +636,7 @@ class: text-center
 
 -> Keine schädliche Forschung
 
-<img src="/images/slide-47-google-shape-472-p76.png" class="h-50" />
+<img src="/images/slide-46-google-shape-472-p76.png" class="h-50" />
 
 ---
 
@@ -642,8 +648,8 @@ class: text-center
 -> Aber: Keine schädlichen Berufe
 
 <div class="flex gap-4 mt-4">
-  <img src="/images/slide-48-google-shape-485-p77.png" class="h-50" />
-  <img src="/images/slide-48-google-shape-486-p77.png" class="h-50" />
+  <img src="/images/slide-47-google-shape-485-p77.png" class="h-50" />
+  <img src="/images/slide-47-google-shape-486-p77.png" class="h-50" />
 </div>
 
 ---
@@ -654,8 +660,8 @@ class: text-center
 # Exercise #3
 
 <div class="flex gap-4 justify-center mt-4">
-  <img src="/images/slide-49-google-shape-495-p36.png" class="h-60" />
-  <img src="/images/slide-49-google-shape-498-p36.png" class="h-60" />
+  <img src="/images/slide-48-google-shape-495-p36.png" class="h-60" />
+  <img src="/images/slide-48-google-shape-498-p36.png" class="h-60" />
 </div>
 
 ---
@@ -683,7 +689,7 @@ layout: two-cols
 
 ::right::
 
-<img src="/images/slide-51-google-shape-513-p78.png" class="mx-auto h-full max-h-80 mt-12" />
+<img src="/images/slide-50-google-shape-513-p78.png" class="mx-auto h-full max-h-80 mt-12" />
 
 ---
 
@@ -711,29 +717,29 @@ layout: two-cols
 
 ---
 
-<img src="/images/slide-54-google-shape-536-p81.png" class="mx-auto h-80" />
+<img src="/images/slide-53-google-shape-536-p81.png" class="mx-auto h-80" />
 
 ---
 
-<img src="/images/slide-55-google-shape-544-p82.png" class="mx-auto h-80" />
+<img src="/images/slide-54-google-shape-544-p82.png" class="mx-auto h-80" />
 
 ---
 
 # Or listen?
 
-<img src="/images/slide-56-google-shape-549-p83.png" class="mx-auto h-70" />
+<img src="/images/slide-55-google-shape-549-p83.png" class="mx-auto h-70" />
 
 ---
 
 # And ask?
 
-<img src="/images/slide-57-google-shape-554-p84.png" class="mx-auto h-70" />
+<img src="/images/slide-56-google-shape-554-p84.png" class="mx-auto h-70" />
 
 ---
 
 # Read an 80.000 Hours article of your choice
 
-<img src="/images/slide-58-google-shape-561-p85.png" class="mx-auto h-70" />
+<img src="/images/slide-57-google-shape-561-p85.png" class="mx-auto h-70" />
 
 <small>[Source](https://80000hours.org/career-guide/)</small>
 
