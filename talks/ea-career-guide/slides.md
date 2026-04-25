@@ -206,68 +206,47 @@ class: text-center
 <h1 class="!text-white text-6xl relative z-10">Exercise: Utopia</h1>
 
 ---
+layout: two-cols
 class: text-center
 ---
 
 # How much can a SINGLE career help, anyway?
 
-<p class="mt-8">Total counterfactual impact of doctors (UK):</p>
+<div class="mt-20"><p>Total counterfactual impact of doctors (UK):</p></div>
 
 <p class="text-5xl font-bold my-4">4 lives saved</p>
 
 <p class="text-2xl">(= 120 DALYs)</p>
 
-<img src="/images/slide-16-google-shape-181-p16.png" class="mx-auto h-40" />
+::right::
+
+<img src="/images/slide-16-google-shape-181-p16.png" class="mx-auto mt-10 h-100" />
 
 <small>[Source](https://80000hours.org/career-guide/can-one-person-make-a-difference/)</small>
 
 ---
-layout: two-cols
----
 
-# Lives saved by
+<img src="/images/slide-17-google-shape-187-p17.png" class="absolute left-1/2 -translate-x-1/2 top-20 h-110 z-0" />
 
-<img src="/images/slide-17-google-shape-187-p17.png" class="h-50" />
-
-::right::
-
-<div class="flex flex-col items-center justify-center h-full">
-<p class="text-xl font-bold">gave diarrhoea patients water mixed with salt and sugar</p>
-<img src="/images/slide-17-google-shape-189-p17.png" class="h-40 mt-4" />
-</div>
+<img src="/images/slide-17-google-shape-189-p17.png" class="h-50 mt-4 absolute bottom-40 right-40" />
+<p class="absolute font-bold bottom-20 right-50">gave diarrhoea patients water <br/> mixed with salt and sugar</p>
 
 ---
-layout: two-cols
----
 
-# Lives saved by
+<img src="/images/slide-18-google-shape-195-p18.png" class="absolute left-1/2 -translate-x-1/2 top-20 h-110 z-0" />
 
-<div class="flex gap-4">
-  <img src="/images/slide-18-google-shape-195-p18.png" class="h-50" />
-  <img src="/images/slide-18-google-shape-196-p18.png" class="h-50" />
-</div>
-
-::right::
-
-<div class="flex items-center h-full">
-<p class="text-xl font-bold">discovered blood groups enabling blood transfusions</p>
-</div>
+<img src="/images/slide-18-google-shape-196-p18.png" class="h-40 mt-4 absolute bottom-40 left-50" />
+<p class="absolute font-bold top-40 left-50">discovered blood groups <br/> enabling blood transfusions</p>
 
 ---
-layout: two-cols
----
 
-# Lives saved by
+<img src="/images/slide-19-google-shape-203-p19.png" class="absolute left-1/2 -translate-x-1/2 top-20 h-100 z-0" />
 
-<img src="/images/slide-19-google-shape-203-p19.png" class="h-50" />
-
-::right::
-
-<div class="flex flex-col items-center justify-center h-full">
+<div class="absolute z-10 flex flex-col h-full left-55 top-40">
 <p class="text-xl font-bold">prevented atomic strike during cold war</p>
 <div class="flex gap-2 mt-4">
-  <img src="/images/slide-19-google-shape-207-p19.png" class="h-30" />
-  <img src="/images/slide-19-google-shape-206-p19.jpg" class="h-30" />
+  <img src="/images/slide-19-google-shape-207-p19.png" class="h-35" />
+  <img src="/images/slide-19-google-shape-206-p19.jpg" class="h-35" />
 </div>
 <small>[Source](https://www.bbc.com/news/in-pictures-53648572)</small>
 </div>
@@ -276,7 +255,7 @@ layout: two-cols
 
 # Two ways to have more social impact
 
-<img src="/images/slide-20-google-shape-213-p65.png" class="mx-auto h-80" />
+<img src="/images/slide-20-google-shape-213-p65.png" class="mx-auto h-100" />
 
 ---
 
