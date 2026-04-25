@@ -261,20 +261,23 @@ class: text-center
 
 # „Normal" humans with impactful careers..
 
-<div class="flex gap-4 justify-center">
-  <img src="/images/slide-21-google-shape-221-p66.png" class="h-40" />
-  <img src="/images/slide-21-google-shape-222-p66.png" class="h-40" />
-</div>
-
-<p class="text-center mt-2">Sarah Tegeler — <a href="https://effektiveraltruismus.de">effektiveraltruismus.de</a><br/>
-Sebastian Schwiecker — <a href="https://effektiv-spenden.org">effektiv-spenden.org</a></p>
-
-<div class="flex gap-3 justify-center items-center mt-2">
-  <img src="/images/slide-21-google-shape-224-p66.png" class="h-10" />
-  <img src="/images/slide-21-google-shape-225-p66.png" class="h-10" />
-  <img src="/images/slide-21-google-shape-226-p66.png" class="h-10" />
-  <img src="/images/slide-21-google-shape-227-p66.png" class="h-10" />
-  <img src="/images/slide-21-google-shape-228-p66.jpg" class="h-10" />
+<div class="grid grid-cols-3 gap-8 mt-10 flex-1 h-full">
+  <div class="flex flex-col items-center">
+    <img src="/images/slide-21-google-shape-222-p66.png" class="h-55" />
+    <p class="text-sm">Sarah Tegeler</p>
+    <img src="/images/slide-21-google-shape-225-p66.png" class="h-20" />
+  </div>
+  <div class="flex flex-col items-center">
+    <img src="/images/slide-21-google-shape-221-p66.png" class="h-55" />
+    <p class="text-sm">Sebastian Schwiecker</p>
+    <img src="/images/slide-21-google-shape-224-p66.png" class="h-20" />
+  </div>
+  <div class="flex flex-col items-center justify-start gap-4">
+    And people from EA Tübingen:
+    <img src="/images/slide-21-google-shape-226-p66.png" class="h-20" />
+    <img src="/images/slide-21-google-shape-227-p66.png" class="h-20" />
+    <img src="/images/slide-21-google-shape-228-p66.jpg" class="h-20" />
+  </div>
 </div>
 
 <small>[Source](https://effektiveraltruismus.de/menschen/)</small>
