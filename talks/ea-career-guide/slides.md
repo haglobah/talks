@@ -30,6 +30,21 @@ How to help others as best as I can?
 -->
 
 ---
+class: text-center
+---
+
+# Link to Slides
+
+<div class="bg-white max-w-min my-10 mx-auto">
+  <QRCode
+    value="https://haglobah.github.io/talks/ea-career-guide"
+    :width="400"
+    :height="400"
+    color="white"
+  />
+</div>
+
+---
 
 # How we spend our time
 
@@ -369,13 +384,29 @@ class: text-center
 ---
 src: ./today.md
 ---
+---
+layout: center
+---
+
+# Problems to work on
+
+<!-- <div v-click> -->
+<!-- Pick one problem area article to read -->
+<!-- </div> -->
 
 ---
 layout: iframe
 url: "https://80000hours.org/problem-profiles/"
 ---
 
-# Cause Areas
+---
+src: ./today.md
+---
+---
+layout: center
+---
+
+# Careers tackling those problems
 
 ---
 layout: two-cols
@@ -431,19 +462,19 @@ layout: two-cols
 
 <div class="flex items-center justify-center mt-8">
 <div class="relative">
-  <div class="w-80 h-80 rounded-full bg-[#2DBDD1]/10 border-2 border-[#2DBDD1] flex items-center justify-center">
-    <div class="w-64 h-64 rounded-full bg-[#2DBDD1]/15 border-2 border-[#2DBDD1] flex items-center justify-center">
-      <div class="w-48 h-48 rounded-full bg-[#2DBDD1]/20 border-2 border-[#2DBDD1] flex items-center justify-center">
-        <div class="w-32 h-32 rounded-full bg-[#2DBDD1]/25 border-2 border-[#2DBDD1] flex items-center justify-center">
-          <div class="w-20 h-20 rounded-full bg-[#2DBDD1]/40 border-2 border-[#2DBDD1] flex items-center justify-center text-xs text-center font-bold">Family &<br/>Friends</div>
+  <div class="w-80 h-80 rounded-full bg-[#2DBDD1]/10 border border-[#2DBDD1] flex items-center justify-center">
+    <div class="w-64 h-64 rounded-full bg-[#2DBDD1]/15 border border-[#2DBDD1] flex items-center justify-center">
+      <div class="w-48 h-48 rounded-full bg-[#2DBDD1]/20 border border-[#2DBDD1] flex items-center justify-center">
+        <div class="w-32 h-32 rounded-full bg-[#2DBDD1]/25 border border-[#2DBDD1] flex items-center justify-center">
+          <div class="w-20 h-20 rounded-full bg-[#2DBDD1]/40 border border-[#2DBDD1] flex items-center justify-center text-sm text-center font-bold">Family &<br/>Friends</div>
         </div>
       </div>
     </div>
   </div>
-  <div class="absolute top-2 left-1/2 -translate-x-1/2 text-sm font-bold">Future Generations</div>
-  <div class="absolute top-12 left-1/2 -translate-x-1/2 text-sm font-bold">Animals</div>
-  <div class="absolute top-22 left-1/2 -translate-x-1/2 text-sm font-bold">People</div>
-  <div class="absolute top-32 left-1/2 -translate-x-1/2 text-sm font-bold">Community</div>
+  <div class="absolute top-3 left-1/2 -translate-x-1/2 text-sm font-bold">Future Generations</div>
+  <div class="absolute top-10 left-1/2 -translate-x-1/2 text-sm font-bold">Animals</div>
+  <div class="absolute top-18 left-1/2 -translate-x-1/2 text-sm font-bold">People</div>
+  <div class="absolute top-26 left-1/2 -translate-x-1/2 text-sm font-bold">Community</div>
 </div>
 </div>
 
@@ -470,241 +501,31 @@ layout: two-cols
 </div>
 
 ---
-class: text-center
+src: ./today.md
 ---
-
-# Was ist das drängendste Problem?
-
-<div class="flex gap-4 justify-center flex-wrap mt-4">
-  <img src="/images/slide-30-google-shape-309-p22.png" class="h-40" />
-  <img src="/images/slide-30-google-shape-310-p22.png" class="h-40" />
-  <img src="/images/slide-30-google-shape-311-p22.png" class="h-40" />
-  <img src="/images/slide-30-google-shape-312-p22.png" class="h-40" />
-  <img src="/images/slide-30-google-shape-313-p22.png" class="h-40" />
-</div>
-
----
-class: text-center
----
-
-# Was ist das drängendste Problem?
-
-<ol class="text-left inline-block text-xl mt-4">
-<li>Wie groß?</li>
-<li>Wie vernachlässigt?</li>
-<li>Wie lösbar?</li>
-</ol>
-
----
-class: text-center
----
-
-# Was ist das drängendste Problem?
-
-<ol class="text-left inline-block text-xl mt-4">
-<li>Wie groß?</li>
-<li>Wie vernachlässigt?</li>
-<li><strong>Wie lösbar?</strong></li>
-</ol>
-
-<p class="text-2xl mt-8">Altern vs. parasitäre Wurminfektionen</p>
-
----
-class: text-center
----
-
-# Was ist das dringendste Problem?
-
-<ol class="text-left inline-block text-xl mt-4">
-<li>Wie groß?</li>
-<li><strong>Wie vernachlässigt?</strong></li>
-<li>Wie lösbar?</li>
-</ol>
-
-<p class="mt-4 text-sm">Animals used for research, fur/apparel, and in shelters · Land Animals Used — Donations to Animal Charities · Animals used for food</p>
-
-<div class="flex gap-4 justify-center mt-4">
-  <img src="/images/slide-33-google-shape-339-p69.png" class="h-40" />
-  <img src="/images/slide-33-google-shape-340-p69.png" class="h-40" />
-  <img src="/images/slide-33-google-shape-347-p69.png" class="h-40" />
-</div>
-
----
-class: text-center
----
-
-# Was ist das drängendste Problem?
-
-<ol class="text-left inline-block text-xl mt-4">
-<li><strong>Wie groß?</strong></li>
-<li>Wie vernachlässigt?</li>
-<li>Wie lösbar?</li>
-</ol>
-
-<p class="mt-4">Risiken für die Menschheit</p>
-<p class="text-sm">Atomkrieg · Neue Technologien · Pandemien</p>
-
-<img src="/images/slide-34-google-shape-356-p70.png" class="mx-auto h-60 mt-4" />
-
----
-class: text-center
----
-
-# Was sind die drängendsten Probleme?
-
-<img src="/images/slide-35-google-shape-361-p30.png" class="mx-auto h-80" />
-
----
-class: text-center
----
-
-# Was sind die drängendsten Probleme?
-
-<img src="/images/slide-36-google-shape-368-p31.png" class="mx-auto h-80" />
-
----
-
-# Ein paar der drängendsten Probleme
-
-<div class="flex gap-4 justify-center mt-4">
-  <img src="/images/slide-37-google-shape-376-p71.png" class="h-50" />
-  <img src="/images/slide-37-google-shape-377-p71.png" class="h-50" />
-  <img src="/images/slide-37-google-shape-383-p71.png" class="h-50" />
-</div>
-
-<small>*Based on 80,000 Hours*</small>
-
----
-
-# Global health and poverty
-
-- **Large scale: 700 million people live in extreme poverty**
-- **Neglected given the scale of the problem**
-- **High Tractability: Preventable diseases such as Malaria and Tuberculosis**
-- **Strong evidence for interventions in this area**
-
-<div class="flex gap-4 justify-center mt-4">
-  <img src="/images/slide-38-google-shape-394-p29.png" class="h-50" />
-  <img src="/images/slide-38-google-shape-395-p29.png" class="h-50" />
-</div>
-
----
-
-# Animal suffering
-
-- **Massive scale: 70 billion land animals and 3 trillion marine animals are killed for food every year**
-- Farmed animals are extremely neglected
-- **Tractable solutions: eliminating factory farms, promoting dietary change, developing alternatives to animal products**
-
-<img src="/images/slide-39-google-shape-402-g2948d3ced6a-1-318.png" class="mx-auto h-50 mt-4" />
-
----
-
-# Global catastrophic risks
-
-- An event which could harm or kill a large proportion of the earth's population (Pandemics, nuclear war, extreme climate change, misused artificial intelligence...)
-- **Extremely large in scale: affects people today and future generations**
-
-> *"Setting aside climate change, all spending on biosecurity, natural risks and risks from AI and nuclear war is still substantially less than we spend on ice cream." (Toby Ord)*
-
-<img src="/images/slide-40-google-shape-409-p32.png" class="mx-auto h-30" />
-
----
-
-# EA is not defined by these projects!
-
-- EA is cause-neutral
-- Priorities can change over time based on new evidence
-- EA is quite a new research field and there are a lot of unanswered questions
-- Reflecting one's beliefs and staying open and curious for new arguments is important
-
 ---
 layout: center
-class: text-center
 ---
 
-<div class="absolute inset-0 bg-[#2DBDD1]"></div>
-<div class="relative z-10 text-white">
-<h1 class="!text-white text-6xl">Exercise: Priorisierung</h1>
-<p class="text-2xl mt-4">Wie groß? · Wie vernachlässigt? · Wie lösbar?</p>
-</div>
+# Careers tackling those problems
 
 ---
-class: text-center
+layout: iframe
+url: "https://80000hours.org/career-reviews/"
 ---
-
-# 6. In welchen Berufen können wir am meisten bewirken?
-
 ---
-class: text-center
+src: ./today.md
 ---
-
-# 6. In welchen Berufen können wir am meisten bewirken?
-
-<p class="text-2xl mt-8">Direkte Arbeit — Politik & Kommunikation — Forschung — Earning-to-Give</p>
-
----
-
-# Direktarbeit
-
-**Optionen:**
-
-- Entrepreneurship
-- NGOs
-
-**Einschränkung:** Häufig eher Geld- als Bewerbermangel
-
-**Daher:**
-
-- Fokus auf Talentlücken & wichtigste Probleme
-
-<img src="/images/slide-45-google-shape-455-p75.png" class="h-40" />
-
----
-
-# Politik & Kommunikation
-
-**Arten:**
-
-- Öffentlichkeitsarbeit
-- Politik
-- Community Building
-
-**Multiplikatoreffekt**
-
-<img src="/images/slide-46-google-shape-472-p76.png" class="h-50" />
-
----
-
-# Forschung
-
-- Fokus auf wichtige Probleme
-- Geringe Ersetzbarkeit
-
--> Keine schädliche Forschung
-
-<div class="flex gap-4 mt-4">
-  <img src="/images/slide-47-google-shape-485-p77.png" class="h-50" />
-  <img src="/images/slide-47-google-shape-486-p77.png" class="h-50" />
-</div>
-
----
-
-# Earning-to-give
-
-- Multiplikatoreffekt durch Stellenfinanzierung
-- Kaum ersetzbar & flexibler Altruismus
-
--> Aber: Keine schädlichen Berufe
-
-<div class="flex gap-4 mt-4">
-  <img src="/images/slide-48-google-shape-495-p36.png" class="h-50" />
-  <img src="/images/slide-48-google-shape-498-p36.png" class="h-50" />
-</div>
-
 ---
 layout: center
-class: text-center
+---
+
+# Skills to pursue
+
+---
+layout: iframe
+url: "https://80000hours.org/skills/"
+---
 ---
 
 # Exercise #3
@@ -713,7 +534,7 @@ class: text-center
 
 # No matter your job, here's 3 evidence-based ways anyone can have a real impact..
 
-<img src="/images/slide-50-google-shape-513-p78.png" class="mx-auto h-60 mt-4" />
+<img src="/images/slide-50-google-shape-513-p78.png" class="mx-auto h-90 mt-4" />
 
 <small>[Source](https://80000hours.org/career-guide/making-a-difference/)</small>
 
