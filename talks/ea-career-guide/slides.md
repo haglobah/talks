@@ -1,5 +1,5 @@
 ---
-theme: default
+theme: ./theme
 title: "Effective Altruism Career Guide — EA Tübingen 2026"
 transition: slide-left
 duration: 35min
@@ -13,18 +13,21 @@ What do the ideas from the Intro talk mean for my life?
 
 How to help others as best as I can?
 
----
+<!-- --- -->
 
-# Structure Brainstorm
+<!-- # Structure Brainstorm -->
 
-- Why should you strive to help with your career?
-  - Evidence for your career being one of your most impactful decisions
-  - Evidence for what makes you happy in a career in general
-  - Evidence for big differences in impact between career choices + Examples of impactful careers of normal people -> naturally leads to cause prioritization and counterfactual impact
-- How to find and have such a career?
-  - Different causes and how to prioritize well: cause neutrality, SNT framework, examples of currently important causes (less of focus due to intro talk overlap)
-  - Different jobs and how they differ in impact (+ by the way, you can have an impact with any career, and here is how to do it)
-  - -> next session more concretely: assessing your personal fit and building up your career capital
+<!-- - Why should you strive to help with your career? -->
+<!--   - Evidence for your career being one of your most impactful decisions -->
+<!--   - Evidence for what makes you happy in a career in general -->
+<!--   - Evidence for big differences in impact between career choices + Examples of impactful careers of normal people -> naturally leads to cause prioritization and counterfactual impact -->
+<!-- - How to find and have such a career? -->
+<!--   - Different causes and how to prioritize well: cause neutrality, SNT framework, examples of currently important causes (less of focus due to intro talk overlap) -->
+<!--   - Different jobs and how they differ in impact (+ by the way, you can have an impact with any career, and here is how to do it) -->
+
+<!--
+- -> next session more concretely: assessing your personal fit and building up your career capital
+-->
 
 ---
 
@@ -61,7 +64,7 @@ class: text-center
 
 <h1 class="!text-[#2DBDD1]">„Money makes happy"</h1>
 
-<img src="/images/slide-5-google-shape-96-g2957b2aaab7-0-3.png" class="mx-auto h-70" />
+<img src="/images/slide-5-google-shape-96-g2957b2aaab7-0-3.png" class="mx-auto h-100" />
 
 ---
 class: text-center
@@ -69,7 +72,7 @@ class: text-center
 
 <h1 class="!text-[#2DBDD1]">Money makes you happier, but only a little</h1>
 
-<img src="/images/slide-6-google-shape-102-p44.png" class="mx-auto h-70" />
+<img src="/images/slide-6-google-shape-102-p44.png" class="mx-auto h-80" />
 
 <small>[Source](https://80000hours.org/articles/money-and-happiness/)</small>
 
@@ -79,7 +82,7 @@ class: text-center
 
 <h1 class="!text-[#2DBDD1]">„Low stress"</h1>
 
-<img src="/images/slide-7-google-shape-109-p5.png" class="mx-auto h-70" />
+<img src="/images/slide-7-google-shape-109-p5.png" class="mx-auto h-90" />
 
 <small>[Source](https://80000hours.org/2016/02/should-you-look-for-a-low-stress-job/)</small>
 
@@ -89,13 +92,9 @@ class: text-center
 
 <h1 class="!text-[#2DBDD1]">"Follow your passion"</h1>
 
-<img src="/images/slide-8-google-shape-117-p7.png" class="mx-auto h-70" />
+<img src="/images/slide-8-google-shape-117-p7.png" class="mx-auto h-90" />
 
 <small>Source: Google Ngram</small>
-
----
-
-<img src="/images/slide-9-google-shape-122-p61.png" class="mx-auto h-90" />
 
 ---
 layout: two-cols
@@ -103,18 +102,20 @@ layout: two-cols
 
 <h1 class="!text-[#2DBDD1]">Don't just „follow your passion"</h1>
 
+<v-clicks>
+
 - Passion is not all you need
 - Many people don't feel like they have a career-relevant passion
 - Limits your options
 - Your interests change more than you think, and passion develops alongside success and can take a longer time to discover
+
+</v-clicks>
 
 <small>[Source](https://80000hours.org/2015/02/we-change-more-than-we-expect-so-keep-your-options-open/)</small>
 
 ::right::
 
 <img src="/images/slide-9-google-shape-122-p61.png" class="h-full max-h-80 mx-auto mt-12" />
-
----
 
 ---
 layout: two-cols
@@ -132,7 +133,7 @@ layout: two-cols
 
 ::right::
 
-<img src="/images/slide-11-google-shape-139-p62.jpg" class="mx-auto mt-12 h-70" />
+<img src="/images/slide-11-google-shape-139-p62.jpg" class="mt-12 h-90" />
 
 ---
 layout: two-cols
@@ -140,25 +141,25 @@ layout: two-cols
 
 # So what works?
 
-<img src="/images/slide-12-google-shape-145-p12.png" class="mt-4 h-60" />
-
-<p class="text-sm text-[#2DBDD1] font-bold mt-2">80.000 hours = dots</p>
+<div class="flex flex-col items-center mt-20 h-full text-center">
+<p>worth to spend up to</p>
+<p><span style="color: #FF6B00">5 months full time (800 hours) work</span></p>
+<p>to make your career <span class="italic font-bold">just 1% </span> more impactful</p>
+</div>
 
 ::right::
 
-<div class="flex flex-col items-center justify-center h-full text-center">
-<p>worth to spend up to</p>
-<p><span style="color: #FF6B00; font-weight: bold" class="text-3xl">5 months full time</span></p>
-<p><span style="color: #FF6B00; font-weight: bold" class="text-3xl">(800 hours) work</span></p>
-<p>to make your career</p>
-<p class="italic">just 1% more impactful</p>
-</div>
+<img src="/images/slide-12-google-shape-145-p12.png" class="mt-4 h-90" />
 
----
-class: text-center
+<p class="text-sm text-[#2DBDD1] font-bold ml-20 mt-2">80.000 hours = dots</p>
+
 ---
 
 <h1 class="!text-[#2DBDD1]">What actually makes a career fulfilling:</h1>
+
+<div class="mt-10"></div>
+
+<v-clicks>
 
 - **Engaging work that lets you enter a state of flow (freedom, variety, clear tasks, feedback)**
 - Work that is meaningful, e.g. helps others
@@ -167,7 +168,11 @@ class: text-center
 - No major negatives, like long hours or unfair pay
 - A job that fits your personal life
 
-<small>[Source](https://80000hours.org/career-guide/job-satisfaction/)</small>
+</v-clicks>
+
+<small v-click="before">[Source](https://80000hours.org/career-guide/job-satisfaction/)</small>
+
+
 
 ---
 layout: two-cols
