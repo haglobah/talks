@@ -45,7 +45,7 @@ layout: center
 
 <div class="text-center">
 <p class="text-xl italic">40 hours/week × 50 weeks/year × 40 years =</p>
-<h1 class="!text-8xl !text-[#2DBDD1] my-6">80,000 hours</h1>
+<h1 class="!text-8xl my-6">80,000 hours</h1>
 <p class="text-xl">The most important ethical decision of your life.</p>
 <p class="text-2xl font-bold mt-2">Find a fulfilling career that does good!</p>
 </div>
@@ -54,7 +54,7 @@ layout: center
 class: text-center
 ---
 
-<h1 class="!text-[#2DBDD1]">What makes a career „fullfilling"?</h1>
+# What makes a career „fullfilling"?
 
 <img src="/images/slide-4-google-shape-90-p43.png" class="mx-auto h-60 mt-8" />
 
@@ -62,7 +62,7 @@ class: text-center
 class: text-center
 ---
 
-<h1 class="!text-[#2DBDD1]">„Money makes happy"</h1>
+# „Money makes happy"
 
 <img src="/images/slide-5-google-shape-96-g2957b2aaab7-0-3.png" class="mx-auto h-100" />
 
@@ -70,7 +70,7 @@ class: text-center
 class: text-center
 ---
 
-<h1 class="!text-[#2DBDD1]">Money makes you happier, but only a little</h1>
+# Money makes you happier, but only a little
 
 <img src="/images/slide-6-google-shape-102-p44.png" class="mx-auto h-80" />
 
@@ -80,7 +80,7 @@ class: text-center
 class: text-center
 ---
 
-<h1 class="!text-[#2DBDD1]">„Low stress"</h1>
+# „Low stress"
 
 <img src="/images/slide-7-google-shape-109-p5.png" class="mx-auto h-90" />
 
@@ -90,7 +90,7 @@ class: text-center
 class: text-center
 ---
 
-<h1 class="!text-[#2DBDD1]">"Follow your passion"</h1>
+# "Follow your passion"
 
 <img src="/images/slide-8-google-shape-117-p7.png" class="mx-auto h-90" />
 
@@ -100,7 +100,7 @@ class: text-center
 layout: two-cols
 ---
 
-<h1 class="!text-[#2DBDD1]">Don't just „follow your passion"</h1>
+# Don't just „follow your passion"
 
 <v-clicks>
 
@@ -155,7 +155,7 @@ layout: two-cols
 
 ---
 
-<h1 class="!text-[#2DBDD1]">What actually makes a career fulfilling:</h1>
+# What actually makes a career fulfilling:
 
 <div class="mt-10"></div>
 
@@ -178,7 +178,7 @@ layout: two-cols
 layout: two-cols
 ---
 
-<h1 class="!text-[#2DBDD1]">In summary, aim to..</h1>
+# In summary, aim to..
 
 <p class="font-bold text-lg">..get good at something that helps others</p>
 
@@ -209,7 +209,7 @@ class: text-center
 class: text-center
 ---
 
-<h1 class="!text-[#2DBDD1]">How much can a SINGLE career help, anyway?</h1>
+# How much can a SINGLE career help, anyway?
 
 <p class="mt-8">Total counterfactual impact of doctors (UK):</p>
 
@@ -315,7 +315,7 @@ Sebastian Schwiecker — <a href="https://effektiv-spenden.org">effektiv-spenden
 class: text-center
 ---
 
-<h1 class="!text-[#2DBDD1]">How to do good better?</h1>
+# How to do good better?
 
 <img src="/images/slide-23-google-shape-248-p15.png" class="mx-auto h-50 mt-8" />
 
@@ -418,7 +418,7 @@ class: text-center
 class: text-center
 ---
 
-<h1 class="!text-[#2DBDD1]">Was ist das drängendste Problem?</h1>
+# Was ist das drängendste Problem?
 
 <div class="flex gap-4 justify-center flex-wrap mt-4">
   <img src="/images/slide-30-google-shape-309-p22.png" class="h-40" />
@@ -432,7 +432,7 @@ class: text-center
 class: text-center
 ---
 
-<h1 class="!text-[#2DBDD1]">Was ist das drängendste Problem?</h1>
+# Was ist das drängendste Problem?
 
 <ol class="text-left inline-block text-xl mt-4">
 <li>Wie groß?</li>
@@ -444,7 +444,7 @@ class: text-center
 class: text-center
 ---
 
-<h1 class="!text-[#2DBDD1]">Was ist das drängendste Problem?</h1>
+# Was ist das drängendste Problem?
 
 <ol class="text-left inline-block text-xl mt-4">
 <li>Wie groß?</li>
@@ -458,7 +458,7 @@ class: text-center
 class: text-center
 ---
 
-<h1 class="!text-[#2DBDD1]">Was ist das dringendste Problem?</h1>
+# Was ist das dringendste Problem?
 
 <ol class="text-left inline-block text-xl mt-4">
 <li>Wie groß?</li>
@@ -478,7 +478,7 @@ class: text-center
 class: text-center
 ---
 
-<h1 class="!text-[#2DBDD1]">Was ist das drängendste Problem?</h1>
+# Was ist das drängendste Problem?
 
 <ol class="text-left inline-block text-xl mt-4">
 <li><strong>Wie groß?</strong></li>
@@ -495,7 +495,7 @@ class: text-center
 class: text-center
 ---
 
-<h1 class="!text-[#2DBDD1]">Was sind die drängendsten Probleme?</h1>
+# Was sind die drängendsten Probleme?
 
 <img src="/images/slide-35-google-shape-361-p30.png" class="mx-auto h-80" />
 
@@ -503,7 +503,7 @@ class: text-center
 class: text-center
 ---
 
-<h1 class="!text-[#2DBDD1]">Was sind die drängendsten Probleme?</h1>
+# Was sind die drängendsten Probleme?
 
 <img src="/images/slide-36-google-shape-368-p31.png" class="mx-auto h-80" />
 
@@ -578,13 +578,13 @@ class: text-center
 class: text-center
 ---
 
-<h1 class="!text-[#2DBDD1]">6. In welchen Berufen können wir am meisten bewirken?</h1>
+# 6. In welchen Berufen können wir am meisten bewirken?
 
 ---
 class: text-center
 ---
 
-<h1 class="!text-[#2DBDD1]">6. In welchen Berufen können wir am meisten bewirken?</h1>
+# 6. In welchen Berufen können wir am meisten bewirken?
 
 <p class="text-2xl mt-8">Direkte Arbeit — Politik & Kommunikation — Forschung — Earning-to-Give</p>
 
