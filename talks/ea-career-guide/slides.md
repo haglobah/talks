@@ -51,6 +51,71 @@ layout: center
 </div>
 
 ---
+layout: two-cols
+---
+
+# What to do?
+
+<h2 class="mt-10" v-click="4">Next Time</h2>
+
+<div class="mt-4"  v-click="1">
+
+- Which next steps to take
+
+</div>
+
+::right::
+
+<h2 class="mt-20" v-click="3">Today</h2>
+
+<div class="mt-4"  v-click="2">
+
+- Where you want to end up
+- Where you don't want to end up
+
+</div>
+
+---
+
+# Today:
+
+<div class="mt-20 relative px-8">
+  <div class="flex justify-between text-[#2DBDD1] text-lg font-bold mb-6">
+    <span>Where to go next</span>
+    <span>Where to end up</span>
+  </div>
+
+  <!-- Arrow label -->
+  <div class="absolute right-52 -top-1">
+    <div class="bg-[#2DBDD1] text-white font-bold px-4 py-1 text-sm inline-flex items-center gap-2">
+      <span class="text-xl">&#x25C0;</span> This way
+    </div>
+  </div>
+
+  <!-- Timeline line -->
+  <div class="relative h-4 flex items-center">
+    <div class="absolute inset-x-0 h-1 bg-[#2DBDD1] rounded-full"></div>
+    <!-- Dots at ~0%, 15%, 33%, 50%, 66%, 82%, 100% -->
+    <div class="absolute left-0 w-4 h-4 bg-[#2DBDD1] rounded-full -translate-x-1/2"></div>
+    <div class="absolute left-[15%] w-4 h-4 bg-[#2DBDD1] rounded-full -translate-x-1/2"></div>
+    <div class="absolute left-[33%] w-4 h-4 bg-[#2DBDD1] rounded-full -translate-x-1/2"></div>
+    <div class="absolute left-[50%] w-4 h-4 bg-[#2DBDD1] rounded-full -translate-x-1/2"></div>
+    <div class="absolute left-[66%] w-4 h-4 bg-[#2DBDD1] rounded-full -translate-x-1/2"></div>
+    <div class="absolute left-[82%] w-4 h-4 bg-[#2DBDD1] rounded-full -translate-x-1/2"></div>
+    <div class="absolute left-full w-4 h-4 bg-[#2DBDD1] rounded-full -translate-x-1/2"></div>
+  </div>
+
+  <!-- Labels below -->
+  <div class="relative h-32 mt-6 text-lg text-lg">
+    <span v-click="6" class="absolute left-0 top-2">Career guide</span>
+    <span v-click="5" class="absolute left-[15%] top-16">Possible jobs</span>
+    <span v-click="4" class="absolute left-[33%] top-2">Useful skills</span>
+    <span v-click="3" class="absolute left-[55%] top-2">Good career paths</span>
+    <span v-click="1" class="absolute left-[82%] top-2">'Good' career</span>
+    <span v-click="2" class="absolute left-[66%] top-16">Which problems to work on</span>
+  </div>
+</div>
+---
 class: text-center
 ---
 
@@ -309,6 +374,8 @@ class: text-center
 # Cause Areas
 
 ---
+layout: two-cols
+---
 
 # How to compare career options to work on?
 
@@ -319,16 +386,18 @@ class: text-center
   - Ensures that you have fun, that you stick with something that you are good at
   - Few people have 10 to even 1000 more impact than the average (heavy-tailed distribution again!)
 
-<div class="flex gap-4 justify-center flex-wrap mt-4">
-  <img src="/images/slide-25-google-shape-260-p37.png" class="h-16" />
-  <img src="/images/slide-25-google-shape-261-p37.png" class="h-16" />
-  <img src="/images/slide-25-google-shape-262-p37.png" class="h-16" />
-  <img src="/images/slide-25-google-shape-263-p37.png" class="h-16" />
-  <img src="/images/slide-25-google-shape-264-p37.png" class="h-16" />
-  <img src="/images/slide-25-google-shape-265-p37.png" class="h-16" />
+<small>[Source](https://80000hours.org/career-guide/)</small>
+
+::right::
+<div class="flex gap-4 justify-center flex-wrap ml-4 mt-15">
+  <img src="/images/slide-25-google-shape-260-p37.png" class="w-50" />
+  <img src="/images/slide-25-google-shape-261-p37.png" class="w-50" />
+  <img src="/images/slide-25-google-shape-262-p37.png" class="w-50" />
+  <img src="/images/slide-25-google-shape-263-p37.png" class="w-50" />
+  <img src="/images/slide-25-google-shape-264-p37.png" class="w-50" />
+  <img src="/images/slide-25-google-shape-265-p37.png" class="w-50" />
 </div>
 
-<small>[Source](https://80000hours.org/career-guide/)</small>
 
 ---
 
