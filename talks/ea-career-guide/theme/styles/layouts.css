@@ -38,6 +38,10 @@
   h6:not(.opacity-100) {
     @apply opacity-40;
   }
+
+  blockquote {
+    @apply text-xl;
+  }
 }
 
 .slidev-layout.cover,
