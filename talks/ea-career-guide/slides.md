@@ -40,7 +40,7 @@ class: text-center
     value="https://haglobah.github.io/talks/ea-career-guide"
     :width="400"
     :height="400"
-    color="white"
+    color="#000000"
   />
 </div>
 
