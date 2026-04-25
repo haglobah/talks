@@ -364,8 +364,10 @@ class: text-center
 
 # How to do good better?
 
-<img src="/images/slide-23-google-shape-248-p15.png" class="mx-auto h-50 mt-8" />
+<img src="/images/slide-23-google-shape-248-p15.png" class="mx-auto h-60 mt-8" />
 
+---
+src: ./today.md
 ---
 layout: center
 class: text-center
