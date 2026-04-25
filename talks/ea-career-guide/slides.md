@@ -369,8 +369,10 @@ class: text-center
 ---
 src: ./today.md
 ---
-layout: center
-class: text-center
+
+---
+layout: iframe
+url: "https://80000hours.org/problem-profiles/"
 ---
 
 # Cause Areas
