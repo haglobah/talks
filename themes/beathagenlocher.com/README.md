@@ -1,4 +1,4 @@
-# slidev-theme-yoarhe
+# slidev-theme-beathagenlocher.com
 
 [![NPM version](https://img.shields.io/npm/v/slidev-theme-yoarhe?color=3AB9D4&label=)](https://www.npmjs.com/package/slidev-theme-yoarhe)
 

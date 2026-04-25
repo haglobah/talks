@@ -1,11 +1,8 @@
 {
-  "name": "slidev-theme-yoarhe",
+  "name": "@haglobah/slidev-theme-beathagenlocher.com",
   "version": "0.0.0",
   "type": "module",
-  "keywords": [
-    "slidev-theme",
-    "slidev"
-  ],
+  "keywords": ["slidev-theme", "slidev"],
   "engines": {
     "node": ">=18.0.0"
   },
