@@ -727,8 +727,12 @@ url: "https://80000hours.org/skills/"
   </a>
 </div>
 ---
+layout: center
+class: text-center
+---
 
-# Exercise #3
+<div class="absolute inset-0 bg-[#2DBDD1]"></div>
+<h1 class="!text-white text-6xl relative z-10">Exercise #3</h1>
 
 <!--
 Welche Berufe könntet ihr anstreben um die wichtigsten Probleme anzugehen, die ihr aber auch gerne ausüben würdet?
