@@ -892,3 +892,14 @@ layout: center
 </v-clicks>
 
 ---
+
+https://80000hours.org/career-guide/personal-fit/
+https://80000hours.org/career-guide/how-to-be-successful/
+https://80000hours.org/career-guide/career-planning/
+https://docs.google.com/document/d/19ed49kECc1NAWRtLsSyGD-cqfHOQ4-ArUX6iAJ4Kpvk/edit?tab=t.0#heading=h.wthoar4ducf7
+
+1. Warm up: Life gauges
+2. ABZ life plans
+3. Learnings and prototypes
+
+Where to go next: Career planning with the guide
