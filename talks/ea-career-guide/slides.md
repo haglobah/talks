@@ -54,9 +54,10 @@ class: text-center
 
 <p class="text-sm opacity-70">Employed adults, employed, average hours per day</p>
 
+<img v-click src="/images/time-usage.png" class="h-90 mx-auto"/>
 <!-- Pie chart from BLS data — no extracted image available -->
 
-<small>[Source: U.S. Bureau of Labor Statistics, American Time Use Survey (ATUS), 2024](https://www.bls.gov/charts/american-time-use/activity-by-emp.html)</small>
+<small v-after>[Source: U.S. Bureau of Labor Statistics, American Time Use Survey (ATUS), 2024](https://www.bls.gov/charts/american-time-use/activity-by-emp.html)</small>
 
 <!--
 Maybe let people guess here ☺
@@ -154,6 +155,64 @@ class: text-center
 class: text-center
 ---
 
+# "Follow your passion"
+
+<img src="/images/slide-8-google-shape-117-p7.png" class="mx-auto h-90" />
+
+<small>Source: Google Ngram</small>
+
+<!--
+Hier kann man sehen, dass die Phrase "Folge deiner Leidenschaft" (bzw. "Follow your passion" im engl.) in den letzten 20 Jahren vermehrt genutzt wird. Wenn ihr euch aber überlegt, was eure Leidenschaft ist und wie der Beruf dazu aussieht...
+-->
+
+---
+layout: two-cols
+---
+
+# Don't just „follow your passion"
+
+<v-clicks>
+
+- Passion is not all you need
+- Many people don't feel like they have a career-relevant passion
+- Limits your options
+- Your interests change more than you think, and passion develops alongside success and can take a longer time to discover
+
+</v-clicks>
+
+<small>[Source](https://80000hours.org/2015/02/we-change-more-than-we-expect-so-keep-your-options-open/)</small>
+
+::right::
+
+<img src="/images/slide-9-google-shape-122-p61.png" class="h-full max-h-80 mx-auto mt-12" />
+
+<!--
+If a basketball fan gets a job involving basketball, but works with people they hate, receives unfair pay, or finds the work meaningless, they are still going to dislike their job.
+-->
+
+---
+layout: two-cols
+---
+
+
+# The End of History Illusion
+
+<p class="text-sm opacity-70">Quoidbach, Gilbert & Wilson (2013)</p>
+
+> "[People of all ages] all believed they had changed a lot in the past but would change relatively little in the future. People, it seems, regard the present as a watershed moment at which they have finally become the person they will be for the rest of their lives."
+
+<p class="text-xs mt-2">Vol. 339, Issue 6115, pp. 96-98, DOI: 10.1126/science.1229294</p>
+
+<img src="/images/slide-11-google-shape-138-p62.jpg" class="h-8 mt-2" />
+
+::right::
+
+<img src="/images/slide-11-google-shape-139-p62.jpg" class="mt-12 h-90" />
+
+---
+class: text-center
+---
+
 # „Money makes happy"
 
 <img src="/images/slide-5-google-shape-96-g2957b2aaab7-0-3.png" class="mx-auto h-100" />
@@ -195,63 +254,6 @@ Wenn die Anforderungen zu gering für deine Fähigkeiten sind, wird es langweili
 -->
 
 ---
-class: text-center
----
-
-# "Follow your passion"
-
-<img src="/images/slide-8-google-shape-117-p7.png" class="mx-auto h-90" />
-
-<small>Source: Google Ngram</small>
-
-<!--
-Hier kann man sehen, dass die Phrase "Folge deiner Leidenschaft" (bzw. "Follow your passion" im engl.) in den letzten 20 Jahren vermehrt genutzt wird. Wenn ihr euch aber überlegt, was eure Leidenschaft ist und wie der Beruf dazu aussieht...
--->
-
----
-layout: two-cols
----
-
-# Don't just „follow your passion"
-
-<v-clicks>
-
-- Passion is not all you need
-- Many people don't feel like they have a career-relevant passion
-- Limits your options
-- Your interests change more than you think, and passion develops alongside success and can take a longer time to discover
-
-</v-clicks>
-
-<small>[Source](https://80000hours.org/2015/02/we-change-more-than-we-expect-so-keep-your-options-open/)</small>
-
-::right::
-
-<img src="/images/slide-9-google-shape-122-p61.png" class="h-full max-h-80 mx-auto mt-12" />
-
-<!--
-If a basketball fan gets a job involving basketball, but works with people they hate, receives unfair pay, or finds the work meaningless, they are still going to dislike their job.
--->
-
----
-layout: two-cols
----
-
-# The End of History Illusion
-
-<p class="text-sm opacity-70">Quoidbach, Gilbert & Wilson (2013)</p>
-
-> "[People of all ages] all believed they had changed a lot in the past but would change relatively little in the future. People, it seems, regard the present as a watershed moment at which they have finally become the person they will be for the rest of their lives."
-
-<p class="text-xs mt-2">Vol. 339, Issue 6115, pp. 96-98, DOI: 10.1126/science.1229294</p>
-
-<img src="/images/slide-11-google-shape-138-p62.jpg" class="h-8 mt-2" />
-
-::right::
-
-<img src="/images/slide-11-google-shape-139-p62.jpg" class="mt-12 h-90" />
-
----
 layout: two-cols
 ---
 
@@ -283,9 +285,9 @@ Each dot illustrates one of the 80,000 hours in your career. If you could make y
 
 <v-clicks>
 
-- **Engaging work that lets you enter a state of flow (freedom, variety, clear tasks, feedback)**
+- **Engaging work that lets you enter a state of flow** (freedom how to do, clear tasks, variety, feedback)
 - Work that is meaningful, e.g. helps others
-- Work you're good at
+- Work you’re good at
 - Supportive colleagues
 - No major negatives, like long hours or unfair pay
 - A job that fits your personal life
@@ -474,12 +476,16 @@ Many other people from Tübingen started effective careers in policy, NGOs and r
 
 # Why to find a fulfilling career that does good?
 
+<v-clicks depth="2">
+
 - We spend a great proportion of our time at work
   - Well worth to spend some of these 80,000 hours working out how to do good..
 - Different Careers vary largely in terms of impact
   - 10x - 1000x more impact than average is possible
 - We are living in very unusual times!
   - This could be our chance to influence the course of some of the most important problems
+
+</v-clicks>
 
 <!--
 The first answer: find a fulfilling career that also does good! Well worth to spend some of these 80,000 hours working out how to do good → 80000hours. Different career impacts can show a heavy tailed distribution again! Some career paths open to you likely have 10 or 100 or even 1,000 times more impact than others.
@@ -493,7 +499,7 @@ class: text-center
 
 # How to do good better?
 
-<img src="/images/slide-23-google-shape-248-p15.png" class="mx-auto h-60 mt-8" />
+<img src="/images/slide-23-google-shape-248-p15.png" class="absolute left-0 w-300 mt-8" />
 
 ---
 src: ./today.md
@@ -510,67 +516,6 @@ layout: center
 
 <!--
 Let's now look on a few promising cause areas that we might choose to work on if we want to do the most good, based on the core values of EA and the SNT Framework. I won't go much into detail here, we will have time to dive deeper in our future events…
--->
-
----
-layout: iframe-right
-url: "https://80000hours.org/problem-profiles/"
----
-
-# Problem Profiles
-
-<div class="flex flex-col items-center justify-center h-4/5 gap-6">
-  <div class="bg-white p-2">
-    <QRCode
-      value="https://80000hours.org/problem-profiles/"
-      :width="250"
-      :height="250"
-      color="#000000"
-    />
-  </div>
-  <a href="https://80000hours.org/problem-profiles/" target="_blank" class="text-sm break-all">
-    80000hours.org/problem-profiles/
-  </a>
-</div>
-
----
-src: ./today.md
----
----
-layout: center
----
-
-# Careers tackling those problems
-
----
-layout: two-cols
----
-
-# How to compare career options to work on?
-
-- How pressing is the problem? (e.g. apply SNT Framework)
-- How much can you contribute to solve the problem?
-  - Also be open to more indirect routes to impact
-- Your personal fit for the path
-  - Ensures that you have fun, that you stick with something that you are good at
-  - Few people have 10 to even 1000 more impact than the average (heavy-tailed distribution again!)
-
-<small>[Source](https://80000hours.org/career-guide/)</small>
-
-::right::
-<div class="flex gap-4 justify-center flex-wrap ml-4 mt-15">
-  <img src="/images/slide-25-google-shape-260-p37.png" class="w-50" />
-  <img src="/images/slide-25-google-shape-261-p37.png" class="w-50" />
-  <img src="/images/slide-25-google-shape-262-p37.png" class="w-50" />
-  <img src="/images/slide-25-google-shape-263-p37.png" class="w-50" />
-  <img src="/images/slide-25-google-shape-264-p37.png" class="w-50" />
-  <img src="/images/slide-25-google-shape-265-p37.png" class="w-50" />
-</div>
-
-<!--
-Übergang: Impact einiger Individuen ist viel größer als der Durchschnitt! ➡ gezielte Arbeit an wichtigen Problemen.
-
-pressing problem (SNT) + scale of contribution. Stress: good news for anyone not aiming for a typical social impact job like doctor, teacher or charity worker — also more indirect routes to impact (e.g. earning to give). Stress: Your personal fit for the path. Ensures that you have fun, stick with it. Many fields: a small portion of people achieve the most outcome.
 -->
 
 ---
@@ -674,17 +619,89 @@ All in all, if a problem has a large scale, is neglected, and is tractable, it s
 -->
 
 ---
+layout: iframe-right
+url: "https://80000hours.org/problem-profiles/"
+clicks: 3
+---
+
+# Problem Profiles
+
+<div v-if="$clicks < 1" class="flex flex-col items-center justify-center h-4/5 gap-6">
+  <div class="bg-white p-2">
+    <QRCode
+      value="https://80000hours.org/problem-profiles/"
+      :width="250"
+      :height="250"
+      color="#000000"
+    />
+  </div>
+  <a href="https://80000hours.org/problem-profiles/" target="_blank" class="text-sm break-all">
+    80000hours.org/problem-profiles/
+  </a>
+</div>
+
+<div v-if="$clicks >= 1" class="flex flex-col items-center justify-center h-4/5 gap-6">
+
+<v-clicks>
+
+- Things large in scale
+- Which are relatively neglected
+- Which are relatively tractable
+
+</v-clicks>
+
+</div>
+
+---
 src: ./today.md
 ---
+---
+layout: two-cols
+---
+
+# How to compare career options to work on?
+
+- How pressing is the problem? (e.g. apply SNT Framework)
+- How much can you contribute to solve the problem?
+  - Also be open to more indirect routes to impact
+- Your personal fit for the path
+  - Ensures that you have fun, that you stick with something that you are good at
+  - Few people have 10 to even 1000 more impact than the average (heavy-tailed distribution again!)
+
+<small>[Source](https://80000hours.org/career-guide/)</small>
+
+::right::
+
+<div class="flex gap-4 justify-center flex-wrap ml-4 mt-15">
+  <img src="/images/slide-25-google-shape-260-p37.png" class="w-50" />
+  <img src="/images/slide-25-google-shape-261-p37.png" class="w-50" />
+  <img src="/images/slide-25-google-shape-262-p37.png" class="w-50" />
+  <img src="/images/slide-25-google-shape-263-p37.png" class="w-50" />
+  <img src="/images/slide-25-google-shape-264-p37.png" class="w-50" />
+  <img src="/images/slide-25-google-shape-265-p37.png" class="w-50" />
+</div>
+
+<!--
+Übergang: Impact einiger Individuen ist viel größer als der Durchschnitt! ➡ gezielte Arbeit an wichtigen Problemen.
+
+pressing problem (SNT) + scale of contribution. Stress: good news for anyone not aiming for a typical social impact job like doctor, teacher or charity worker — also more indirect routes to impact (e.g. earning to give). Stress: Your personal fit for the path. Ensures that you have fun, stick with it. Many fields: a small portion of people achieve the most outcome.
+-->
+
+---
+layout: center
+---
+
+# Careers tackling those problems
 
 ---
 layout: iframe-right
 url: "https://80000hours.org/career-reviews/"
+clicks: 5
 ---
 
 # Career Reviews
 
-<div class="flex flex-col items-center justify-center h-4/5 gap-6">
+<div v-if="$clicks < 1" class="flex flex-col items-center justify-center h-4/5 gap-6">
   <div class="bg-white p-2">
     <QRCode
       value="https://80000hours.org/career-reviews/"
@@ -697,6 +714,20 @@ url: "https://80000hours.org/career-reviews/"
     80000hours.org/career-reviews/
   </a>
 </div>
+
+<div v-if="$clicks >= 1" class="flex flex-col items-center justify-center h-4/5 gap-6">
+
+<v-clicks depth="2">
+
+- Choose careers addressing most pressing problems (AI safety, biosecurity, ...)
+- Personal fit matters, but you can make yourself fit
+  - via building career capital: build skills
+- Earning to give remains viable if direct work isn't suitable
+- Impact = path potential * your personal fit
+
+</v-clicks>
+
+</div>
 ---
 src: ./today.md
 ---
@@ -704,16 +735,17 @@ src: ./today.md
 layout: center
 ---
 
-# Skills to pursue
+# Skills to develop
 
 ---
 layout: iframe-right
 url: "https://80000hours.org/skills/"
+clicks: 5
 ---
 
 # Skills to Develop
 
-<div class="flex flex-col items-center justify-center h-4/5 gap-6">
+<div v-if="$clicks < 1" class="flex flex-col items-center justify-center h-4/5 gap-6">
   <div class="bg-white p-2">
     <QRCode
       value="https://80000hours.org/skills/"
@@ -726,25 +758,35 @@ url: "https://80000hours.org/skills/"
     80000hours.org/skills/
   </a>
 </div>
----
-layout: center
-class: text-center
----
 
-<div class="absolute inset-0 bg-[#2DBDD1]"></div>
-<h1 class="!text-white text-6xl relative z-10">Exercise #3</h1>
+<div v-if="$clicks >= 1" class="flex flex-col items-center justify-center h-4/5 gap-6">
 
-<!--
-Welche Berufe könntet ihr anstreben um die wichtigsten Probleme anzugehen, die ihr aber auch gerne ausüben würdet?
--->
+<v-clicks>
 
+- Policy & political skills
+- Organization-building: Making others more effective
+- Research
+- Communication: Mobilizing people
+- Software & tech
+
+</v-clicks>
+
+</div>
 ---
 
 # No matter your job, here's 3 evidence-based ways anyone can have a real impact..
 
-<img src="/images/slide-50-google-shape-513-p78.png" class="mx-auto h-90 mt-4" />
+<div class="mx-auto justify-center items-center flex mt-4 gap-12">
+  <QRCode
+    value="https://80000hours.org/career-guide/making-a-difference/"
+    :width="280"
+    :height="280"
+    color="#000000"
+  />
+  <img src="/images/slide-50-google-shape-513-p78.png" class="h-90"/>
+</div>
 
-<small>[Source](https://80000hours.org/career-guide/making-a-difference/)</small>
+<small>-> [https://80000hours.org/career-guide/making-a-difference/](https://80000hours.org/career-guide/making-a-difference/)</small>
 
 ---
 
@@ -767,55 +809,75 @@ Welche Berufe könntet ihr anstreben um die wichtigsten Probleme anzugehen, die 
 
 <div class="flex items-center justify-center gap-16 mt-16">
 <div class="text-center">
-<p class="text-3xl font-bold text-[#2DBDD1]">today</p>
-<p>Career Guide Part 1</p>
+<p v-click="1" class="text-3xl font-bold text-green-500">today</p>
 </div>
-<div class="text-4xl">→</div>
+<div v-click="2" class="text-4xl">-></div>
 <div class="text-center">
-<p class="text-3xl font-bold text-[#2DBDD1]">next session (20.05.)</p>
-<p>Career Guide Part 2</p>
+<p v-click="2" class="text-3xl font-bold text-red-500">next session (20.05.)</p>
 </div>
 </div>
 
----
+<div v-click="2" class="left-21 bottom-29 absolute border-8 border-red-500 size-34 z-10"></div>
+<div v-click="1" class="left-75 bottom-29 absolute border-8 border-green-500 size-34 z-10"></div>
+<div v-click="1" class="left-128 bottom-29 absolute border-8 border-green-500 size-34 z-10"></div>
+<div v-click="2" class="left-196 bottom-30 absolute border-8 border-red-500 size-34 z-10"></div>
 
-# „Every college grad should read this."
-
-<img src="/images/slide-53-google-shape-536-p81.png" class="mx-auto h-60 mt-4" />
-
-<small>[Source](https://80000hours.org/career-guide/)</small>
-
-<small>*Tim Urban, https://waitbutwhy.com*</small>
+<img src="/images/slide-23-google-shape-248-p15.png" class="absolute left-0 w-300 mt-8" />
 
 ---
+layout: iframe-right
+url: https://80000hours.org
+---
 
-<img src="/images/slide-54-google-shape-544-p82.png" class="mx-auto h-80" />
+# 80000 hours
+
+<div class="flex flex-col justify-start mt-30 h-full">
+<v-clicks>
+
+- Problem Areas
+- Career Reviews
+- Skills
+- Guide
+- Book
+- 1-on-1 Career Advising
+
+</v-clicks>
+</div>
+
+---
+layout: center
+---
+
+<div class="absolute inset-0 bg-[#2DBDD1]"></div>
+<h1 class="!text-white text-6xl relative z-10">Read an 80000 hours article of your choice (15 min)</h1>
+
+---
+layout: center
+---
+
+- 1-page summary: https://80000hours.org/career-guide/summary/
+
+- Happiness & Career: https://80000hours.org/career-guide/job-satisfaction/
+
+- Select one of the cause areas here: https://80000hours.org/problem-profiles/
+
+  (Overview: https://80000hours.org/career-guide/world-problems/)
+
+- Select on of the career paths / skills here: https://80000hours.org/skills/
+
+  (Overview: https://80000hours.org/career-guide/career-capital/)
 
 ---
 
-<img src="/images/slide-55-google-shape-549-p83.png" class="mx-auto h-80" />
+# Questions
+
+- What did you learn?
+- What did surprise you?
+- Is there anything you're gonna change now?
 
 ---
 
-# Or listen?
-
-<img src="/images/slide-56-google-shape-554-p84.png" class="mx-auto h-70" />
-
----
-
-# And ask?
-
-<img src="/images/slide-57-google-shape-561-p85.png" class="mx-auto h-70" />
-
----
-
-# Read an 80.000 Hours article of your choice
-
-<small>[Source](https://80000hours.org/career-guide/)</small>
-
----
-
-# Discussion Questions
+# Discussion Questions: After
 
 <v-clicks>
 

@@ -1,4 +1,3 @@
----
 # Today:
 
 <div class="mt-20 relative px-8">
