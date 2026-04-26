@@ -316,8 +316,23 @@ layout: two-cols
 
 # In summary, aim to..
 
-<p class="font-bold text-lg">..get good at something that helps others</p>
+<div class="absolute top-30 text-[38px] text-zinc-900">..<span class="font-bold">get good at something</span> that <span class="font-bold">helps others</span></div>
 
+<!-- horizontal curly brace 1, tip pointing up -->
+<div class="absolute top-48 left-25">
+<svg width="360" height="40" viewBox="0 0 360 40">
+<path d="M0,0 Q0,20 90,20 Q180,20 180,40 Q180,20 270,20 Q360,20 360,0" fill="none" stroke="currentColor" stroke-width="2"/>
+</svg>
+</div>
+
+<!-- horizontal curly brace 2, tip pointing up -->
+<div class="absolute top-48 right-38">
+<svg width="240" height="40" viewBox="0 0 240 40">
+<path d="M0,0 Q0,20 60,20 Q120,20 120,40 Q120,20 180,20 Q240,20 240,0" fill="none" stroke="currentColor" stroke-width="2"/>
+</svg>
+</div>
+
+<div class="mt-50">
 <p class="mt-4">better chance to control supportive conditions</p>
 
 - engaging work to enter state of flow
@@ -326,12 +341,11 @@ layout: two-cols
 - work fitting your personal life
 
 <small>[Source](https://80000hours.org/career-guide/job-satisfaction/)</small>
+</div>
 
 ::right::
 
-<div class="flex items-center justify-center h-full">
-<p class="text-xl text-center">find your work meaningful</p>
-</div>
+<p class="absolute top-65 right-40">find your work meaningful</p>
 
 <!--
 We highlight "get good" because if you find something you're good at that others value, you'll have plenty of career opportunities, which gives you the best chance of finding a dream job with all the other ingredients — engaging work, supportive colleagues, lack of major negatives, and fit with the rest of your life. You can have all the other five ingredients, however, and still find your work meaningless. So you need to find a way to help others too.
@@ -499,9 +513,25 @@ Let's now look on a few promising cause areas that we might choose to work on if
 -->
 
 ---
-layout: iframe
+layout: iframe-right
 url: "https://80000hours.org/problem-profiles/"
 ---
+
+# Problem Profiles
+
+<div class="flex flex-col items-center justify-center h-4/5 gap-6">
+  <div class="bg-white p-2">
+    <QRCode
+      value="https://80000hours.org/problem-profiles/"
+      :width="250"
+      :height="250"
+      color="#000000"
+    />
+  </div>
+  <a href="https://80000hours.org/problem-profiles/" target="_blank" class="text-sm break-all">
+    80000hours.org/problem-profiles/
+  </a>
+</div>
 
 ---
 src: ./today.md
@@ -648,9 +678,25 @@ src: ./today.md
 ---
 
 ---
-layout: iframe
+layout: iframe-right
 url: "https://80000hours.org/career-reviews/"
 ---
+
+# Career Reviews
+
+<div class="flex flex-col items-center justify-center h-4/5 gap-6">
+  <div class="bg-white p-2">
+    <QRCode
+      value="https://80000hours.org/career-reviews/"
+      :width="250"
+      :height="250"
+      color="#000000"
+    />
+  </div>
+  <a href="https://80000hours.org/career-reviews/" target="_blank" class="text-sm break-all">
+    80000hours.org/career-reviews/
+  </a>
+</div>
 ---
 src: ./today.md
 ---
@@ -661,9 +707,25 @@ layout: center
 # Skills to pursue
 
 ---
-layout: iframe
+layout: iframe-right
 url: "https://80000hours.org/skills/"
 ---
+
+# Skills to Develop
+
+<div class="flex flex-col items-center justify-center h-4/5 gap-6">
+  <div class="bg-white p-2">
+    <QRCode
+      value="https://80000hours.org/skills/"
+      :width="250"
+      :height="250"
+      color="#000000"
+    />
+  </div>
+  <a href="https://80000hours.org/skills/" target="_blank" class="text-sm break-all">
+    80000hours.org/skills/
+  </a>
+</div>
 ---
 
 # Exercise #3
