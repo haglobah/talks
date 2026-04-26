@@ -2,6 +2,7 @@
 theme: ./theme
 title: "Effective Altruism Career Guide — EA Tübingen 2026"
 transition: slide-left
+routerMode: hash
 duration: 35min
 layout: cover
 class: text-center
@@ -889,3 +890,5 @@ layout: center
 - Which high impact career paths could you imagine for yourself? Which not? Why?
 
 </v-clicks>
+
+---
