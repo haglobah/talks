@@ -13,6 +13,10 @@ What do the ideas from the Intro talk mean for my life?
 
 How to help others as best as I can?
 
+<!--
+Ultimately finding those pressing problems is great, because we then can actually do something about them — EA is about taking action. When I am faced with those huge problems though, it's difficult to see what I can actually do about them.. and where to start! Let's look at two answers EA has already found..
+-->
+
 <!-- --- -->
 
 <!-- # Structure Brainstorm -->
@@ -54,6 +58,10 @@ class: text-center
 
 <small>[Source: U.S. Bureau of Labor Statistics, American Time Use Survey (ATUS), 2024](https://www.bls.gov/charts/american-time-use/activity-by-emp.html)</small>
 
+<!--
+Maybe let people guess here ☺
+-->
+
 ---
 layout: center
 ---
@@ -64,6 +72,10 @@ layout: center
 <p class="text-xl">The most important ethical decision of your life.</p>
 <p class="text-2xl font-bold mt-2">Find a fulfilling career that does good!</p>
 </div>
+
+<!--
+Soon faced with decision what career to pursue — very important decision cause might be major driver of your happiness. What you might not have considered is that it is probably also the most important ethical decision of your life. You spend (around) 80.000 hours with your career = 40 hours/week × 50 weeks/year × 40 years. Most of us are privileged in our education & unless you happen to be born very rich: this is the biggest resource you have to help others.
+-->
 
 ---
 layout: two-cols
@@ -146,6 +158,12 @@ class: text-center
 
 <img src="/images/slide-5-google-shape-96-g2957b2aaab7-0-3.png" class="mx-auto h-100" />
 
+<!--
+Erklären: rechts sieht man wie glücklich/zufrieden die Menschen sagen, dass sie sind (subjektive Einschätzung). Unten ihr Haushaltseinkommen.
+
+Man sieht, dass mehr Geld ab einem gewissen Punkt nicht im gleichen Sinne mehr glücklich macht. Es gibt eine Saturation. Wenn jemand also sowieso schon 49 Mio. € hat, werden ihn eine Mio. mehr (also 50 Mio.) nicht viel glücklicher machen. Aber jemand, der nur 600€ im Monat zur Verfügung hat, kann 100€ mehr, weitaus mehr schätzen.
+-->
+
 ---
 class: text-center
 ---
@@ -155,6 +173,12 @@ class: text-center
 <img src="/images/slide-6-google-shape-102-p44.png" class="mx-auto h-80" />
 
 <small>[Source](https://80000hours.org/articles/money-and-happiness/)</small>
+
+<!--
+Erklären: rechts sieht man wie glücklich/zufrieden die Menschen sagen, dass sie sind (subjektive Einschätzung). Unten ihr Haushaltseinkommen.
+
+Man sieht, dass mehr Geld ab einem gewissen Punkt nicht im gleichen Sinne mehr glücklich macht. Es gibt eine Saturation. Wenn jemand also sowieso schon 49 Mio. € hat, werden ihn eine Mio. mehr (also 50 Mio.) nicht viel glücklicher machen. Aber jemand, der nur 600€ im Monat zur Verfügung hat, kann 100€ mehr, weitaus mehr schätzen.
+-->
 
 ---
 class: text-center
@@ -166,6 +190,10 @@ class: text-center
 
 <small>[Source](https://80000hours.org/2016/02/should-you-look-for-a-low-stress-job/)</small>
 
+<!--
+Wenn die Anforderungen zu gering für deine Fähigkeiten sind, wird es langweilig. Wenn die Anforderungen aber deine Fähigkeiten übersteigen, ist das auch nicht gut. Das richtige Mittelmaß ist gesucht, in dem Fähigkeiten und Anforderungen aufeinander abgestimmt sind (zueinander passen) um unter optimalen Bedingungen arbeiten zu können.
+-->
+
 ---
 class: text-center
 ---
@@ -175,6 +203,10 @@ class: text-center
 <img src="/images/slide-8-google-shape-117-p7.png" class="mx-auto h-90" />
 
 <small>Source: Google Ngram</small>
+
+<!--
+Hier kann man sehen, dass die Phrase "Folge deiner Leidenschaft" (bzw. "Follow your passion" im engl.) in den letzten 20 Jahren vermehrt genutzt wird. Wenn ihr euch aber überlegt, was eure Leidenschaft ist und wie der Beruf dazu aussieht...
+-->
 
 ---
 layout: two-cols
@@ -196,6 +228,10 @@ layout: two-cols
 ::right::
 
 <img src="/images/slide-9-google-shape-122-p61.png" class="h-full max-h-80 mx-auto mt-12" />
+
+<!--
+If a basketball fan gets a job involving basketball, but works with people they hate, receives unfair pay, or finds the work meaningless, they are still going to dislike their job.
+-->
 
 ---
 layout: two-cols
@@ -233,6 +269,12 @@ layout: two-cols
 
 <p class="text-sm text-[#2DBDD1] font-bold ml-20 mt-2">80.000 hours = dots</p>
 
+<!--
+Etwa 80.000 Stunden im Beruf → einige Stunden damit verbringen, wie wir diese am besten einsetzen können.
+
+Each dot illustrates one of the 80,000 hours in your career. If you could make your career just 1% more impactful, or 1% more enjoyable, it would be worth spending up to 1% of your career figuring out how to do so. That would be five months of full-time work — or 800 hours. Fortunately, this guide only takes about four.
+-->
+
 ---
 
 # What actually makes a career fulfilling:
@@ -252,7 +294,21 @@ layout: two-cols
 
 <small v-click="before">[Source](https://80000hours.org/career-guide/job-satisfaction/)</small>
 
+<!--
+What to look for (according to the best evidence, mostly correlative studies from Positive Psychology):
 
+Engaging work that lets you enter a state of flow: 4 main factors correlate — freedom to decide how to perform your work, clear tasks with a clearly defined start and end, variety in the types of tasks, feedback so you know how well you're doing.
+
+Work that is meaningful, e.g. helps others. People with a "giving mindset" end up among the most successful — both because they get more help, and because they're more motivated by a sense of purpose. One caveat: givers also end up unsuccessful if they focus too much on others and burn out.
+
+Work you're good at: skill trumps interest due to the sense of achievement and power to negotiate other components of a fulfilling job.
+
+Supportive colleagues: will you be able to make friends? Does the culture make it easy to get help, get feedback, and work together?
+
+No major negatives: often overlooked, but their negativity can often outweigh many positive factors (long commutes, very long hours, unfair pay, job insecurity).
+
+A job that fits your personal life: don't need all ingredients above, may also be fulfilled in rest of life.
+-->
 
 ---
 layout: two-cols
@@ -277,6 +333,10 @@ layout: two-cols
 <p class="text-xl text-center">find your work meaningful</p>
 </div>
 
+<!--
+We highlight "get good" because if you find something you're good at that others value, you'll have plenty of career opportunities, which gives you the best chance of finding a dream job with all the other ingredients — engaging work, supportive colleagues, lack of major negatives, and fit with the rest of your life. You can have all the other five ingredients, however, and still find your work meaningless. So you need to find a way to help others too.
+-->
+
 ---
 layout: center
 class: text-center
@@ -284,6 +344,10 @@ class: text-center
 
 <div class="absolute inset-0 bg-[#2DBDD1]"></div>
 <h1 class="!text-white text-6xl relative z-10">Exercise: Utopia</h1>
+
+<!--
+Rate some plausible jobs you might take in the medium term (5-15 years) on the predictors of job satisfaction from 1 (low satisfaction) to 10 (high satisfaction). The idea here is just to apply the research to options you're considering. There's space to customise the predictors and add your own.
+-->
 
 ---
 layout: two-cols
@@ -304,6 +368,16 @@ class: text-center
 
 <small>[Source](https://80000hours.org/career-guide/can-one-person-make-a-difference/)</small>
 
+<!--
+[Nachtrag von Max: Warum ein Arzt überraschenderweise nur 4 Leben rettet, sollte gut verständlich erklärt werden.]
+
+Arzt als Klischee-Beispiel für ethische Karriere → man rettet Leben & hilft Menschen gesund zu werden. Aber: Was ist tatsächlich der kontrafaktische soziale Impact?
+
+Researchers largely agree that medicine has only increased average life expectancy by a few years. Most gains in life expectancy over the last 100 years have instead occurred due to better nutrition, improved sanitation, increased wealth, and other factors. Doctors are only one part of the medical system. Most importantly, there are already a lot of doctors in the developed world, so if you don't become a doctor, someone else will be available to perform the most critical procedures.
+
+Zwei Möglichkeiten sozialen Impact zu "generieren": Wir können uns vorstellen: wir können entweder vielen Menschen ein bisschen mehr helfen oder wenigen Menschen dafür so, dass es ihnen umso besser geht.
+-->
+
 ---
 
 <img src="/images/slide-17-google-shape-187-p17.png" class="absolute left-1/2 -translate-x-1/2 top-20 h-110 z-0" />
@@ -311,12 +385,20 @@ class: text-center
 <img src="/images/slide-17-google-shape-189-p17.png" class="h-50 mt-4 absolute bottom-40 right-40" />
 <p class="absolute font-bold bottom-20 right-50">gave diarrhoea patients water <br/> mixed with salt and sugar</p>
 
+<!--
+Dr. Nalin. Arbeitete in Bangladesh und Burma. Millionen Tote durch Durchfallerkrankungen durch Dehydratisierung. Rehydratisierungs-Getränk aus Wasser, Zucker und Salz. Geschätzt 500.000 gerettete Leben. 100.000x Impact eines Arztes.
+-->
+
 ---
 
 <img src="/images/slide-18-google-shape-195-p18.png" class="absolute left-1/2 -translate-x-1/2 top-20 h-110 z-0" />
 
 <img src="/images/slide-18-google-shape-196-p18.png" class="h-40 mt-4 absolute bottom-40 left-50" />
 <p class="absolute font-bold top-40 left-50">discovered blood groups <br/> enabling blood transfusions</p>
+
+<!--
+Dr. Karl Landsteiner. Entdeckung von Blutgruppen. Wichtig für Bluttransfusionen. Wahrscheinlich ca. 10 Millionen Leben gerettet.
+-->
 
 ---
 
@@ -330,6 +412,10 @@ class: text-center
 </div>
 <small>[Source](https://www.bbc.com/news/in-pictures-53648572)</small>
 </div>
+
+<!--
+Stanislav Petrov, Sovietischer Oberstleutenant. Fehlalarm der russischen Raketenfrüherkennung. Als Fehlalarm erkannt und nicht blind Befehlen zur Auslösung atomaren Rückschlags gefolgt. Wahrscheinlich hunderte Millionen Leben gerettet, alle damals lebenden und zukünftige Generationen.
+-->
 
 ---
 
@@ -362,6 +448,14 @@ class: text-center
 
 <small>[Source](https://effektiveraltruismus.de/menschen/)</small>
 
+<!--
+Sarah: Kulturmanagement-Studiums in Hamburg, Intro Program, Lokal EA Group, leite nun seit 1-3 Jahren Effektiver Altruismus Deutschland e. V. EAG Berlin Orga, EA Intro Program, EA Retreats, Community Builder support, Spende etwa 10% meines Einkommens.
+
+Sebastian: VWL Studium, Evaluierungsabteilung der KfW Entwicklungsbank → disappointed of superficial evaluations. Learned about GiveWell and Effective Altruism via Peter Singer. Founded (10 years much later, but community helped him to keep with it) effektiv-spenden.de. 110 Mio. Euro von mehr als 35.000 Spendern.
+
+Many other people from Tübingen started effective careers in policy, NGOs and research, e.g. AI safety.
+-->
+
 ---
 
 # Why to find a fulfilling career that does good?
@@ -372,6 +466,12 @@ class: text-center
   - 10x - 1000x more impact than average is possible
 - We are living in very unusual times!
   - This could be our chance to influence the course of some of the most important problems
+
+<!--
+The first answer: find a fulfilling career that also does good! Well worth to spend some of these 80,000 hours working out how to do good → 80000hours. Different career impacts can show a heavy tailed distribution again! Some career paths open to you likely have 10 or 100 or even 1,000 times more impact than others.
+
+We live in unusual times: pace of progress since industrial revolution leads to lots of problems but also lots of potential for an individual. Our generation can: destroy the climate or build a sustainable economy; continue to expand factory farming, or eradicate it; allow technologies like nuclear weapons or AI to end civilisation, or usher in a future better than we can easily imagine.
+-->
 
 ---
 class: text-center
@@ -393,6 +493,10 @@ layout: center
 <!-- <div v-click> -->
 <!-- Pick one problem area article to read -->
 <!-- </div> -->
+
+<!--
+Let's now look on a few promising cause areas that we might choose to work on if we want to do the most good, based on the core values of EA and the SNT Framework. I won't go much into detail here, we will have time to dive deeper in our future events…
+-->
 
 ---
 layout: iframe
@@ -433,6 +537,11 @@ layout: two-cols
   <img src="/images/slide-25-google-shape-265-p37.png" class="w-50" />
 </div>
 
+<!--
+Übergang: Impact einiger Individuen ist viel größer als der Durchschnitt! ➡ gezielte Arbeit an wichtigen Problemen.
+
+pressing problem (SNT) + scale of contribution. Stress: good news for anyone not aiming for a typical social impact job like doctor, teacher or charity worker — also more indirect routes to impact (e.g. earning to give). Stress: Your personal fit for the path. Ensures that you have fun, stick with it. Many fields: a small portion of people achieve the most outcome.
+-->
 
 ---
 
@@ -446,6 +555,10 @@ layout: two-cols
 
 <small>[Source](https://80000hours.org/career-guide/)</small>
 
+<!--
+Cause neutrality: When I talk about causes I mean certain problem areas. When thinking about whom to help, many people already feel committed to a particular cause, like climate change, educational inequality or medical research. EA follows a different approach: We think that instead of committing to a cause beforehand out of personal attachment, we should look, with an open mindset, at all the opportunities available to do good across a wide variety of causes. This approach allows us to find high impact opportunities to do good that we might have missed out otherwise.
+-->
+
 ---
 
 # Cause Prioritisation
@@ -455,6 +568,14 @@ layout: two-cols
 <blockquote class="text-center italic mt-8">
 "We are always in triage. I fervently hope that one day we will be able to save everyone. In the meantime, it is irresponsible to pretend that we aren't making life and death decisions with the allocation of our resources. Pretending there is no choice only makes our decisions worse."
 </blockquote>
+
+<!--
+This goes along with another core principle of EA: Cause prioritization. Because we are not already committed to one particular cause, we are engaged in doing careful thinking & research to compare different causes, figure out how much good you can do through each and focus to work on the causes that offer the best opportunities for doing good.
+
+And you might think that cause prioritization seems pretty cold or unfair: Should we not treat causes equally, don't all causes deserve some support? When we actively decide which causes we want to work on, we also have to accept the fact that we cannot solve all problems and this feels like we are leaving some people behind. But fact is: in a world in which we have lots of problems and only limited resources, we need to prioritize some causes over others — not because other causes aren't important, but simply because some causes and interventions support people far more effectively than others.
+
+We can compare this with the concept of triage that you might be familiar with since Covid.
+-->
 
 ---
 
@@ -478,6 +599,16 @@ layout: two-cols
 </div>
 </div>
 
+<!--
+An important concept of EA is the idea of expanding our moral circle of concern. Most people naturally care a lot about friends and family, or local community, or those living in our own country. This is perhaps unsurprising because the issues affecting your community are much more visible to you.
+
+But do the lives of people half across the world matter any less than those of the people close to us? Probably not. If we take a perspective where we value people equally and try to include all humans in our circle of caring, we will realize that many global issues affect many more people much more severely and are much easier to tackle.
+
+Taking this one step further: Are humans the only species worthy of moral concern? There is evidence that many species of animals are very likely conscious and can experience pain, and current practices within animal farming are likely to cause extreme suffering.
+
+And lastly, if you think we should give everyone's interest equal weight no matter WHERE someone lives, perhaps it also does not matter WHEN someone lives. Just because people are born in the future does not make their experiences any less real or important. Our actions today could affect the lives of many future generations.
+-->
+
 ---
 
 # SNT-Framework
@@ -500,14 +631,21 @@ layout: two-cols
 </div>
 </div>
 
+<!--
+Finally I want to give you a framework for figuring out which causes offer great opportunities to do good: the SNT framework. It's a very simple but surprisingly useful tool to compare problems in the world using three criteria: Scale, Neglectedness, and Tractability.
+
+Scale refers to how big a problem is, so how many people the problem affects, and how bad it is to be affected by it as well as how much good could we do if we solved it. It is especially important to pay attention to the scale of our actions because our intuition is actually very bad at assessing differences in scale. One study found that people were willing to pay about the same amount of money to save 2,000 birds from oil spills as they were to save 200,000 birds (Scope neglect).
+
+Neglectedness means how much effort is directed towards working on solving the problem already. In general, if there's lots of time and money already being spent on solving a problem, then adding more effort towards it doesn't help as much as adding some effort towards a problem that almost nobody is working on. Example: pandemic prevention was very neglected; cancer research is not neglected.
+
+Tractability, or how easy the problem is to solve. A problem is more tractable if an extra person working on it could make a lot of progress towards solving it. Example: premature death from malaria is tractable; inventing time travel is intractable.
+
+All in all, if a problem has a large scale, is neglected, and is tractable, it seems like we'll do a lot more good working on it.
+-->
+
 ---
 src: ./today.md
 ---
----
-layout: center
----
-
-# Careers tackling those problems
 
 ---
 layout: iframe
@@ -529,6 +667,10 @@ url: "https://80000hours.org/skills/"
 ---
 
 # Exercise #3
+
+<!--
+Welche Berufe könntet ihr anstreben um die wichtigsten Probleme anzugehen, die ihr aber auch gerne ausüben würdet?
+-->
 
 ---
 
@@ -609,9 +751,13 @@ url: "https://80000hours.org/skills/"
 
 # Discussion Questions
 
+<v-clicks>
+
 - Did you change your belief about something? Why, or why not?
 - What makes for a fulfilling job in your experience? Anything you would like to change, add or look up more about the presented evidence? Why / why not?
 - Reflect on your moral circle. What could that mean for your career decisions?
 - What do you think about the SNT (scale -- neglectedness -- tractability) framework? Do you think there is something missing?
 - What does your gut feeling tell you what the most pressing problems of our time are? Reflect together what causes that intuition, and in how far this intuition holds under scrutiny.
 - Which high impact career paths could you imagine for yourself? Which not? Why?
+
+</v-clicks>
