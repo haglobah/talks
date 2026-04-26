@@ -146,9 +146,9 @@ layout: two-cols
 class: text-center
 ---
 
-# What makes a career „fullfilling"?
+# What makes a career „fulfilling"?
 
-<img src="/images/slide-4-google-shape-90-p43.png" class="mx-auto h-60 mt-8" />
+<img src="/images/slide-4-google-shape-90-p43.png" class="mx-auto h-100 mt-8" />
 
 ---
 class: text-center
