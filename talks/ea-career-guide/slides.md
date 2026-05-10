@@ -622,6 +622,7 @@ All in all, if a problem has a large scale, is neglected, and is tractable, it s
 ---
 layout: iframe-right
 url: "https://80000hours.org/problem-profiles/"
+scale: 0.8
 clicks: 3
 ---
 
@@ -697,6 +698,7 @@ layout: center
 ---
 layout: iframe-right
 url: "https://80000hours.org/career-reviews/"
+scale: 0.8
 clicks: 5
 ---
 
@@ -741,6 +743,7 @@ layout: center
 ---
 layout: iframe-right
 url: "https://80000hours.org/skills/"
+scale: 0.8
 clicks: 5
 ---
 
@@ -828,6 +831,7 @@ clicks: 5
 ---
 layout: iframe-right
 url: https://80000hours.org
+scale: 0.8
 ---
 
 # 80000 hours
