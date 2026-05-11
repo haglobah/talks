@@ -43,6 +43,7 @@
             just
             nodejs_22
             pnpm
+            act
           ];
         };
       };
