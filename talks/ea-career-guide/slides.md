@@ -896,14 +896,169 @@ layout: center
 </v-clicks>
 
 ---
+layout: cover
+class: text-center
+---
+
+# Career Planning, Part 2: <br> Life Design & Workshop
+
+---
+class: text-center
+---
+
+# Link to Slides
+
+<div class="bg-white max-w-min my-10 mx-auto">
+  <QRCode
+    value="https://haglobah.github.io/talks/ea-career-guide/#/48"
+    :width="400"
+    :height="400"
+    color="#000000"
+  />
+</div>
+
+---
+layout: default
+---
+
+# Roadmap
+
+<div class="flex items-center justify-center gap-16 mt-16">
+<div class="text-center">
+<p v-click="1" class="text-3xl font-bold text-red-500">last session</p>
+</div>
+<div v-click="2" class="text-4xl">-></div>
+<div class="text-center">
+<p v-click="2" class="text-3xl font-bold text-green-500">today</p>
+</div>
+</div>
+
+<div v-click="2" class="left-21 bottom-29 absolute border-8 border-green-500 size-34 z-10"></div>
+<div v-click="1" class="left-75 bottom-29 absolute border-8 border-red-500 size-34 z-10"></div>
+<div v-click="1" class="left-128 bottom-29 absolute border-8 border-red-500 size-34 z-10"></div>
+<div v-click="2" class="left-196 bottom-29 absolute border-8 border-green-500 size-34 z-10"></div>
+
+<img src="/images/slide-23-google-shape-248-p15.png" class="absolute left-0 w-300 mt-8" />
+
+---
+
+# Today:
+
+<div class="mt-20 relative px-8">
+  <div class="flex justify-between text-[#2DBDD1] text-lg font-bold mb-6">
+    <span>You are here</span>
+    <span>Where to go next</span>
+    <span>Where to end up</span>
+  </div>
+
+  <!-- Arrow label -->
+  <div class="absolute left-8 -top-12">
+    <div class="bg-[#2DBDD1] text-white font-bold px-4 py-1 text-sm inline-flex items-center gap-2">
+      This way <span class="text-xl">&#x25B6;</span>
+    </div>
+  </div>
+
+  <!-- Timeline line -->
+  <div class="relative h-4 flex items-center">
+    <div class="absolute inset-x-0 h-1 bg-[#2DBDD1] rounded-full"></div>
+    <div class="absolute left-0 w-4 h-4 bg-[#2DBDD1] rounded-full -translate-x-1/2"></div>
+    <div class="absolute left-[33%] w-4 h-4 bg-[#2DBDD1] rounded-full -translate-x-1/2"></div>
+    <div class="absolute left-[66%] w-4 h-4 bg-[#2DBDD1] rounded-full -translate-x-1/2"></div>
+    <div class="absolute left-[93%] w-4 h-4 bg-[#2DBDD1] rounded-full -translate-x-1/2"></div>
+  </div>
+
+  <!-- Labels below -->
+  <div class="relative h-32 mt-6 text-lg text-lg">
+    <span v-click="1" class="absolute left-0 top-2">1. Warm up: Life Gauges</span>
+    <span v-click="4" class="absolute left-[33%] -translate-x-1/2 top-16">4. Learnings and prototypes</span>
+    <span v-click="2" class="absolute left-[66%] -translate-x-1/2 top-2">2. Career capital</span>
+    <span v-click="3" class="absolute left-[82%] top-2">3. A,B,Z life plans</span>
+  </div>
+</div>
+
+---
+layout: two-cols
+---
+
+# 1. Life Gauges
+
+Check in with yourself:
+
+- How much does work fulfill you?
+- What about your health?
+- How much connectedness do you feel in your life?
+- To what extent are you having just plain, actual fun?
+
+::right::
+
+<div class="absolute top-50 right-30">
+  <Clock time="15:00" />
+</div>
+
+---
+src: ./second-day.md
+---
+
+---
+layout: iframe-right
+url: https://80000hours.org/skills/
+---
+
+# 2. Skills to pursue: Building Career Capital
+
+Go on the 80k website, read through the useful skills, and pick two that would suit you best.
+
+<div class="absolute top-50 left-10">
+  <Clock time="15:00" />
+</div>
+
+---
+src: ./second-day.md
+---
+
+---
+
+# 3. 5-year plans
+
+With everything from last session in mind, think 5 years into the future:
+
+- Plan A: The path you'd most like to be on (be ambitious!)
+- Plan B: What you would do if A doesn't work out
+- Plan C: What you would do if both A and B don't work out
+... (as many as you like)
+- Plan Z: The safe option if everything else fails
+
+Make at least an A, B and a Z plan.
+
+<div class="absolute top-10 left-1/2 -translate-x-1/2">
+  <Clock time="30:00" />
+</div>
+
+<div class="absolute top-10 left-1/2 -translate-x-1/2">
+  <Clock time="15:00" />
+</div>
+
+---
+src: ./second-day.md
+---
+
+---
+
+# 4. Next steps
+
+- What are the key uncertainties in your plans?
+- What of these could you test right now? How?
+- What would you need for that?
+
+<div class="absolute top-10 left-1/2 -translate-x-1/2">
+  <Clock time="15:00" />
+</div>
+
+---
 
 https://80000hours.org/career-guide/personal-fit/
 https://80000hours.org/career-guide/how-to-be-successful/
 https://80000hours.org/career-guide/career-planning/
 https://docs.google.com/document/d/19ed49kECc1NAWRtLsSyGD-cqfHOQ4-ArUX6iAJ4Kpvk/edit?tab=t.0#heading=h.wthoar4ducf7
-
-1. Warm up: Life gauges
-2. ABZ life plans
-3. Learnings and prototypes
 
 Where to go next: Career planning with the guide
