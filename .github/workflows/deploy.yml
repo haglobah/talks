@@ -15,6 +15,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11
       - uses: actions/setup-node@v4
         with:
           node-version: 'lts/*'
@@ -43,11 +46,7 @@ jobs:
               echo "Current directory: $(pwd)"
               echo "Contents of current directory:"
               ls -la
-              if [ -f pnpm-lock.yaml ]; then
-                npx --yes pnpm install --frozen-lockfile --shamefully-hoist
-              else
-                nci
-              fi
+              nci
               echo "Contents after nci:"
               ls -la
               echo "Running build command..."
