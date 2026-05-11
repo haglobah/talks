@@ -900,7 +900,7 @@ layout: cover
 class: text-center
 ---
 
-# Career Planning, Part 2: <br> Life Design & Workshop
+# Career Planning, Part 2: <br> Life Design Workshop
 
 ---
 class: text-center
@@ -1002,13 +1002,14 @@ src: ./second-day.md
 ---
 layout: iframe-right
 url: https://80000hours.org/skills/
+scale: 0.8
 ---
 
 # 2. Skills to pursue: Building Career Capital
 
 Go on the 80k website, read through the useful skills, and pick two that would suit you best.
 
-<div class="absolute top-50 left-10">
+<div class="absolute bottom-10 left-1/4 -translate-x-1/2">
   <Clock time="15:00" />
 </div>
 
@@ -1030,11 +1031,13 @@ With everything from last session in mind, think 5 years into the future:
 
 Make at least an A, B and a Z plan.
 
-<div class="absolute top-10 left-1/2 -translate-x-1/2">
+<div class="absolute text-center flex flex-col gap-2 bottom-10 left-1/4 -translate-x-1/2">
+  Solo:
   <Clock time="30:00" />
 </div>
 
-<div class="absolute top-10 left-1/2 -translate-x-1/2">
+<div class="absolute text-center flex flex-col gap-2 bottom-10 left-3/4 -translate-x-1/2">
+  In groups of two:
   <Clock time="15:00" />
 </div>
 
@@ -1044,21 +1047,25 @@ src: ./second-day.md
 
 ---
 
-# 4. Next steps
+# 4. Next steps: Learnings and Prototypes
 
 - What are the key uncertainties in your plans?
+- Which skills are you going to develop over the next three months?
 - What of these could you test right now? How?
 - What would you need for that?
 
-<div class="absolute top-10 left-1/2 -translate-x-1/2">
+<div class="absolute bottom-10 left-1/2 -translate-x-1/2">
   <Clock time="15:00" />
 </div>
 
 ---
+layout: center
+---
 
-https://80000hours.org/career-guide/personal-fit/
-https://80000hours.org/career-guide/how-to-be-successful/
-https://80000hours.org/career-guide/career-planning/
-https://docs.google.com/document/d/19ed49kECc1NAWRtLsSyGD-cqfHOQ4-ArUX6iAJ4Kpvk/edit?tab=t.0#heading=h.wthoar4ducf7
+# Resources
 
-Where to go next: Career planning with the guide
+- [Home - Designing Your Life](https://designingyour.life)
+- [The evidence on how to find the right career for you - 80,000 Hours](https://80000hours.org/career-guide/personal-fit/)
+- [How to be more successful (an evidence-based guide) | 80,000 Hours](https://80000hours.org/career-guide/how-to-be-successful/)
+- [How to do career planning properly - 80,000 Hours](https://80000hours.org/career-guide/career-planning/)
+- [80,000 Hours - Career guide - Career planning template [PUBLIC] - Google Docs](https://docs.google.com/document/d/19ed49kECc1NAWRtLsSyGD-cqfHOQ4-ArUX6iAJ4Kpvk/edit?tab=t.0#heading=h.wthoar4ducf7)
