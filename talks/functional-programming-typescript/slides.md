@@ -5,6 +5,7 @@ info: |
 
 author: Beat Hagenlocher
 class: text-center
+routerMode: hash
 fonts:
   sans: "Fira Sans"
   mono: "Fira Code"
