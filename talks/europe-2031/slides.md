@@ -38,7 +38,20 @@ Speaker notes: introduce premise, point to europe2031.ai as source.
     { label: '<- more than that', click: 4 },
     { label: 'extinction', click: 5 },
   ]"
+  :highlights="[
+    { click: [6, 7],   indices: [3] },
+    { click: [7, 8],   indices: [2] },
+    { click: [8, 9],   indices: [0, 1] },
+    { click: [9, 10],  indices: [0, 1, 2] },
+    { click: [10, 11], indices: [0, 1] },
+    { click: [11, 12], indices: [0, 1] },
+    { click: [12, 13], indices: [0, 1, 2] },
+    { click: [13, 14], indices: [0, 1, 4] },
+    { click: [14, 15], indices: [0, 1, 2] },
+  ]"
 />
+
+<v-clicks at="6">
 
 - agrarian revolution
 - industrial revolution
@@ -49,6 +62,8 @@ Speaker notes: introduce premise, point to europe2031.ai as source.
 - cars
 - nuclear
 - internet
+
+</v-clicks>
 
 ---
 

@@ -14,16 +14,23 @@ interface TopLabel {
   click?: number | string
 }
 
+interface Highlight {
+  click?: number | string | (number | string)[]
+  indices: number[]
+}
+
 const props = withDefaults(
   defineProps<{
     stops: Stop[]
     direction?: 'left' | 'right'
     topLabels?: TopLabel[]
+    highlights?: Highlight[]
     arrowLabel?: string
   }>(),
   {
     direction: 'left',
     topLabels: () => [],
+    highlights: () => [],
   },
 )
 
@@ -37,11 +44,37 @@ function distribute<T extends { position?: string }>(items: T[]) {
 
 const distributed = computed(() => distribute(props.stops))
 const distributedTop = computed(() => distribute(props.topLabels))
+
+const highlightPositions = computed(() => {
+  const top = distributedTop.value
+  const result: { click: Highlight['click']; label: string; style: Record<string, string> }[] = []
+  for (const h of props.highlights) {
+    for (const i of h.indices) {
+      const t = top[i]
+      if (!t) continue
+      result.push({
+        click: h.click,
+        label: t.label,
+        style: { left: t.pos },
+      })
+    }
+  }
+  return result
+})
 </script>
 
 <template>
   <div class="arrow-bar">
     <div v-if="distributedTop.length" class="top-labels">
+      <div
+        v-for="(h, i) in highlightPositions"
+        :key="`hl-${i}`"
+        v-click="h.click"
+        class="top-highlight"
+        :style="h.style"
+      >
+        <span class="top-highlight-ghost">{{ h.label }}</span>
+      </div>
       <span
         v-for="(t, i) in distributedTop"
         :key="`top-${i}`"
@@ -115,6 +148,29 @@ const distributedTop = computed(() => distribute(props.topLabels))
   top: 0;
   transform: translateX(-50%);
   white-space: nowrap;
+  z-index: 1;
+}
+
+.top-highlight {
+  position: absolute;
+  top: -0.3rem;
+  transform: translateX(-50%);
+  padding: 0.25rem 0.6rem;
+  border: 1.5px dashed var(--arrow-accent);
+  border-radius: 0.5rem;
+  background: color-mix(in srgb, var(--arrow-accent) 12%, transparent);
+  pointer-events: none;
+  box-sizing: content-box;
+}
+
+.top-highlight-ghost {
+  display: block;
+  font-family: 'PT Mono', ui-monospace, monospace;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  white-space: nowrap;
+  visibility: hidden;
 }
 
 .arrow-label {
