@@ -1,6 +1,6 @@
 ---
 theme: ./theme
-title: "Europe 2031 — A Five-Year Scenario"
+title: "Europe 2031"
 transition: slide-left
 routerMode: hash
 duration: 30min
@@ -9,30 +9,46 @@ layout: cover
 
 # Europe <span class="accent">2031</span>
 
-A five-year scenario for transformative AI on the continent.
+What getting AI wrong means for us
 
 <!--
 Speaker notes: introduce premise, point to europe2031.ai as source.
 -->
-
----
-layout: intro
 ---
 
-# Today
+# Summary
+
+## <span v-click="1">We're in an industrial revolution.</span> <span v-click="2">Access to frontier models is going to provide massive economic advantages (or at least prevent massive economic disadvantages).</span> <span v-click="3">Since we're in a compute constrained scenario, the US has massive incentives to use their compute for their own frontier model access.</span> <span v-click="4">We can improve our cards by a lot by <em>also</em> having lots of compute available compared to the US.</span> <span v-click="5">We should build compute, now.</span>
+
+---
 
 <ArrowBar
   :stops="[
-    { label: 'Where we are now', click: 1 },
-    { label: 'The 2026 inflection', click: 2 },
-    { label: 'Power consolidation', click: 3, below: true },
-    { label: 'Geopolitical break', click: 4 },
-    { label: 'Where Europe lands in 2031', click: 5 },
+    { label: '', click: 5 },
+    { label: '', click: 5 },
+    { label: '', click: 5 },
+    { label: '', click: 5 },
+    { label: '', click: 5 },
   ]"
   direction="left"
-  :topLabels="['Today', 'Five-year horizon']"
-  arrowLabel="This way"
+  :topLabels="[
+    { label: 'Bubble', click: 1 },
+    { label: 'Infrastructure Buildout', click: 2 },
+    { label: 'Industrial Revolution', click: 3 },
+    { label: '<- more than that', click: 4 },
+    { label: 'extinction', click: 5 },
+  ]"
 />
+
+- agrarian revolution
+- industrial revolution
+- railway
+- electricity
+- telegraf
+- phone lines
+- cars
+- nuclear
+- internet
 
 ---
 

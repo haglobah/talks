@@ -17,7 +17,7 @@
 
 .europe-brand {
   position: absolute;
-  top: 1.25rem;
+  bottom: 1.25rem;
   right: 1.5rem;
   width: 140px;
   height: auto;

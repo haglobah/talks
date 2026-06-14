@@ -8,43 +8,61 @@ interface Stop {
   below?: boolean
 }
 
+interface TopLabel {
+  label: string
+  position?: string
+  click?: number | string
+}
+
 const props = withDefaults(
   defineProps<{
     stops: Stop[]
     direction?: 'left' | 'right'
-    topLabels?: string[]
+    topLabels?: TopLabel[]
     arrowLabel?: string
   }>(),
   {
     direction: 'left',
     topLabels: () => [],
-    arrowLabel: 'This way',
   },
 )
 
-const distributed = computed(() => {
-  const n = props.stops.length
-  return props.stops.map((s, i) => ({
+function distribute<T extends { position?: string }>(items: T[]) {
+  const n = items.length
+  return items.map((s, i) => ({
     ...s,
     pos: s.position ?? `${(i / Math.max(n - 1, 1)) * 100}%`,
   }))
-})
+}
+
+const distributed = computed(() => distribute(props.stops))
+const distributedTop = computed(() => distribute(props.topLabels))
 </script>
 
 <template>
   <div class="arrow-bar">
-    <div v-if="topLabels.length" class="top-labels">
-      <span v-for="(l, i) in topLabels" :key="i">{{ l }}</span>
+    <div v-if="distributedTop.length" class="top-labels">
+      <span
+        v-for="(t, i) in distributedTop"
+        :key="`top-${i}`"
+        v-click="t.click"
+        class="top-label"
+        :style="{ left: t.pos }"
+      >
+        {{ t.label }}
+      </span>
     </div>
 
-    <div class="arrow-label" :class="direction === 'left' ? 'is-right' : 'is-left'">
-      <template v-if="direction === 'left'">
-        <span class="chev">&#x25C0;</span> {{ arrowLabel }}
-      </template>
-      <template v-else>
-        {{ arrowLabel }} <span class="chev">&#x25B6;</span>
-      </template>
-    </div>
+    <template v-if="arrowLabel !== undefined">
+      <div class="arrow-label" :class="direction === 'left' ? 'is-right' : 'is-left'">
+        <template v-if="direction === 'left'">
+          <span class="chev">&#x2190;</span><span class="arrow-text">{{ arrowLabel }}</span>
+        </template>
+        <template v-else>
+          <span class="arrow-text">{{ arrowLabel }}</span><span class="chev">&#x2192;</span>
+        </template>
+      </div>
+    </template>
 
     <div class="line-wrap">
       <div class="line" />
@@ -73,48 +91,64 @@ const distributed = computed(() => {
 
 <style scoped>
 .arrow-bar {
-  --arrow-color: var(--blue-700);
+  --arrow-rule: var(--rule);
+  --arrow-accent: var(--blue-700);
+  --arrow-mute: var(--ink-soft);
   position: relative;
-  margin-top: 5rem;
-  padding: 0 2rem;
+  margin-top: 4rem;
+  padding: 0 1rem;
 }
 
 .top-labels {
-  display: flex;
-  justify-content: space-between;
-  color: var(--arrow-color);
-  font-weight: 700;
-  font-size: 1.125rem;
-  letter-spacing: -0.01em;
-  margin-bottom: 1.5rem;
+  position: relative;
+  height: 1rem;
+  margin-bottom: 1.75rem;
+  font-family: 'PT Mono', ui-monospace, monospace;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  color: var(--arrow-mute);
+}
+
+.top-label {
+  position: absolute;
+  top: 0;
+  transform: translateX(-50%);
+  white-space: nowrap;
 }
 
 .arrow-label {
   position: absolute;
-  background: var(--arrow-color);
-  color: var(--paper);
-  font-weight: 700;
-  font-size: 0.875rem;
-  padding: 0.25rem 1rem;
   display: inline-flex;
-  align-items: center;
+  align-items: baseline;
   gap: 0.5rem;
+  font-family: 'PT Mono', ui-monospace, monospace;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  color: var(--arrow-mute);
   white-space: nowrap;
 }
 
 .arrow-label.is-right {
-  right: 13rem;
-  top: -0.25rem;
+  right: 1rem;
+  top: -0.4rem;
 }
 
 .arrow-label.is-left {
-  left: 2rem;
-  top: -3rem;
+  left: 1rem;
+  top: -2.5rem;
 }
 
 .chev {
-  font-size: 1.25rem;
+  color: var(--arrow-accent);
+  font-size: 1rem;
   line-height: 1;
+  transform: translateY(2px);
+}
+
+.arrow-text {
+  display: inline-block;
 }
 
 .line-wrap {
@@ -128,38 +162,39 @@ const distributed = computed(() => {
   position: absolute;
   left: 0;
   right: 0;
-  height: 4px;
-  background: var(--arrow-color);
-  border-radius: 9999px;
+  height: 1px;
+  background: var(--arrow-rule);
 }
 
 .dot {
   position: absolute;
-  width: 1rem;
-  height: 1rem;
-  background: var(--arrow-color);
+  width: 9px;
+  height: 9px;
+  background: var(--arrow-accent);
   border-radius: 9999px;
   transform: translateX(-50%);
 }
 
 .labels {
   position: relative;
-  height: 8rem;
-  margin-top: 1.5rem;
-  font-size: 1.125rem;
+  height: 7rem;
+  margin-top: 1.25rem;
+  font-family: var(--slidev-font-serif, 'PT Serif', Georgia, serif);
+  font-size: 1rem;
   color: var(--ink);
 }
 
 .label {
   position: absolute;
-  top: 0.5rem;
+  top: 0.4rem;
   transform: translateX(-50%);
   max-width: 11rem;
   text-align: center;
-  line-height: 1.25;
+  line-height: 1.3;
+  letter-spacing: -0.005em;
 }
 
 .label.below {
-  top: 4rem;
+  top: 3.5rem;
 }
 </style>
