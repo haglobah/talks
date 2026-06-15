@@ -22,6 +22,7 @@ defineProps<{ events: Event[] }>()
         <div class="dot" />
         <h3 class="title">{{ e.title }}</h3>
         <p v-if="e.description" class="desc">{{ e.description }}</p>
+        <slot :name="`overlay-${i}`" />
       </div>
     </div>
   </div>

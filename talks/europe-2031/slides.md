@@ -16,11 +16,7 @@ Speaker notes: introduce premise, point to europe2031.ai as source.
 -->
 ---
 
-# Summary
-
-## <span v-click="1">We're in an industrial revolution.</span> <span v-click="2">Access to frontier models is going to provide massive economic advantages (or at least prevent massive economic disadvantages).</span> <span v-click="3">Since we're in a compute constrained scenario, the US has massive incentives to use their compute for their own frontier model access.</span> <span v-click="4">We can improve our cards by a lot by <em>also</em> having lots of compute available compared to the US.</span> <span v-click="5">We should build compute, now.</span>
-
----
+# Context
 
 <ArrowBar
   :stops="[
@@ -51,6 +47,8 @@ Speaker notes: introduce premise, point to europe2031.ai as source.
   ]"
 />
 
+<div class="columns-2 gap-x-12 mt-4">
+
 <v-clicks at="6">
 
 - agrarian revolution
@@ -65,18 +63,54 @@ Speaker notes: introduce premise, point to europe2031.ai as source.
 
 </v-clicks>
 
+</div>
+
 ---
 
-# A chronology of the scenario
+# Summary
+
+## <span v-click="1">We're in an industrial revolution.</span> <span v-click="2">Access to frontier models is going to provide massive economic advantages (or at least prevent massive economic disadvantages).</span> <span v-click="3">Since we're in a compute constrained scenario, the US has massive incentives to use their compute for their own frontier model access.</span> <span v-click="4">We can improve our cards by a lot by <em>also</em> having lots of compute available compared to the US.</span> <span v-click="5">We should build compute, now.</span>
+
+---
+
+# Predictions
 
 <Timeline :events="[
-  { date: 'Jan 2025', title: 'Pre-scenario baseline', description: 'Frontier labs publish first agentic systems; EU AI Act enters initial phase.', click: 1 },
-  { date: 'Sep 2025', title: 'AGI roadmaps converge', description: 'Major labs target 2027 timelines; capital flows accelerate.', click: 2 },
-  { date: '2026', title: 'The inflection', description: 'Capability jump; first wave of cognitive labor displacement.', click: 3 },
-  { date: '2028', title: 'Power consolidation', description: 'A handful of actors control compute; sovereignty becomes central.', click: 4 },
-  { date: '2030', title: 'Geopolitical break', description: 'Bloc realignment around model access and compute.', click: 5 },
-  { date: '2031', title: 'Where Europe lands', description: 'Scenario outcome — depends on actions taken in 2026–2028.', click: 6 },
-]" />
+  { date: '2027', title: 'Unrestricted open source Mythos-level capabilities', description: '', click: 1 },
+  { date: '2028', title: 'Opaque AI & ASML DUV export ban', description: 'AI stops reasoning in readable language; Dutch concede on DUV exports with no EU backing.', click: 2 },
+  { date: '2029', title: 'US restricts frontier model access', description: 'US tiers frontier inference by country and greatly reduces frontier model access. The rest of the world struggles staying competitive.', click: 3 },
+  { date: '2030', title: 'AI is eating the old world', description: 'Competitive US companies buy up European factories to produce robots.', click: 4 },
+  { date: '2031', title: 'US takes over ASML, Europe can\'t do anything', description: '', click: 5 },
+]">
+  <template #overlay-2>
+    <TodoCard v-click="6" task="US restricts frontier model access" completed="12 Jun 2026" />
+  </template>
+</Timeline>
+
+---
+layout: iframe-right
+url: https://europe2031.ai/summary/
+scale: 0.8
+---
+
+# Recommendations
+
+<div class="flex flex-col justify-center h-80">
+
+<v-clicks>
+
+- Massive investments in compute
+
+- Coalition of middle powers
+
+- Labour market reform
+
+- Robotics
+
+- Positive vision for AI
+
+</v-clicks>
+</div>
 
 ---
 layout: section
@@ -90,9 +124,18 @@ layout: section
 
 <v-clicks>
 
-- Which 2026 inflection signals would you treat as load-bearing for your own planning?
-- Where does Europe have actual room to act between 2026 and 2028 — and where is it already a price-taker?
-- If the 2030 geopolitical break happens, what does that imply for the institutions you work in or care about?
-- What single thing in this scenario would you most want to be wrong about? Why?
+- Anything unclear?
+
+- Any major disagreements? (Timelines?)
+
+- Where AI fit onto the Bubble / Infra / Revolution / <- More / Extinction framework for you? Does that framework make sense to you?
+
+- Should we (as Europe) take the bet they propose?
+
+- Are there alternatives? What did they leave out? (What about a middle power coalition?)
+
+- What can _we_ (as: the people in this group) do about it?
+
+- Next actions
 
 </v-clicks>
