@@ -3,8 +3,30 @@ theme: ./theme
 title: "Europe 2031"
 date: 2026-06-15
 transition: slide-left
-routerMode: hash
 duration: 30min
+layout: two-cols
+---
+
+# Help organize AI Safety Tübingen!
+
+- We want to expand in the upcoming months and are looking for additional organizers (volunteers + paid HiWi positions)
+- Organizing student groups is a great way for students to contribute to AI safety. It teaches you useful non-technical skills and can be a good entry point into the field.
+- Fill out this expression of interest by June 21: https://airtable.com/appDuFEMJInfZNsDE/pagW0OQVUuiAaSzNn/form
+
+::right::
+
+<div class="flex flex-col items-center justify-center h-full">
+  <div class="bg-white p-4">
+    <QRCode
+      value="https://airtable.com/appDuFEMJInfZNsDE/pagW0OQVUuiAaSzNn/form"
+      :width="340"
+      :height="340"
+    />
+  </div>
+  <div class="-mt-6">↑ Interest Form</div>
+</div>
+
+---
 layout: cover
 ---
 
