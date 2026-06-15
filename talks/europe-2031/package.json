@@ -9,7 +9,7 @@
     "eject": "slidev theme eject"
   },
   "dependencies": {
-    "@slidev/cli": "^52.16.0",
+    "@slidev/cli": "52.14.2",
     "@slidev/theme-default": "latest",
     "@slidev/theme-seriph": "latest",
     "qrcode.vue": "^3.8.1",
