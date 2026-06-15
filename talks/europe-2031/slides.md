@@ -90,12 +90,14 @@ Speaker notes: introduce premise, point to europe2031.ai as source.
 
 # Summary
 
-## <span v-click="1">We're in an industrial revolution.</span>
+## <span v-click="1">We're _at least_ in an industrial revolution.</span>
 ## <span v-click="2">But Europe behaves as if we're not.</span>
 ## <span v-click="3">Access to frontier models is going to provide massive economic advantages (or at least prevent massive economic disadvantages).</span>
-## <span v-click="4">Since we're in a compute constrained scenario, the US has massive incentives to use their compute for their own frontier model access.</span> <span v-click="5">We can improve our cards _a lot_ by also having lots of compute.</span>
+## <span v-click="4">Since we're in a compute constrained scenario, the US has strong incentives to use their compute for their own frontier model access.</span> <span v-click="5">We can improve our cards _a lot_ by also having lots of compute.</span>
 ## <span v-click="6">We should build compute, now.</span>
 
+---
+clicks: 6
 ---
 
 # Predictions
@@ -103,14 +105,10 @@ Speaker notes: introduce premise, point to europe2031.ai as source.
 <Timeline :events="[
   { date: '2027', title: 'Unrestricted open source Mythos-level capabilities', description: '', click: 1 },
   { date: '2028', title: 'Opaque AI & ASML DUV export ban', description: 'AI stops reasoning in readable language; Dutch concede on DUV exports with no EU backing.', click: 2 },
-  { date: '2029', title: 'US restricts frontier model access', description: 'US tiers frontier inference by country and greatly reduces frontier model access. The rest of the world struggles staying competitive.', click: 3 },
+  { date: '2029', title: 'US restricts frontier model access', description: 'US tiers frontier inference by country and greatly reduces frontier model access. The rest of the world struggles staying competitive.', click: 3, completed: '12 Jun 2026', completedClick: 6 },
   { date: '2030', title: 'AI is eating the old world', description: 'Competitive US companies buy up European factories to produce robots.', click: 4 },
   { date: '2031', title: 'US takes over ASML, Europe can\'t do anything', description: '', click: 5 },
-]">
-  <template #overlay-2>
-    <TodoCard v-click="6" task="US restricts frontier model access" completed="12 Jun 2026" />
-  </template>
-</Timeline>
+]" />
 
 ---
 layout: iframe-right
