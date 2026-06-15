@@ -1,6 +1,7 @@
 ---
 theme: ./theme
 title: "Effective Altruism Career Guide — EA Tübingen 2026"
+date: 2026-04-25
 transition: slide-left
 routerMode: hash
 duration: 35min

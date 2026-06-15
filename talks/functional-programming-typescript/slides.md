@@ -1,6 +1,7 @@
 ---
 theme: ../../themes/beathagenlocher.com
 title: Functional Programming in TypeScript
+date: 2026-03-13
 info: |
 
 author: Beat Hagenlocher

@@ -1,6 +1,7 @@
 ---
 theme: ../../themes/beathagenlocher.com
 title: On Closures and Objects
+date: 2025-10-28
 info: |
 
 author: Beat Hagenlocher

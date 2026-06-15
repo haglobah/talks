@@ -1,6 +1,7 @@
 ---
 theme: ../../themes/beathagenlocher.com
 title: Side Project Night
+date: 2025-09-20
 info: |
   Work on your side projects alongside motivated people
 author: Beat Hagenlocher

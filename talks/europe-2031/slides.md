@@ -1,6 +1,7 @@
 ---
 theme: ./theme
 title: "Europe 2031"
+date: 2026-06-15
 transition: slide-left
 routerMode: hash
 duration: 30min

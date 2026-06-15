@@ -59,10 +59,8 @@ jobs:
             fi
           done
 
-      - name: Generate talks.json
-        run: |
-          talks=$(find ./dist -mindepth 1 -maxdepth 1 -type d -exec basename {} \; | sort)
-          echo "[$(echo "$talks" | sed 's/^/"/;s/$/"/' | paste -sd ',' -)]" > ./dist/talks.json
+      - name: Generate index.html
+        run: node scripts/build-index.mjs
 
       - name: List contents of dist directory
         run: |

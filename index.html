@@ -3,56 +3,86 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Talks</title>
+  <title>Talks — Beat Hagenlocher</title>
   <style>
+    :root {
+      color-scheme: light dark;
+    }
     body {
       font-family: system-ui, -apple-system, sans-serif;
-      max-width: 800px;
+      max-width: 760px;
       margin: 0 auto;
-      padding: 2rem;
+      padding: 2rem 1.25rem 4rem;
       background: #f5f5f5;
+      color: #1f1f1f;
+      line-height: 1.5;
     }
     h1 {
-      color: #333;
+      margin: 0 0 1.5rem;
+      color: #1f1f1f;
+    }
+    .intro {
+      color: #555;
+      margin: 0 0 2rem;
     }
     ul {
       list-style: none;
       padding: 0;
+      margin: 0;
     }
-    li {
-      margin: 1rem 0;
+    li + li {
+      margin-top: 0.75rem;
     }
-    a {
-      display: inline-block;
-      padding: 0.5rem 1rem;
-      background: #0066cc;
-      color: white;
+    li a {
+      display: block;
+      padding: 1rem 1.25rem;
+      background: #fff;
+      color: inherit;
       text-decoration: none;
-      border-radius: 4px;
+      border-radius: 8px;
+      border: 1px solid #e2e2e2;
+      transition: border-color 120ms ease, transform 120ms ease;
     }
-    a:hover {
-      background: #0052a3;
+    li a:hover {
+      border-color: #0066cc;
+      transform: translateY(-1px);
+    }
+    .row {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    .talk-title {
+      font-weight: 600;
+      font-size: 1.05rem;
+    }
+    time {
+      color: #888;
+      font-variant-numeric: tabular-nums;
+      font-size: 0.9rem;
+      white-space: nowrap;
+    }
+    .talk-info {
+      margin: 0.4rem 0 0;
+      color: #555;
+      font-size: 0.95rem;
+    }
+    @media (prefers-color-scheme: dark) {
+      body { background: #161618; color: #e6e6e6; }
+      h1 { color: #f5f5f5; }
+      .intro, .talk-info { color: #a8a8a8; }
+      li a { background: #1e1e21; border-color: #2c2c30; }
+      li a:hover { border-color: #4ea1ff; }
+      time { color: #8a8a8a; }
     }
   </style>
 </head>
 <body>
   <h1>Talks</h1>
-  <ul id="talks-list"></ul>
-
-  <script>
-    const talksContainer = document.getElementById('talks-list')
-    fetch('./talks.json')
-      .then(response => response.json())
-      .then(talks => {
-        talks.forEach(talk => {
-          const li = document.createElement('li')
-          const a = document.createElement('a')
-          a.href = `./${talk}/`
-          a.textContent = talk
-          li.appendChild(a)
-          talksContainer.appendChild(li)
-        })
-      })
-  </script>
+  <p class="intro">Slides from talks I&rsquo;ve given, newest first.</p>
+  <ul>
+<!-- TALKS -->
+  </ul>
 </body>
 </html>
