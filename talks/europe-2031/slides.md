@@ -44,10 +44,11 @@ Speaker notes: introduce premise, point to europe2031.ai as source.
     { click: [12, 13], indices: [0, 1, 2] },
     { click: [13, 14], indices: [0, 1, 4] },
     { click: [14, 15], indices: [0, 1, 2] },
+    { click: [15, 16], indices: [0, 1, 2, 3, 4] },
   ]"
 />
 
-<div class="columns-2 gap-x-12 mt-4">
+<div class="columns-2 gap-x-12 -mt-20 context-bullets">
 
 <v-clicks at="6">
 
@@ -60,16 +61,40 @@ Speaker notes: introduce premise, point to europe2031.ai as source.
 - cars
 - nuclear
 - internet
+- AI?
 
 </v-clicks>
 
 </div>
 
+<style>
+.context-bullets ul {
+  list-style-position: inside;
+  padding-left: 0;
+  margin: 0;
+}
+.context-bullets li {
+  padding: 0.15rem 0.6rem;
+  border-radius: 0.4rem;
+  outline: 1.5px dashed transparent;
+  background: transparent;
+  transition: outline-color 150ms ease, background 150ms ease;
+}
+.context-bullets li.slidev-vclick-current {
+  outline-color: var(--blue-700);
+  background: color-mix(in srgb, var(--blue-700) 12%, transparent);
+}
+</style>
+
 ---
 
 # Summary
 
-## <span v-click="1">We're in an industrial revolution.</span> <span v-click="2">Access to frontier models is going to provide massive economic advantages (or at least prevent massive economic disadvantages).</span> <span v-click="3">Since we're in a compute constrained scenario, the US has massive incentives to use their compute for their own frontier model access.</span> <span v-click="4">We can improve our cards by a lot by <em>also</em> having lots of compute available compared to the US.</span> <span v-click="5">We should build compute, now.</span>
+## <span v-click="1">We're in an industrial revolution.</span>
+## <span v-click="2">But Europe behaves as if we're not.</span>
+## <span v-click="3">Access to frontier models is going to provide massive economic advantages (or at least prevent massive economic disadvantages).</span>
+## <span v-click="4">Since we're in a compute constrained scenario, the US has massive incentives to use their compute for their own frontier model access.</span> <span v-click="5">We can improve our cards _a lot_ by also having lots of compute.</span>
+## <span v-click="6">We should build compute, now.</span>
 
 ---
 
