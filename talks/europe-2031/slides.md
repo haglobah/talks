@@ -36,13 +36,13 @@ Speaker notes: introduce premise, point to europe2031.ai as source.
   ]"
   :highlights="[
     { click: [6, 7],   indices: [3] },
-    { click: [7, 8],   indices: [2] },
+    { click: [7, 8],   indices: [1, 2] },
     { click: [8, 9],   indices: [0, 1] },
     { click: [9, 10],  indices: [0, 1, 2] },
     { click: [10, 11], indices: [0, 1] },
-    { click: [11, 12], indices: [0, 1] },
-    { click: [12, 13], indices: [0, 1, 2] },
-    { click: [13, 14], indices: [0, 1, 4] },
+    { click: [11, 12], indices: [1] },
+    { click: [12, 13], indices: [1, 2] },
+    { click: [13, 14], indices: [1, 4] },
     { click: [14, 15], indices: [0, 1, 2] },
     { click: [15, 16], indices: [0, 1, 2, 3, 4] },
   ]"
@@ -56,7 +56,7 @@ Speaker notes: introduce premise, point to europe2031.ai as source.
 - industrial revolution
 - railway
 - electricity
-- telegraf
+- telegraph
 - phone lines
 - cars
 - nuclear
