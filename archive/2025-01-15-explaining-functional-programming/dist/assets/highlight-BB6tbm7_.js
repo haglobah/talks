@@ -1,0 +1,1 @@
+import{o as t,e as o,i as s}from"./modules/vue-BqQfWOOB.js";import{u as r}from"./slidev/context-BMTUu_c7.js";const n={class:"text-2xl font-mono text-cornflower leading-relaxed"},i={__name:"highlight",setup(a){return r(),(e,l)=>(t(),o("span",n,[s(e.$slots,"default")]))}};export{i as _};

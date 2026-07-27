@@ -4,7 +4,7 @@ import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
-const TALKS_DIR = join(ROOT, 'talks');
+const SOURCE_DIRS = [join(ROOT, 'talks'), join(ROOT, 'archive')];
 const DIST_DIR = join(ROOT, 'dist');
 const TEMPLATE = join(ROOT, 'index.html');
 
@@ -68,13 +68,21 @@ function escapeHtml(s) {
     .replace(/'/g, '&#39;');
 }
 
-const slugs = readdirSync(TALKS_DIR, { withFileTypes: true })
-  .filter((d) => d.isDirectory())
-  .map((d) => d.name);
+const entries = SOURCE_DIRS.flatMap((dir) =>
+  readdirSync(dir, { withFileTypes: true })
+    .filter((d) => d.isDirectory())
+    .map((d) => ({ dir, slug: d.name })),
+);
+
+const seen = new Set();
+for (const { slug } of entries) {
+  if (seen.has(slug)) throw new Error(`${slug}: exists in both talks/ and archive/`);
+  seen.add(slug);
+}
 
 const talks = [];
-for (const slug of slugs) {
-  const slidesPath = join(TALKS_DIR, slug, 'slides.md');
+for (const { dir, slug } of entries) {
+  const slidesPath = join(dir, slug, 'slides.md');
   let source;
   try {
     source = readFileSync(slidesPath, 'utf8');

@@ -1,0 +1,1 @@
+import{o as t,e as o,i as s}from"./modules/vue-BqQfWOOB.js";import{u as a}from"./slidev/context-BMTUu_c7.js";const r={class:"italic"},i={__name:"quote",setup(n){return a(),(e,c)=>(t(),o("span",r,[s(e.$slots,"default")]))}};export{i as _};

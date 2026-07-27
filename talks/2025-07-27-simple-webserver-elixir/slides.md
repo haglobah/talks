@@ -15,8 +15,6 @@ fonts:
   sans: "Fira Sans"
   mono: "Fira Code"
 transition: slide-left
-addons:
- - "@katzumi/slidev-addon-qrcode"
 mdc: true
 ---
 
@@ -38,7 +36,6 @@ layout: mono-header
     value="https://haglobah.github.io/talks/2025-07-27-simple-webserver-elixir"
     :width="400"
     :height="400"
-    color="white"
   />
 </div>
 

@@ -1,0 +1,10 @@
+packages:
+  - talks/*
+  - themes/*
+allowBuilds:
+  esbuild: true
+# fuse.js >=7.3.0 returns ALL items for an empty search; slidev's Goto dialog
+# relies on the old empty-search-returns-nothing behavior, otherwise every deck
+# permanently shows the goto autocomplete list ("undefined" per slide).
+overrides:
+  fuse.js: 7.2.0

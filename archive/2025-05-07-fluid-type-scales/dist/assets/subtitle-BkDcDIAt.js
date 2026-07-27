@@ -1,0 +1,1 @@
+import{o as e,e as s,i as o}from"./modules/vue-Dhpc4Al4.js";import{u as r}from"./slidev/context-8hbG4sBd.js";const a={class:"text-xl font-light"},i={__name:"subtitle",setup(n){return r(),(t,l)=>(e(),s("span",a,[o(t.$slots,"default")]))}};export{i as _};

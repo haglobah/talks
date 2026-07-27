@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//home/beat/projects/talks/**)",
+      "Read(//home/beat/projects/talks/talks/**)",
+      "Bash(node scripts/build-index.mjs)"
+    ]
+  }
+}

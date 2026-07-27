@@ -546,6 +546,111 @@ layout: mono-header
 ---
 
 ::header::
+
+<Heading>6 · Gemischt</Heading>
+
+::main::
+
+<v-clicks>
+
+- Jetzt alles zusammen: In jedem Absatz stecken <Highlight>zwei bis drei Problemsätze</Highlight> — aus irgendeiner der fünf Techniken.
+- Finde sie, benenne die verletzte Technik und verbessere sie.
+
+</v-clicks>
+
+---
+layout: mono-header
+---
+
+::header::
+
+<Heading>6. Gemischt | Übung 1</Heading>
+
+::main::
+
+<div class="leading-relaxed">
+
+1. Unsere Firma stellt im Herbst auf eine neue Buchhaltungssoftware um. Die Auswahl der Software erfolgte durch eine Arbeitsgruppe nach einem Vergleich von fünf Anbietern. Während der sechswöchigen Umstellung schult ein externer Dienstleister alle Mitarbeitenden. Zwei volle Tage dauert jede dieser Schulungen. Es ist in diesem Zusammenhang wichtig zu betonen, dass sämtliche einzelnen Belege in jedem Fall vollständig erhalten bleiben.
+
+1. Die Stadt saniert den alten Stadtpark. Ein neues Bewässerungssystem verlegen die Gärtner dort zuerst. Danach kommen neue Bänke und ein größerer Spielplatz dazu. Die Finanzierung der Arbeiten erfolgt über ein Förderprogramm des Landes. Der Park öffnet im Mai wieder, wenn alles nach Plan läuft.
+
+1. Unser Support-Team beantwortet Anfragen jetzt deutlich schneller. Die Einführung einer gemeinsamen Wissensdatenbank war der Grund für die Verbesserung. Es pflegt die Datenbank gemeinsam mit der Entwicklung. Von den Kunden wurde die kürzere Wartezeit bereits gelobt. Es versteht sich dabei von selbst, dass die persönliche Beratung selbstverständlich weiterhin in vollem Umfang erhalten bleibt.
+
+</div>
+
+---
+layout: mono-header
+---
+
+::header::
+
+<Heading>6. Gemischt | Übung 1 Lösungen</Heading>
+
+::main::
+
+<div class="leading-relaxed">
+
+<v-clicks>
+
+1. Unsere Firma stellt im Herbst auf eine neue Buchhaltungssoftware um. **Eine Arbeitsgruppe verglich fünf Anbieter und wählte die Software aus.** Während der sechswöchigen Umstellung schult ein externer Dienstleister alle Mitarbeitenden. **Jede dieser Schulungen dauert zwei volle Tage.** **Alle Belege bleiben erhalten.** <em>(Satz 2: Klarheit · Satz 4: Kohäsion · Satz 5: Prägnanz)</em>
+
+1. Die Stadt saniert den alten Stadtpark. **Dort verlegen die Gärtner zuerst ein neues Bewässerungssystem.** Danach kommen neue Bänke und ein größerer Spielplatz dazu. **Die Arbeiten finanziert das Land über ein Förderprogramm.** **Wenn alles nach Plan läuft, öffnet der Park im Mai wieder.** <em>(Satz 2: Kohäsion · Satz 4: Klarheit · Satz 5: Betonung)</em>
+
+1. Unser Support-Team beantwortet Anfragen jetzt deutlich schneller. **Das Team hat dafür eine gemeinsame Wissensdatenbank eingeführt.** Es pflegt die Datenbank gemeinsam mit der Entwicklung. **Dafür bekommt es von ersten Kunden bereits Lob.** **Die persönliche Beratung bleibt trotzdem erhalten.** <em>(Satz 2: Klarheit · Satz 4: Kohärenz · Satz 5: Prägnanz)</em>
+
+</v-clicks>
+
+</div>
+
+---
+layout: mono-header
+---
+
+::header::
+
+<Heading>6. Gemischt | Übung 2</Heading>
+
+::main::
+
+<div class="leading-relaxed">
+
+1. Es sei einleitend darauf hingewiesen, dass dieser Bericht die Ergebnisse des Nutzertests zusammenfasst. Zwölf Personen testeten unsere App eine Woche lang. Die Navigation kritisierten fast alle von ihnen. Sie versteckt zentrale Funktionen hinter drei Menüebenen. Die Behebung dieses Problems hat durch das Design-Team bereits eine Priorisierung erfahren.
+
+1. Der Verein feiert nächstes Jahr sein hundertjähriges Bestehen. Die Planung des Jubiläumsfests liegt in den Händen eines eigens gegründeten Komitees. Eine Festschrift erscheint außerdem zum Jubiläum, wenn genug Beiträge zusammenkommen. Beiträge dafür kann jedes Mitglied bis März einreichen. Zum gegenwärtigen Zeitpunkt ist im Grunde genommen lediglich die Tatsache problematisch, dass sich bislang nur wenige Freiwillige gemeldet haben.
+
+1. Unsere neue Kantine kommt im Team gut an. Sie bietet täglich zwei vegetarische Gerichte an. Das Küchenteam wechselt den Speiseplan jede Woche. Freitags gibt es außerdem frische Waffeln. Einzig und allein die langen Schlangen zur Mittagszeit stellen nach wie vor noch ein gewisses Problem dar.
+
+</div>
+
+---
+layout: mono-header
+---
+
+::header::
+
+<Heading>6. Gemischt | Übung 2 Lösungen</Heading>
+
+::main::
+
+<div class="leading-relaxed">
+
+<v-clicks>
+
+1. **Dieser Bericht fasst die Ergebnisse des Nutzertests zusammen.** Zwölf Personen testeten unsere App eine Woche lang. **Fast alle von ihnen kritisierten die Navigation.** Sie versteckt zentrale Funktionen hinter drei Menüebenen. **Das Design-Team hat die Behebung dieses Problems bereits priorisiert.** <em>(Satz 1: Prägnanz · Satz 3: Kohäsion · Satz 5: Klarheit)</em>
+
+1. Der Verein feiert nächstes Jahr sein hundertjähriges Bestehen. **Ein eigens gegründetes Komitee plant das Jubiläumsfest.** **Wenn genug Beiträge zusammenkommen, erscheint zum Jubiläum außerdem eine Festschrift.** Beiträge dafür kann jedes Mitglied bis März einreichen. **Problematisch ist bislang nur, dass sich wenige Freiwillige gemeldet haben.** <em>(Satz 2: Klarheit · Satz 3: Betonung · Satz 5: Prägnanz)</em>
+
+1. Unsere neue Kantine kommt im Team gut an. Sie bietet täglich zwei vegetarische Gerichte an. **Ihr Speiseplan wechselt jede Woche.** Freitags gibt es außerdem frische Waffeln. **Nur die langen Schlangen zur Mittagszeit sind noch ein Problem.** <em>(Satz 3: Kohärenz · Satz 5: Prägnanz)</em>
+
+</v-clicks>
+
+</div>
+
+---
+layout: mono-header
+---
+
+::header::
 <Heading>Quellen</Heading>
 
 - Joseph M. Williams: <em>Style: Toward Clarity and Grace</em>, <br> University of Chicago Press

@@ -10,8 +10,6 @@ fonts:
   sans: "Fira Sans"
   mono: "Fira Code"
 transition: slide-left
-addons:
- - "@katzumi/slidev-addon-qrcode"
 mdc: true
 ---
 
@@ -35,7 +33,6 @@ layout: mono-header
     value="https://haglobah.github.io/talks/objects-and-closures"
     :width="400"
     :height="400"
-    color="white"
   />
 </div>
 
@@ -53,7 +50,6 @@ layout: mono-header
     value="https://github.com/haglobah/objects-and-closures"
     :width="400"
     :height="400"
-    color="white"
   />
 </div>
 

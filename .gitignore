@@ -1,3 +1,5 @@
 .aider*
 .env
-dist/
+/dist/
+talks/*/dist/
+node_modules/

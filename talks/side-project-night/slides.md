@@ -10,8 +10,6 @@ fonts:
   sans: "Fira Sans"
   mono: "Fira Code"
 transition: slide-left
-addons:
- - "slidev-addon-qrcode"
 mdc: true
 ---
 
@@ -61,7 +59,7 @@ Stop procrastinating & make friends
 <Highlight>Register <br> here:</Highlight>
 <div class="bg-white -mt-5 rounded">
   <QRCode
-    data="https://luma.com/side-project-night/"
+    value="https://luma.com/side-project-night/"
     :width="120"
     :height="120"
   />
@@ -141,7 +139,7 @@ layout: mono-header
 
 <div class="bg-white max-w-min p-2 my-10 mx-auto">
   <QRCode
-    data="https://luma.com/side-project-night/"
+    value="https://luma.com/side-project-night/"
     :width="400"
     :height="400"
   />
@@ -158,7 +156,7 @@ layout: mono-header
 ::main::
 <div class="bg-white max-w-min p-2 my-10 mx-auto">
   <QRCode
-    data="https://discord.gg/SyHCXBJ6"
+    value="https://discord.gg/SyHCXBJ6"
     :width="400"
     :height="400"
   />

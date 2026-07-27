@@ -1,0 +1,1 @@
+import{o as t,e as o,i as s}from"./modules/vue-BqQfWOOB.js";import{u as r}from"./slidev/context-BMTUu_c7.js";const a={class:"text-xl font-light uppercase"},p={__name:"heading",setup(n){return r(),(e,c)=>(t(),o("h2",a,[s(e.$slots,"default")]))}};export{p as _};
