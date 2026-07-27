@@ -651,10 +651,11 @@ layout: mono-header
 ---
 
 ::header::
-<Heading>Quellen</Heading>
+<Heading>Resources</Heading>
 
 - Joseph M. Williams: <em>Style: Toward Clarity and Grace</em>, <br> University of Chicago Press
 - Joseph M. Williams: <em>Style: Lessons in Clarity and Grace</em> <br> (die aktuellere Lehrbuchfassung)
+- Matt Might on Writing: https://matt.might.net/articles/books-papers-materials-for-graduate-students/
 
 ---
 src: ./parts/beat.md
