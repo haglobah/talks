@@ -69,7 +69,7 @@ layout: mono-header
 <v-clicks>
 
 - Leser verstehen Sätze am leichtesten, wenn die <Highlight>Handelnden</Highlight> als grammatische Subjekte auftreten — und ihre <Highlight>Handlungen</Highlight> als Verben.
-- Trüber Stil versteckt Handlungen in abstrakten Substantiven: <em>Nominalisierungen</em>.
+- Unklarer Stil versteckt Handlungen in abstrakten Substantiven: <em>Nominalisierungen</em>.
 - „Der Ausschuss traf eine Entscheidung." → „Der Ausschuss entschied."
 - Nominalisierungen zurück in Verben zu verwandeln ist der wirksamste einzelne Eingriff.
 
@@ -85,7 +85,7 @@ layout: mono-header
 
 ::main::
 
-Wer handelt? Was tut sie oder er? Schreibe die Sätze so um, dass die Handelnden Subjekte sind und die Handlungen Verben.
+Wer handelt? Was tut sie*er? Schreibe die Sätze so um, dass die Handelnden Subjekte sind und die Handlungen Verben.
 
 1. Die Durchführung der Untersuchung des Vorfalls erfolgte durch das Projektteam.
 2. Es besteht die Erwartung der Geschäftsleitung, dass eine Steigerung des Umsatzes eintritt.
