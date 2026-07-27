@@ -16,7 +16,7 @@ mdc: true
 <Title>{{ $frontmatter.title }}</Title>
 
 <Subtitle>
-  Ein Übungsblatt nach Joseph M. Williams: <br> <em>Style: Toward Clarity and Grace</em>
+  Aleksandra Shcherbakova & Beat Hagenlocher
 </Subtitle>
 
 ---
@@ -48,11 +48,11 @@ layout: mono-header
 
 <v-clicks>
 
-1. <Highlight>Klarheit</Highlight> — Handelnde als Subjekte, Handlungen als Verben
-2. <Highlight>Kohäsion</Highlight> — Bekanntes vor Neuem
-3. <Highlight>Betonung</Highlight> — das Satzende trägt das Gewicht
-4. <Highlight>Kohärenz</Highlight> — ein Thema pro Absatz
-5. <Highlight>Prägnanz</Highlight> — streichen, was nichts sagt
+1. <Highlight>Klarheit</Highlight>: Handelnde als Subjekte, Handlungen als Verben
+2. <Highlight>Kohäsion</Highlight>: Bekanntes vor Neuem
+3. <Highlight>Betonung</Highlight>: Neues zum Satzende
+4. <Highlight>Kohärenz</Highlight>: Ein Thema pro Absatz
+5. <Highlight>Prägnanz</Highlight>: Im Zweifel? Streichen.
 
 </v-clicks>
 
@@ -81,7 +81,7 @@ layout: mono-header
 
 ::header::
 
-<Heading>Übung 1: Nominalisierungen auflösen</Heading>
+<Heading>1. Klarheit | Übung 1</Heading>
 
 ::main::
 
@@ -97,7 +97,7 @@ layout: mono-header
 
 ::header::
 
-<Heading>Übung 1: Mögliche Lösungen</Heading>
+<Heading>1. Klarheit | Übung 1 Lösungen</Heading>
 
 ::main::
 
@@ -108,6 +108,50 @@ layout: mono-header
 3. Die Entwicklerin entdeckte den Fehler und verhinderte so einen Ausfall.
 
 </v-clicks>
+
+---
+layout: mono-header
+---
+
+::header::
+
+<Heading>1. Klarheit | Übung 2</Heading>
+
+::main::
+
+<div class="leading-relaxed">
+
+1. Am Dienstag fiel der Bezahldienst für zwei Stunden aus. Die Analyse der Logdateien durch das Bereitschaftsteam führte zur Identifikation eines Speicherlecks. Ein Update hatte das Leck am Vortag eingeschleppt. Die Behebung des Problems erfolgte durch die Zurücknahme des Updates.
+
+1. Unsere Abteilung wächst seit zwei Jahren stetig. Die Durchführung der Einarbeitung neuer Kolleginnen liegt in der Verantwortung der jeweiligen Teams. Trotzdem dauert es oft Monate, bis jemand produktiv arbeitet. Die Erstellung einer gemeinsamen Checkliste wäre eine Verbesserung des Prozesses.
+
+1. Die Stadt will den Radverkehr fördern. Zu diesem Zweck erfolgte die Einrichtung von drei neuen Radwegen durch das Bauamt. Viele Pendler steigen seitdem aufs Rad um. Die Messung der Auswirkungen auf den Autoverkehr steht allerdings noch aus.
+
+</div>
+
+---
+layout: mono-header
+---
+
+::header::
+
+<Heading>1. Klarheit | Übung 2 Lösungen</Heading>
+
+::main::
+
+<div class="leading-relaxed">
+
+<v-clicks>
+
+1. Am Dienstag fiel der Bezahldienst für zwei Stunden aus. **Das Bereitschaftsteam analysierte die Logdateien und identifizierte ein Speicherleck.** Ein Update hatte das Leck am Vortag eingeschleppt. **Das Team behob das Problem, indem es das Update zurücknahm.**
+
+1. Unsere Abteilung wächst seit zwei Jahren stetig. **Die jeweiligen Teams arbeiten neue Kolleginnen selbst ein.** Trotzdem dauert es oft Monate, bis jemand produktiv arbeitet. **Eine gemeinsame Checkliste würde den Prozess verbessern.**
+
+1. Die Stadt will den Radverkehr fördern. **Dafür richtete das Bauamt drei neue Radwege ein.** Viele Pendler steigen seitdem aufs Rad um. **Wie sich das auf den Autoverkehr auswirkt, hat allerdings noch niemand gemessen.**
+
+</v-clicks>
+
+</div>
 
 ---
 layout: mono-header
@@ -134,7 +178,7 @@ layout: mono-header
 
 ::header::
 
-<Heading>Übung 2: Bekanntes vor Neuem</Heading>
+<Heading>2. Kohäsion | Übung 1</Heading>
 
 ::main::
 
@@ -150,7 +194,7 @@ layout: mono-header
 
 ::header::
 
-<Heading>Übung 2: Mögliche Lösungen</Heading>
+<Heading>2. Kohäsion | Übung 1 Lösungen</Heading>
 
 ::main::
 
@@ -161,6 +205,50 @@ layout: mono-header
 3. Nächste Woche führen wir das neue Framework ein. Dafür braucht jedes Teammitglied drei Tage Schulung.
 
 </v-clicks>
+
+---
+layout: mono-header
+---
+
+::header::
+
+<Heading>2. Kohäsion | Übung 2</Heading>
+
+::main::
+
+<div class="leading-relaxed">
+
+1. Unser Monitoring meldete gestern Nacht einen Alarm. Eine volle Festplatte auf dem Datenbankserver war die Ursache. Die Festplatte hatten wir seit Monaten nicht aufgeräumt. Ein automatischer Löschjob soll solche Vorfälle künftig verhindern.
+
+1. Honigbienen kommunizieren über den Schwänzeltanz. Richtung und Entfernung einer Futterquelle codiert dieser Tanz. Die Entfernung lesen andere Bienen an der Dauer des Tanzes ab. Ein feiner Geruchssinn hilft ihnen bei der Suche zusätzlich.
+
+1. Im Herbst stellen wir auf das neue Abrechnungssystem um. Alle Rechnungen erzeugt danach das neue System automatisch. Die alten Rechnungen bleiben im Archiv abrufbar. Eine zweitägige Schulung bereitet die Buchhaltung auf die Umstellung vor.
+
+</div>
+
+---
+layout: mono-header
+---
+
+::header::
+
+<Heading>2. Kohäsion | Übung 2 Lösungen</Heading>
+
+::main::
+
+<div class="leading-relaxed">
+
+<v-clicks>
+
+1. Unser Monitoring meldete gestern Nacht einen Alarm. **Die Ursache war eine volle Festplatte auf dem Datenbankserver.** Die Festplatte hatten wir seit Monaten nicht aufgeräumt. **Solche Vorfälle soll künftig ein automatischer Löschjob verhindern.**
+
+1. Honigbienen kommunizieren über den Schwänzeltanz. **Dieser Tanz codiert Richtung und Entfernung einer Futterquelle.** Die Entfernung lesen andere Bienen an der Dauer des Tanzes ab. **Bei der Suche hilft ihnen zusätzlich ein feiner Geruchssinn.**
+
+1. Im Herbst stellen wir auf das neue Abrechnungssystem um. **Das neue System erzeugt danach alle Rechnungen automatisch.** Die alten Rechnungen bleiben im Archiv abrufbar. **Auf die Umstellung bereitet sich die Buchhaltung mit einer zweitägigen Schulung vor.**
+
+</v-clicks>
+
+</div>
 
 ---
 layout: mono-header
@@ -186,7 +274,7 @@ layout: mono-header
 
 ::header::
 
-<Heading>Übung 3: Die Schlussposition nutzen</Heading>
+<Heading>3. Betonung | Übung 1</Heading>
 
 ::main::
 
@@ -202,7 +290,7 @@ layout: mono-header
 
 ::header::
 
-<Heading>Übung 3: Mögliche Lösungen</Heading>
+<Heading>3. Betonung | Übung 1 Lösungen</Heading>
 
 ::main::
 
@@ -213,6 +301,50 @@ layout: mono-header
 3. Das Projekt scheiterte, wie so viele vor ihm, an fehlender Kommunikation.
 
 </v-clicks>
+
+---
+layout: mono-header
+---
+
+::header::
+
+<Heading>3. Betonung | Übung 2</Heading>
+
+::main::
+
+<div class="leading-relaxed">
+
+1. Wir haben drei Datenbanken evaluiert. Nur PostgreSQL erfüllte alle Anforderungen von den drei Kandidaten. Die Lizenzkosten spielten dabei keine Rolle. Die Migration beginnt nächsten Monat, wenn nichts dazwischenkommt.
+
+1. Der Prototyp überzeugte die Jury sofort. Das Team gewann den ersten Preis damit völlig verdient. Dotiert ist der Preis mit 10.000 Euro. Ein eigenes Startup wollen die drei mit dem Geld nun gründen.
+
+1. Unsere Ladezeiten frustrierten die Nutzer seit Jahren. Die Seite lädt in unter einer Sekunde, seit wir sie umgebaut haben. Die Absprungrate halbierte sich innerhalb einer Woche. Performance-Arbeit zahlt sich eben doch aus, allen Unkenrufen zum Trotz.
+
+</div>
+
+---
+layout: mono-header
+---
+
+::header::
+
+<Heading>3. Betonung | Übung 2 Lösungen</Heading>
+
+::main::
+
+<div class="leading-relaxed">
+
+<v-clicks>
+
+1. Wir haben drei Datenbanken evaluiert. **Von den drei Kandidaten erfüllte nur eine alle Anforderungen: PostgreSQL.** Die Lizenzkosten spielten dabei keine Rolle. **Wenn nichts dazwischenkommt, beginnt die Migration nächsten Monat.**
+
+1. Der Prototyp überzeugte die Jury sofort. **Damit gewann das Team völlig verdient den ersten Preis.** Dotiert ist der Preis mit 10.000 Euro. **Mit dem Geld gründen die drei nun ein eigenes Startup.**
+
+1. Unsere Ladezeiten frustrierten die Nutzer seit Jahren. **Seit wir die Seite umgebaut haben, lädt sie in unter einer Sekunde.** Die Absprungrate halbierte sich innerhalb einer Woche. **Allen Unkenrufen zum Trotz zahlt sich Performance-Arbeit eben doch aus.**
+
+</v-clicks>
+
+</div>
 
 ---
 layout: mono-header
@@ -238,7 +370,7 @@ layout: mono-header
 
 ::header::
 
-<Heading>Übung 4: Ein Thema durchhalten</Heading>
+<Heading>4. Kohärenz | Übung 1</Heading>
 
 ::main::
 
@@ -252,7 +384,7 @@ layout: mono-header
 
 ::header::
 
-<Heading>Übung 4: Mögliche Lösung</Heading>
+<Heading>4. Kohärenz | Übung 1 Lösung</Heading>
 
 ::main::
 
@@ -267,6 +399,50 @@ layout: mono-header
 Ein Thema — <em>wir, das Team</em> — trägt jetzt den ganzen Absatz.
 
 </v-click>
+
+---
+layout: mono-header
+---
+
+::header::
+
+<Heading>4. Kohärenz | Übung 2</Heading>
+
+::main::
+
+<div class="leading-relaxed">
+
+1. Die neue API vereinfacht unsere Integrationen. Ein einziger Endpunkt wird von den Partnerfirmen jetzt angesprochen. Sie versioniert außerdem alle Antworten automatisch. Wochen an Abstimmung sparen sich die Teams dadurch.
+
+1. Ada Lovelace gilt als erste Programmiererin. Charles Babbage entwarf die Analytical Engine, für die sie schrieb. Sie beschrieb 1843 einen Algorithmus zur Berechnung der Bernoulli-Zahlen. Weitsichtige Notizen über Maschinen, die Musik komponieren könnten, stammen ebenfalls von ihr.
+
+1. Unser Team betreut den Checkout-Dienst. Im letzten Quartal haben wir ihn auf die neue Plattform migriert. Die meisten Probleme wurden dabei von der Datenbank verursacht. Rechtzeitig fertig wurde die Migration trotzdem.
+
+</div>
+
+---
+layout: mono-header
+---
+
+::header::
+
+<Heading>4. Kohärenz | Übung 2 Lösungen</Heading>
+
+::main::
+
+<div class="leading-relaxed">
+
+<v-clicks>
+
+1. Die neue API vereinfacht unsere Integrationen. **Sie bietet den Partnerfirmen jetzt einen einzigen Endpunkt.** Sie versioniert außerdem alle Antworten automatisch. **Dadurch spart sie den Teams Wochen an Abstimmung.** <em>(Thema: die API)</em>
+
+1. Ada Lovelace gilt als erste Programmiererin. **Sie schrieb für Charles Babbages Analytical Engine.** Sie beschrieb 1843 einen Algorithmus zur Berechnung der Bernoulli-Zahlen. **Sie notierte sogar, dass Maschinen eines Tages Musik komponieren könnten.** <em>(Thema: Ada Lovelace)</em>
+
+1. Unser Team betreut den Checkout-Dienst. Im letzten Quartal haben wir ihn auf die neue Plattform migriert. **Dabei kämpften wir vor allem mit der Datenbank.** **Trotzdem schlossen wir die Migration rechtzeitig ab.** <em>(Thema: wir, das Team)</em>
+
+</v-clicks>
+
+</div>
 
 ---
 layout: mono-header
@@ -293,7 +469,7 @@ layout: mono-header
 
 ::header::
 
-<Heading>Übung 5: Streichen</Heading>
+<Heading>5. Prägnanz | Übung 1</Heading>
 
 ::main::
 
@@ -309,7 +485,7 @@ layout: mono-header
 
 ::header::
 
-<Heading>Übung 5: Mögliche Lösungen</Heading>
+<Heading>5. Prägnanz | Übung 1 Lösungen</Heading>
 
 ::main::
 
@@ -320,6 +496,50 @@ layout: mono-header
 3. Wir sollten die Aufgaben neu priorisieren.
 
 </v-clicks>
+
+---
+layout: mono-header
+---
+
+::header::
+
+<Heading>5. Prägnanz | Übung 2</Heading>
+
+::main::
+
+<div class="leading-relaxed">
+
+1. Der Bericht fasst die Ergebnisse des Audits zusammen. Es sei zunächst einmal grundsätzlich festgehalten, dass die Sicherheitslage im Großen und Ganzen als durchaus zufriedenstellend bezeichnet werden kann. Zwei Lücken erfordern dennoch sofortiges Handeln. Eine detaillierte Auflistung sämtlicher einzelner Befunde findet sich im Anhang am Ende dieses Dokuments.
+
+1. Wir stellen die Kaffeeküche im August um. Der Grund dafür liegt in der Tatsache begründet, dass die alte Maschine in regelmäßigen Abständen immer wieder ausfällt. Die neue Maschine mahlt frisch und braucht weniger Strom. Für Rückfragen jedweder Art steht das Office-Team selbstverständlich jederzeit gerne vollumfänglich zur Verfügung.
+
+1. Die Studie untersuchte den Schlaf von Schichtarbeitern. An dieser Stelle ist es wichtig zu erwähnen, dass insgesamt die Zahl von 200 Personen teilgenommen hat. Nachtschichten verkürzten den Tiefschlaf messbar. Zukünftige weitere Forschung wird mit Sicherheit zeigen, ob eine Anpassung der Schichtpläne eine Verbesserung mit sich bringen würde.
+
+</div>
+
+---
+layout: mono-header
+---
+
+::header::
+
+<Heading>5. Prägnanz | Übung 2 Lösungen</Heading>
+
+::main::
+
+<div class="leading-relaxed">
+
+<v-clicks>
+
+1. Der Bericht fasst die Ergebnisse des Audits zusammen. **Die Sicherheitslage ist zufriedenstellend.** Zwei Lücken erfordern dennoch sofortiges Handeln. **Alle Befunde stehen im Anhang.**
+
+1. Wir stellen die Kaffeeküche im August um. **Denn die alte Maschine fällt regelmäßig aus.** Die neue Maschine mahlt frisch und braucht weniger Strom. **Fragen beantwortet das Office-Team.**
+
+1. Die Studie untersuchte den Schlaf von Schichtarbeitern. **200 Personen nahmen teil.** Nachtschichten verkürzten den Tiefschlaf messbar. **Ob angepasste Schichtpläne helfen, muss weitere Forschung zeigen.**
+
+</v-clicks>
+
+</div>
 
 ---
 layout: mono-header
