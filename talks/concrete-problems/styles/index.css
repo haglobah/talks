@@ -145,3 +145,100 @@
   font-size: 1.28rem;
 }
 
+/* slides link, right after the cover */
+.slides-qr {
+  width: max-content;
+  margin: 1rem auto 0;
+  padding: 0.75rem;
+  background: var(--white);
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+}
+
+.slides-qr canvas {
+  display: block;
+}
+
+.slides-url {
+  margin-top: 1rem;
+  font-family: 'PT Mono', ui-monospace, monospace;
+  color: var(--ink-soft);
+}
+
+/* closing slide: who I am, where to find me */
+.thanks-grid {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 4rem;
+  align-items: center;
+  height: 100%;
+}
+
+.slidev-layout h1.thanks-name {
+  font-size: 4.5rem;
+  line-height: 1;
+  letter-spacing: -0.035em;
+  margin-bottom: 0.75rem;
+}
+
+.slidev-layout p.thanks-role {
+  font-size: 1.4rem;
+  color: var(--ink-soft);
+  margin: 0;
+}
+
+.thanks-links {
+  list-style: none;
+  padding: 0;
+  margin: 3rem 0 0 !important;
+  border-top: 1px solid var(--rule);
+}
+
+.thanks-links li {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.7rem 0;
+  border-bottom: 1px solid var(--rule);
+  font-size: 1.2rem;
+}
+
+.thanks-links svg {
+  width: 1.4rem;
+  height: 1.4rem;
+  flex: none;
+  color: var(--ink-soft);
+}
+
+.thanks-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.thanks-photo {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 9999px;
+  object-fit: cover;
+}
+
+.thanks-qr {
+  padding: 0.4rem;
+  background: var(--white);
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+}
+
+.thanks-qr canvas {
+  display: block;
+}
+
+.slidev-layout p.thanks-qr-label {
+  margin: -0.9rem 0 0;
+  font-family: 'PT Mono', ui-monospace, monospace;
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+}

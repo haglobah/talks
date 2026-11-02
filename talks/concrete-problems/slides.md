@@ -22,6 +22,51 @@ Amodei, Olah, Steinhardt, Christiano, Schulman, Mané (2016):
 -->
 
 ---
+layout: statement
+---
+
+###### Slides
+
+<div class="slides-qr">
+  <QRCode
+    value="https://haglobah.github.io/talks/concrete-problems"
+    :width="360"
+    :height="360"
+  />
+</div>
+
+<p class="slides-url">haglobah.github.io/talks/concrete-problems</p>
+
+---
+
+# Today
+
+<div class="grid grid-cols-[1.4fr_1fr] gap-12 mt-8">
+<div>
+
+<v-clicks>
+
+- understood the paper
+- gotten an overview of AI safety
+- followed each strand from 2016 to today
+- placed all the big things
+
+</v-clicks>
+
+</div>
+<div v-click>
+
+###### Knowing where these sit
+
+- Benchmarking
+- Mech Interp
+- Evals
+- Alignment
+
+</div>
+</div>
+
+---
 
 # In 2016, one <Scribble note="Google Brain → OpenAI → Anthropic" :at="4" from="top" :dx="219" :dy="-15">Dario Amodei</Scribble> …
 
@@ -423,3 +468,47 @@ clicks: 1
 
 </div>
 
+---
+class: thanks
+---
+
+<div class="thanks-grid">
+<div>
+
+<h1 class="thanks-name">Beat Hagenlocher</h1>
+
+<ul class="thanks-links">
+  <li>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+    <a href="https://github.com/haglobah">@haglobah</a>
+  </li>
+  <li>
+    <svg fill="none" viewBox="0 0 64 57" aria-hidden="true"><path fill="currentColor" d="M13.873 3.805C21.21 9.332 29.103 20.537 32 26.55v15.882c0-.338-.13.044-.41.867-1.512 4.456-7.418 21.847-20.923 7.944-7.111-7.32-3.819-14.64 9.125-16.85-7.405 1.264-15.73-.825-18.014-9.015C1.12 23.022 0 8.51 0 6.55 0-3.268 8.579-.182 13.873 3.805ZM50.127 3.805C42.79 9.332 34.897 20.537 32 26.55v15.882c0-.338.13.044.41.867 1.512 4.456 7.418 21.847 20.923 7.944 7.111-7.32 3.819-14.64-9.125-16.85 7.405 1.264 15.73-.825 18.014-9.015C62.88 23.022 64 8.51 64 6.55c0-9.818-8.578-6.732-13.873-2.745Z"/></svg>
+    <a href="https://bsky.app/profile/beathagenlocher.com">@beathagenlocher.com</a>
+  </li>
+  <li>
+    <heroicons-link />
+    <a href="https://beathagenlocher.com/">beathagenlocher.com</a>
+  </li>
+</ul>
+
+</div>
+<div class="thanks-side">
+  <img src="https://avatars.githubusercontent.com/u/83699832?s=400&u=02b324dc21d8da4d6f179daaf7e14f4b4d01cac5&v=4" class="thanks-photo" alt="Beat Hagenlocher"/>
+  <div class="thanks-qr">
+    <QRCode value="https://beathagenlocher.com/me" :width="140" :height="140" />
+  </div>
+  <p class="thanks-qr-label">beathagenlocher.com/me</p>
+</div>
+</div>
+
+---
+
+# Discussion
+
+<v-clicks>
+
+- "mostly solved by generalization + patching"
+- what would a 2026 version of this paper list?
+
+</v-clicks>
