@@ -88,24 +88,17 @@ layout: section
 # The 2016 paper
 
 ---
-clicks: 3
+clicks: 11
 ---
 
 # What they cared about
 
-<ConcernRow :highlight="$clicks >= 1 ? ['accidents in ML systems'] : []" />
-
-<div v-click="2" class="mt-12">
-
-## Long-term worry: a non-aligned superintelligence.
-
-</div>
-
-<div v-click="3">
-
-## Their move: turn it into **practical** problems you can work on today.
-
-</div>
+<ConcernRow
+  :at="1"
+  :branches="['extinction risks from superintelligence', 'tractable risks']"
+  :branch-at="9"
+  :highlight="[...($clicks >= 8 ? ['accidents in ML systems'] : []), ...($clicks >= 11 ? ['tractable risks'] : [])]"
+/>
 
 <!--
 The paper explicitly sets aside privacy, security, fairness, economics, policy
