@@ -10,9 +10,11 @@ duration: 45min
 layout: cover
 ---
 
-# Concrete Problems<br><span class="accent">2016 → 2026</span>
+# Concrete Problems in AI Safety
 
-How did the founding agenda of AI safety hold up?
+<br>
+
+## 2016 <heroicons-arrow-right class="size-6 inline-block relative -top-1 mx-2" /> 2026
 
 <!--
 Amodei, Olah, Steinhardt, Christiano, Schulman, Mané (2016):
@@ -21,7 +23,7 @@ Amodei, Olah, Steinhardt, Christiano, Schulman, Mané (2016):
 
 ---
 
-# By the end, you will have
+# Today
 
 <div class="grid grid-cols-[1.4fr_1fr] gap-12 mt-8">
 <div>
@@ -50,42 +52,32 @@ Amodei, Olah, Steinhardt, Christiano, Schulman, Mané (2016):
 
 ---
 
-# In 2016, one <Scribble note="Anthropic, CEO" :at="4" from="top" :dx="319" :dy="-15">Dario Amodei</Scribble> …
+# In 2016, one <Scribble note="Google Brain → OpenAI → Anthropic" :at="2" from="top" :dx="219" :dy="-15">Dario Amodei</Scribble> …
 
 <v-clicks>
 
-- … and <Scribble note="Anthropic, interpretability" :at="5" :dx="525" :dy="248">Chris Olah</Scribble>, <Scribble note="Berkeley & Transluce" :at="6" :dx="413" :dy="188">Jacob Steinhardt</Scribble>, <Scribble note="US AI Safety Institute" :at="7" :dx="279" :dy="128">Paul Christiano</Scribble>, <Scribble :note="'OpenAI → Anthropic\n→ Thinking Machines'" :at="8" :dx="150" :dy="68">John Schulman</Scribble>, Dan Mané
-- wrote down what could go wrong with ML systems, _concretely_
-- <span class="example">before GPT, before RLHF, before "alignment" was a job title</span>
+- … and <Scribble note="Google Brain → OpenAI → Anthropic" :at="3" :dx="425" :dy="278">Chris Olah</Scribble>, <Scribble note="OpenAI → Berkeley → Transluce" :at="4" :dx="313" :dy="208">Jacob Steinhardt</Scribble>, <Scribble note="OpenAI → ARC → US AISI" :at="5" :dx="179" :dy="138">Paul Christiano</Scribble>, <Scribble note="OpenAI → Anthropic → Thinking Machines" :at="6" :dx="50" :dy="68">John Schulman</Scribble>, Dan Mané
 
 </v-clicks>
 
 <!--
-Verify current roles before the talk; these are from memory.
-Amodei: co-founded Anthropic (2021). Olah: Anthropic, interpretability lead.
-Steinhardt: UC Berkeley, co-founded Transluce. Christiano: ARC, then head of safety at US AISI.
-Schulman: OpenAI co-founder, Anthropic 2024, Thinking Machines 2025.
+Researched 2026-11-02.
+Amodei: Baidu (2014), Google Brain (2015–16), OpenAI (2016–20, VP Research, GPT-2/3), co-founded Anthropic 2021, CEO.
+Olah: Google Brain (2015–18, DeepDream, Distill), OpenAI interpretability lead (2018–20), co-founded Anthropic 2021.
+Steinhardt: OpenAI research scientist, Berkeley Statistics/EECS professor, co-founded Transluce (2024) with Sarah Schwettmann.
+Christiano: ran OpenAI's language-model alignment team (RLHF), founded ARC (2021), Head of AI Safety at US AISI (Apr 2024, now CAISI); joined the OpenAI Foundation board Sep 2026.
+Schulman: OpenAI co-founder (2015–24, PPO, post-training), Anthropic alignment science (2024), Thinking Machines chief scientist (2025).
+Mané: Google Brain (2016); no public trail after that.
 -->
 
----
-layout: statement
----
+<div class="coda">
 
-# How did it hold up?
+### <span v-click="7">How did it hold up?</span>
 
-<div class="mt-8">
-
-## <span v-click>What are the terms now?</span>
-
-## <span v-click>What has changed?</span>
+<p v-click="8">What are the terms now?</p>
+<p v-click="9">What has changed?</p>
 
 </div>
-
----
-layout: section
----
-
-# The 2016 paper
 
 ---
 clicks: 11

@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 
-// at click `at`: box the name in pen, then draw a line to a highlighter note
+// at click `at`: box the name in pen, with a line to a highlighter note
 // whose left edge sits (dx, dy) px from the box's bottom (or top) centre
 const props = withDefaults(
   defineProps<{
@@ -26,10 +26,10 @@ const path = computed(() => {
 
 <template>
   <span class="scribble" :class="props.from">
-    <span v-mark="{ at: props.at, type: 'box', color: '#E0457B', strokeWidth: 2, padding: 3 }"><slot /></span>
+    <span v-mark="{ at: props.at, type: 'box', color: '#E0457B', strokeWidth: 2, padding: 3, animate: false }"><slot /></span>
     <span v-click="props.at" class="scribble-link">
       <svg class="scribble-line" width="1" height="1">
-        <path :d="path" pathLength="1" />
+        <path :d="path" />
       </svg>
       <span class="scribble-note" :style="{ '--dx': `${props.dx}px`, '--dy': `${props.dy}px` }">{{ props.note }}</span>
     </span>
