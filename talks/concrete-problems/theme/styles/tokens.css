@@ -1,0 +1,27 @@
+:root {
+  --ink: #1D1C1C;
+  --ink-deeper: #111111;
+  --ink-soft: #6F777E;
+  --paper: #FFFFFC;
+  --white: #FFFFFF;
+  --blue-900: #001E40;
+  --blue-800: #002E63;
+  --blue-700: #0051AE;
+  --blue-600: #406896;
+  --blue-300: #B1CCEB;
+  --blue-200: #BDD6F2;
+  --blue-100: #DEE6EE;
+  --blue-50:  #EBF3FB;
+  --mute: #B1B7CD;
+  --rule: #E2E2E2;
+
+  --slidev-theme-primary: var(--blue-700);
+  --slidev-theme-accent:  var(--ink);
+}
+
+html,
+body,
+#app {
+  background: var(--paper);
+  color: var(--ink);
+}

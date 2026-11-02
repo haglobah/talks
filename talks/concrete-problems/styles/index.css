@@ -1,0 +1,36 @@
+/* ① what is it  ② what happened over time  ③ relevance today */
+.three-q {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.three-q h6 {
+  margin-bottom: 0.5rem;
+}
+
+.three-q ul {
+  margin: 0;
+  padding-left: 1.1rem;
+}
+
+.three-q li {
+  font-size: 1.1rem;
+  line-height: 1.45;
+  margin-bottom: 0.3rem;
+}
+
+.example {
+  color: var(--ink-soft);
+  font-style: italic;
+}
+
+.map-table table {
+  font-size: 0.9rem;
+}
+
+.map-table td:first-child {
+  white-space: nowrap;
+  font-weight: 700;
+}
