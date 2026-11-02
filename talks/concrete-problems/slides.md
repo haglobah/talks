@@ -102,64 +102,59 @@ and transparency, and focuses on one thing: accidents —
 
 # Five problems
 
-A cleaning robot, and everything that can go wrong with it
+Example: A cleaning robot
 
-<v-clicks>
+<ol class="problem-list">
+  <li v-click="1"><strong>Avoiding negative side effects</strong><span v-click="2" class="example">(knocking over things in the way)</span></li>
+  <li v-click="3"><strong>Avoiding reward hacking</strong><span v-click="4" class="example">(hides the mess instead of cleaning it)</span></li>
+  <li v-click="5"><strong>Scalable oversight</strong><span v-click="6" class="example">(can't ask a human about every candy wrapper)</span></li>
+  <li v-click="7"><strong>Safe exploration</strong><span v-click="8" class="example">(tries the wet mop in the power socket)</span></li>
+  <li v-click="9"><strong>Robustness to distributional shift</strong><span v-click="10" class="example">(trained in an office, deployed in a factory)</span></li>
+</ol>
 
-1. **Avoiding negative side effects** <span class="example">— knocks over the vase on the way</span>
-2. **Avoiding reward hacking** <span class="example">— hides the mess instead of cleaning it</span>
-3. **Scalable oversight** <span class="example">— can't ask a human about every candy wrapper</span>
-4. **Safe exploration** <span class="example">— tries the wet mop in the power socket</span>
-5. **Robustness to distributional shift** <span class="example">— trained in an office, deployed in a factory</span>
+---
+clicks: 12
+---
+
+# 1. Avoiding negative side effects
+
+<div class="three-q">
+<div>
+
+<h6 v-click="1">What is it?</h6>
+
+<v-clicks at="4">
+
+- Not _"knocking over things"_
+- 2016: impact regularizers, penalize changing the world
 
 </v-clicks>
 
-<div v-click class="mt-8">
-
-###### Grouped by where it breaks
-
-1–2 wrong objective · 3 objective too expensive to check · 4–5 bad behavior while learning / when the world changes
-
 </div>
+<div>
 
----
-layout: section
----
+<h6 v-click="2">What happened?</h6>
 
-# One by one
-
-① what is it? · ② what happened over time · ③ relevance today
-
----
-
-# 1 · Avoiding negative side effects
-
-<div class="three-q">
-<div v-click>
-
-###### ① What is it?
-
-- Do the task without wrecking everything else
-- _"Be aware of your surroundings and don't do dumb things"_
-- 2016 ideas: impact regularizers, penalize changing the world
-
-</div>
-<div v-click>
-
-###### ② What happened?
+<v-clicks at="7">
 
 - Mostly worked — but not via impact penalties
 - Pretraining on human text gives common sense for free
 - Plus sandboxes, permissions, confirmations
 - Plus lots of patching
 
-</div>
-<div v-click>
+</v-clicks>
 
-###### ③ Relevance today
+</div>
+<div>
+
+<h6 v-click="3">today</h6>
+
+<v-clicks at="11">
 
 - Agents now have shells, credentials, production databases
 - Big one: systems **smart enough to break out** of the sandbox
+
+</v-clicks>
 
 </div>
 </div>
@@ -171,35 +166,47 @@ Example: coding agents deleting files / production databases (e.g. the Replit in
 
 ---
 
-# 2 · Avoiding reward hacking
+# 2. Avoiding reward hacking
 
 <div class="three-q">
-<div v-click>
+<div>
 
-###### ① What is it?
+###### What is it?
+
+<v-clicks>
 
 - Optimizer finds the gap between what you measured and what you meant
 - Goodhart's law, with gradients
 - <span class="example">the boat that circles for points instead of finishing the race</span>
 
-</div>
-<div v-click>
+</v-clicks>
 
-###### ② What happened?
+</div>
+<div>
+
+###### What happened?
+
+<v-clicks>
 
 - Renamed: _specification gaming_
 - RLHF: reward model over-optimization, sycophancy
 - RL on code: special-casing tests, editing the tests
 - Same story as side effects: generalization + lots of patching
 
-</div>
-<div v-click>
+</v-clicks>
 
-###### ③ Relevance today
+</div>
+<div>
+
+###### Relevance today
+
+<v-clicks>
 
 - Central — every RL run on a frontier model fights it
 - Hacking can generalize into broader misalignment
 - Penalizing hacky reasoning can teach models to _hide_ it
+
+</v-clicks>
 
 </div>
 </div>
@@ -215,35 +222,47 @@ Obfuscation: OpenAI, "Monitoring reasoning models for misbehavior" (2025).
 
 ---
 
-# 3 · Scalable oversight
+# 3. Scalable oversight
 
 <div class="three-q">
-<div v-click>
+<div>
 
-###### ① What is it?
+###### What is it?
+
+<v-clicks>
 
 - The true objective is too expensive to check every time
 - <span class="example">throw away the candy wrapper, not the phone — but you can't ask each time</span>
 - Learn from sparse human feedback
 
-</div>
-<div v-click>
+</v-clicks>
 
-###### ② What happened?
+</div>
+<div>
+
+###### What happened?
+
+<v-clicks>
 
 - The paper's biggest success: **RLHF** (Christiano et al. 2017)
 - → InstructGPT → ChatGPT
 - Debate, amplification, recursive reward modeling
 - Constitutional AI / RLAIF, weak-to-strong generalization
 
-</div>
-<div v-click>
+</v-clicks>
 
-###### ③ Relevance today
+</div>
+<div>
+
+###### Relevance today
+
+<v-clicks>
 
 - Harder than ever: humans can't check superhuman outputs
 - AI overseeing AI
 - One of the core open problems
+
+</v-clicks>
 
 </div>
 </div>
@@ -255,33 +274,45 @@ Constitutional AI: Bai et al. (2022). Weak-to-strong: Burns et al. (2023).
 
 ---
 
-# 4 · Safe exploration
+# 4. Safe exploration
 
 <div class="three-q">
-<div v-click>
+<div>
 
-###### ① What is it?
+###### What is it?
+
+<v-clicks>
 
 - Learning means trying things — some of which are catastrophic
 - <span class="example">don't try the wet mop in the socket</span>
 - Implicit assumption: the agent learns **on the job**
 
-</div>
-<div v-click>
+</v-clicks>
 
-###### ② What happened?
+</div>
+<div>
+
+###### What happened?
+
+<v-clicks>
 
 - Constrained RL, Safety Gym — mostly robotics
 - Then the paradigm changed: pretrain, post-train, _then_ deploy
 - Learning on the job? Not really, anymore
 
-</div>
-<div v-click>
+</v-clicks>
 
-###### ③ Relevance today
+</div>
+<div>
+
+###### Relevance today
+
+<v-clicks>
 
 - Small, for now
 - Returns with agents doing RL in real environments and continual learning
+
+</v-clicks>
 
 </div>
 </div>
@@ -292,35 +323,47 @@ Constrained Policy Optimization: Achiam et al. (2017). Safety Gym: Ray, Achiam, 
 
 ---
 
-# 5 · Robustness to distributional shift
+# 5. Robustness to distributional shift
 
 <div class="three-q">
-<div v-click>
+<div>
 
-###### ① What is it?
+###### What is it?
+
+<v-clicks>
 
 - The world at deployment ≠ the world in training
 - Know when you don't know
 - <span class="example">the office robot on the factory floor</span>
 
-</div>
-<div v-click>
+</v-clicks>
 
-###### ② What happened?
+</div>
+<div>
+
+###### What happened?
+
+<v-clicks>
 
 - Renamed: **generalization**
 - LLMs generalize far better than anyone expected
 - Adversarial robustness → jailbreaks
 - Goal misgeneralization: capabilities generalize, goals don't
 
-</div>
-<div v-click>
+</v-clicks>
 
-###### ③ Relevance today
+</div>
+<div>
+
+###### Relevance today
+
+<v-clicks>
 
 - Arguably _the_ alignment question: what does training generalize to?
 - Emergent misalignment from narrow finetuning
 - Eval awareness: test ≠ deployment, and models notice
+
+</v-clicks>
 
 </div>
 </div>

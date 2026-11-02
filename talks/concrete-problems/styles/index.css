@@ -1,15 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
 
-/* ① what is it  ② what happened over time  ③ relevance today */
+/* what is it, what happened over time, relevance today */
 .three-q {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
   margin-top: 1.5rem;
-}
-
-.three-q h6 {
-  margin-bottom: 0.5rem;
 }
 
 .three-q ul {
@@ -107,6 +103,32 @@
   color: var(--ink-soft);
 }
 
-.with-paper > :first-child {
-  min-height: 0;
+.problem-list {
+  counter-reset: problem;
+  font-size: 1.6rem;
+  line-height: 1.4;
+  list-style: none;
+  padding-left: 0;
+}
+
+.problem-list li {
+  counter-increment: problem;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 2rem;
+  margin-bottom: 0.6em;
+}
+
+.problem-list li::before {
+  content: counter(problem) ".";
+  margin-right: 0.5rem;
+}
+
+.problem-list li strong {
+  flex: 1;
+}
+
+.problem-list .example {
+  font-size: 0.8em;
 }
