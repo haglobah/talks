@@ -126,9 +126,22 @@
 }
 
 .problem-list li strong {
-  flex: 1;
+  flex: none;
+  white-space: nowrap;
 }
 
+/* the example takes the remaining width and wraps inside it */
 .problem-list .example {
+  flex: 1;
+  min-width: 0;
+  text-align: right;
   font-size: 0.8em;
+  line-height: 1.3;
 }
+
+/* the cleaning-robot example from "Five problems", under a problem's heading */
+.lead-example {
+  margin-top: -0.5rem;
+  font-size: 1.28rem;
+}
+

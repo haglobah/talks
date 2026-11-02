@@ -23,40 +23,18 @@ Amodei, Olah, Steinhardt, Christiano, Schulman, Mané (2016):
 
 ---
 
-# Today
-
-<div class="grid grid-cols-[1.4fr_1fr] gap-12 mt-8">
-<div>
+# In 2016, one <Scribble note="Google Brain → OpenAI → Anthropic" :at="4" from="top" :dx="219" :dy="-15">Dario Amodei</Scribble> …
 
 <v-clicks>
 
-- understood the paper
-- gotten an overview of AI safety
-- followed each strand from 2016 to today
-- placed all the big things
+- … with <Scribble note="Google Brain → OpenAI → Anthropic" :at="5" :dx="425" :dy="278">Chris Olah</Scribble>, <Scribble note="OpenAI → UC Berkeley → Transluce" :at="6" :dx="313" :dy="208">Jacob Steinhardt</Scribble>, <Scribble note="OpenAI → ARC → US AISI" :at="7" :dx="179" :dy="138">Paul Christiano</Scribble>, <Scribble note="OpenAI → Anthropic → Thinking Machines" :at="8" :dx="50" :dy="68">John Schulman</Scribble>, Dan Mané
+- wrote a paper:
 
 </v-clicks>
 
-</div>
-<div v-click>
-
-###### Knowing where these sit
-
-- Benchmarking
-- Mech Interp
-- Evals
-- Alignment
-
-</div>
-</div>
-
----
-
-# In 2016, one <Scribble note="Google Brain → OpenAI → Anthropic" :at="2" from="top" :dx="219" :dy="-15">Dario Amodei</Scribble> …
-
 <v-clicks>
 
-- … and <Scribble note="Google Brain → OpenAI → Anthropic" :at="3" :dx="425" :dy="278">Chris Olah</Scribble>, <Scribble note="OpenAI → Berkeley → Transluce" :at="4" :dx="313" :dy="208">Jacob Steinhardt</Scribble>, <Scribble note="OpenAI → ARC → US AISI" :at="5" :dx="179" :dy="138">Paul Christiano</Scribble>, <Scribble note="OpenAI → Anthropic → Thinking Machines" :at="6" :dx="50" :dy="68">John Schulman</Scribble>, Dan Mané
+## Concrete Problems in AI Safety
 
 </v-clicks>
 
@@ -72,10 +50,10 @@ Mané: Google Brain (2016); no public trail after that.
 
 <div class="coda">
 
-### <span v-click="7">How did it hold up?</span>
+### <span v-click="9">How did it hold up?</span>
 
-<p v-click="8">What are the terms now?</p>
-<p v-click="9">What has changed?</p>
+<p v-click="10">What are the terms now?</p>
+<p v-click="11">What has changed?</p>
 
 </div>
 
@@ -102,14 +80,14 @@ and transparency, and focuses on one thing: accidents —
 
 # Five problems
 
-Example: A cleaning robot
+Example: a cleaning robot
 
 <ol class="problem-list">
-  <li v-click="1"><strong>Avoiding negative side effects</strong><span v-click="2" class="example">(knocking over things in the way)</span></li>
-  <li v-click="3"><strong>Avoiding reward hacking</strong><span v-click="4" class="example">(hides the mess instead of cleaning it)</span></li>
-  <li v-click="5"><strong>Scalable oversight</strong><span v-click="6" class="example">(can't ask a human about every candy wrapper)</span></li>
-  <li v-click="7"><strong>Safe exploration</strong><span v-click="8" class="example">(tries the wet mop in the power socket)</span></li>
-  <li v-click="9"><strong>Robustness to distributional shift</strong><span v-click="10" class="example">(trained in an office, deployed in a factory)</span></li>
+  <li v-click="1"><strong>Avoiding negative side effects</strong><span v-click="2" class="example">"knocking over a vase because it can clean faster by doing so"</span></li>
+  <li v-click="3"><strong>Avoiding reward hacking</strong><span v-click="4" class="example">"cover over messes with materials it can't see through"</span></li>
+  <li v-click="5"><strong>Scalable oversight</strong><span v-click="6" class="example">"handle stray candy wrappers differently from stray cellphones"</span></li>
+  <li v-click="7"><strong>Safe exploration</strong><span v-click="8" class="example">"putting a wet mop in an electrical outlet"</span></li>
+  <li v-click="9"><strong>Robustness to distributional shift</strong><span v-click="10" class="example">"strategies it learned for cleaning an office might be dangerous on a factory workfloor"</span></li>
 </ol>
 
 ---
@@ -118,41 +96,42 @@ clicks: 12
 
 # 1. Avoiding negative side effects
 
+<p v-click="1" class="example lead-example">"knocking over a vase because it can clean faster by doing so"</p>
+
 <div class="three-q">
 <div>
 
-<h6 v-click="1">What is it?</h6>
+<h6 v-click="2">What is it?</h6>
 
-<v-clicks at="4">
+<v-clicks at="5">
 
-- Not _"knocking over things"_
-- 2016: impact regularizers, penalize changing the world
+- 2016: impact regularizers that penalize changing the world
 
 </v-clicks>
 
 </div>
 <div>
 
-<h6 v-click="2">What happened?</h6>
+<h6 v-click="3">What happened?</h6>
 
 <v-clicks at="7">
 
-- Mostly worked — but not via impact penalties
-- Pretraining on human text gives common sense for free
-- Plus sandboxes, permissions, confirmations
-- Plus lots of patching
+- mostly just worked?
+- somehow, everything generalized way better than assumed (pretraining on enough human text + lots of RL seems to give a kind of common sense _"for free"_)
+- sandboxes, permissions, confirmations
+- lots of patching (e.g. AI psychosis, jailbreaks, …)
 
 </v-clicks>
 
 </div>
 <div>
 
-<h6 v-click="3">today</h6>
+<h6 v-click="4">Relevance today</h6>
 
 <v-clicks at="11">
 
-- Agents now have shells, credentials, production databases
-- Big one: systems **smart enough to break out** of the sandbox
+- breaking down: this worked because the agents were less capable than we are
+- now, they are **smart enough to break out** of the sandbox
 
 </v-clicks>
 
@@ -168,6 +147,8 @@ Example: coding agents deleting files / production databases (e.g. the Replit in
 
 # 2. Avoiding reward hacking
 
+<p v-click class="example lead-example">"cover over messes with materials it can't see through"</p>
+
 <div class="three-q">
 <div>
 
@@ -175,9 +156,7 @@ Example: coding agents deleting files / production databases (e.g. the Replit in
 
 <v-clicks>
 
-- Optimizer finds the gap between what you measured and what you meant
-- Goodhart's law, with gradients
-- <span class="example">the boat that circles for points instead of finishing the race</span>
+- just Goodhart's law?
 
 </v-clicks>
 
@@ -188,10 +167,9 @@ Example: coding agents deleting files / production databases (e.g. the Replit in
 
 <v-clicks>
 
-- Renamed: _specification gaming_
-- RLHF: reward model over-optimization, sycophancy
-- RL on code: special-casing tests, editing the tests
-- Same story as side effects: generalization + lots of patching
+- similar to 1, but a bit worse: generalization + lots of patching
+- sycophancy, deleting tests, going for the fastest short-term solution rather than the best, …
+- models that got _"RLed too hard"_
 
 </v-clicks>
 
@@ -202,9 +180,9 @@ Example: coding agents deleting files / production databases (e.g. the Replit in
 
 <v-clicks>
 
-- Central — every RL run on a frontier model fights it
-- Hacking can generalize into broader misalignment
-- Penalizing hacky reasoning can teach models to _hide_ it
+- central
+- everyone tries hard to fight it, and fails
+- penalizing hacky reasoning can and does teach models to _hide_ it
 
 </v-clicks>
 
@@ -224,6 +202,8 @@ Obfuscation: OpenAI, "Monitoring reasoning models for misbehavior" (2025).
 
 # 3. Scalable oversight
 
+<p v-click class="example lead-example">"handle stray candy wrappers differently from stray cellphones"</p>
+
 <div class="three-q">
 <div>
 
@@ -231,9 +211,8 @@ Obfuscation: OpenAI, "Monitoring reasoning models for misbehavior" (2025).
 
 <v-clicks>
 
-- The true objective is too expensive to check every time
-- <span class="example">throw away the candy wrapper, not the phone — but you can't ask each time</span>
-- Learn from sparse human feedback
+- started as: the true objective is too expensive to check every time
+- so we basically only check sometimes
 
 </v-clicks>
 
@@ -244,9 +223,9 @@ Obfuscation: OpenAI, "Monitoring reasoning models for misbehavior" (2025).
 
 <v-clicks>
 
-- The paper's biggest success: **RLHF** (Christiano et al. 2017)
+- more or less worked
+- this is what **RLHF** (Christiano et al. 2017) and **RLAIF** are
 - → InstructGPT → ChatGPT
-- Debate, amplification, recursive reward modeling
 - Constitutional AI / RLAIF, weak-to-strong generalization
 
 </v-clicks>
@@ -258,9 +237,8 @@ Obfuscation: OpenAI, "Monitoring reasoning models for misbehavior" (2025).
 
 <v-clicks>
 
-- Harder than ever: humans can't check superhuman outputs
-- AI overseeing AI
-- One of the core open problems
+- I'd be very surprised if it doesn't break down in smarter-than-human systems
+- one of _the_ core open problems
 
 </v-clicks>
 
@@ -276,6 +254,8 @@ Constitutional AI: Bai et al. (2022). Weak-to-strong: Burns et al. (2023).
 
 # 4. Safe exploration
 
+<p v-click class="example lead-example">"putting a wet mop in an electrical outlet"</p>
+
 <div class="three-q">
 <div>
 
@@ -283,9 +263,8 @@ Constitutional AI: Bai et al. (2022). Weak-to-strong: Burns et al. (2023).
 
 <v-clicks>
 
-- Learning means trying things — some of which are catastrophic
-- <span class="example">don't try the wet mop in the socket</span>
-- Implicit assumption: the agent learns **on the job**
+- learning means trying things, some of which might be bad and shouldn't happen
+- assumption: the agent learns **on the job** (but that was never enough data for neural nets either way)
 
 </v-clicks>
 
@@ -296,9 +275,10 @@ Constitutional AI: Bai et al. (2022). Weak-to-strong: Burns et al. (2023).
 
 <v-clicks>
 
-- Constrained RL, Safety Gym — mostly robotics
-- Then the paradigm changed: pretrain, post-train, _then_ deploy
-- Learning on the job? Not really, anymore
+- basically never became relevant
+- started as Safety Gym (mostly robotics)
+- pretrain, post-train, _then_ deploy
+- learning on the job? Not really anymore
 
 </v-clicks>
 
@@ -309,8 +289,8 @@ Constitutional AI: Bai et al. (2022). Weak-to-strong: Burns et al. (2023).
 
 <v-clicks>
 
-- Small, for now
-- Returns with agents doing RL in real environments and continual learning
+- also somehow generalized away
+- plus our current systems don't really learn continually anymore
 
 </v-clicks>
 
@@ -325,6 +305,8 @@ Constrained Policy Optimization: Achiam et al. (2017). Safety Gym: Ray, Achiam, 
 
 # 5. Robustness to distributional shift
 
+<p v-click class="example lead-example">"strategies it learned for cleaning an office might be dangerous on a factory workfloor"</p>
+
 <div class="three-q">
 <div>
 
@@ -332,9 +314,7 @@ Constrained Policy Optimization: Achiam et al. (2017). Safety Gym: Ray, Achiam, 
 
 <v-clicks>
 
-- The world at deployment ≠ the world in training
-- Know when you don't know
-- <span class="example">the office robot on the factory floor</span>
+- the world at deployment ≠ the world in training
 
 </v-clicks>
 
@@ -345,10 +325,10 @@ Constrained Policy Optimization: Achiam et al. (2017). Safety Gym: Ray, Achiam, 
 
 <v-clicks>
 
-- Renamed: **generalization**
+- **generalization**
 - LLMs generalize far better than anyone expected
-- Adversarial robustness → jailbreaks
-- Goal misgeneralization: capabilities generalize, goals don't
+- adversarial robustness → jailbreaks
+- goal misgeneralization: capabilities generalize, goals don't (maybe because we RL against them?)
 
 </v-clicks>
 
@@ -359,9 +339,9 @@ Constrained Policy Optimization: Achiam et al. (2017). Safety Gym: Ray, Achiam, 
 
 <v-clicks>
 
-- Arguably _the_ alignment question: what does training generalize to?
-- Emergent misalignment from narrow finetuning
-- Eval awareness: test ≠ deployment, and models notice
+- arguably _the_ alignment question: what does training generalize to?
+- emergent misalignment from narrow finetuning
+- evaluation awareness is somewhere in here (even though models increasingly seem to think they're in a test while actually deployed)
 
 </v-clicks>
 
@@ -374,34 +354,36 @@ Emergent misalignment: Betley et al. (2025), finetuning on insecure code → bro
 -->
 
 ---
-layout: section
----
 
 # vs AI safety today
 
----
-
-# Everything that's missing
-
 <div class="grid grid-cols-[1fr_1.2fr] gap-12 mt-6">
+
 <div>
 
-<v-clicks>
+<h6 v-click="1"><em>accidents in machine learning</em></h6>
 
-- **Alignment** — as its own field: deception, scheming
-- **Interpretability**
-- **Evals** — even knowing what these systems _can_ do
-- **AI Control** — safe even if alignment fails
-- **Misuse** vs accidents
+<v-clicks at="2">
+
+- **Alignment**
+- **(Mechanistic) Interpretability**
+- **Evals**
+- **AI Control**
+- **Misuse** (different from accidents)
 
 </v-clicks>
 
 </div>
-<div v-click>
+<div>
 
-###### And the rest of the list
+<h6 v-click="7">Everything else</h6>
 
-<ConcernRow :highlight="['privacy', 'security', 'fairness', 'economics', 'policy', 'transparency']" />
+<ConcernRow
+  :at="8"
+  :items="['privacy', 'security', 'fairness', 'economics', 'policy', 'transparency']"
+  :highlight="['security', 'economics', 'policy']"
+  :fresh="['transparency']"
+/>
 
 </div>
 </div>
@@ -412,32 +394,21 @@ Misuse was explicitly out of scope in 2016; today it drives a large share of saf
 -->
 
 ---
+clicks: 1
+---
 
 # Then vs now
 
-<div class="mt-6">
-
-###### Then
-
-## Let's focus on accidents in ML systems, for now.
-
-<ConcernRow class="mt-4" :highlight="['accidents in ML systems']" />
-
-</div>
-
-<div v-click class="mt-12">
-
-###### Now
-
-## To prevent very bad outcomes, we need all of it.
-
-<ConcernRow class="mt-4" :highlight="['accidents in ML systems', 'policy', 'transparency', 'security', 'economics', 'privacy', 'fairness']" />
-
-</div>
+<ConcernRow
+  class="mt-10"
+  :branches="['extinction risks from superintelligence', 'tractable risks']"
+  :highlight="$clicks >= 1
+    ? ['accidents in ML systems', 'security', 'economics', 'policy', 'extinction risks from superintelligence', 'tractable risks']
+    : ['accidents in ML systems', 'tractable risks']"
+  :fresh="$clicks >= 1 ? ['transparency'] : []"
+/>
 
 ---
-
-# The map
 
 <div class="map-table">
 
@@ -446,40 +417,9 @@ Misuse was explicitly out of scope in 2016; today it drives a large share of saf
 | Side effects | agent sandboxing, permissions, control |
 | Reward hacking | specification gaming, sycophancy, RL environment design, CoT monitoring |
 | Scalable oversight | RLHF, Constitutional AI, debate, weak-to-strong |
-| Safe exploration | quiet — returns with continual learning |
+| Safe exploration | not really anywhere, we rarely world with interactions with the real world |
 | Distributional shift | generalization, goal misgeneralization, jailbreaks, eval awareness |
 | _not in the paper_ | mech interp, evals & benchmarking, AI control, governance, security |
 
 </div>
 
----
-
-# Fazit
-
-<v-clicks>
-
-- Paper: understood
-- Overview: gotten
-- Strands: followed
-- Compared with today, and everything placed
-
-</v-clicks>
-
----
-layout: section
----
-
-# Discussion
-
----
-
-# Discussion prompts
-
-<v-clicks>
-
-- Which of the five problems aged best? Which worst?
-- "Mostly solved by generalization + patching" — is that good enough?
-- What would a 2026 version of this paper list?
-- What will we be embarrassed to have left out, in 2036?
-
-</v-clicks>

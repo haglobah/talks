@@ -5,16 +5,20 @@ const props = withDefaults(
   defineProps<{
     items?: string[]
     highlight?: string[]
+    // new concerns: green
+    fresh?: string[]
     // reveal the chips one per click, starting at this click
     at?: number
     // a new line below, with arrows from the last chip to each of these
     branches?: string[]
-    // draw the arrows and reveal the branches one per click, starting at this click
+    // draw the arrows and reveal the branches one per click, starting at this click;
+    // without it, they show from the start
     branchAt?: number
   }>(),
   {
     items: () => ['privacy', 'security', 'fairness', 'economics', 'policy', 'transparency', 'accidents in ML systems'],
     highlight: () => [],
+    fresh: () => [],
     branches: () => [],
   },
 )
@@ -68,7 +72,7 @@ onBeforeUnmount(() => observer?.disconnect())
         <span
           ref="source"
           class="concern"
-          :class="{ active: props.highlight.includes(item) }"
+          :class="{ active: props.highlight.includes(item), fresh: props.fresh.includes(item) }"
         >{{ item }}</span>
       </span>
     </div>
@@ -78,27 +82,42 @@ onBeforeUnmount(() => observer?.disconnect())
         :key="item"
         ref="source"
         class="concern"
-        :class="{ active: props.highlight.includes(item) }"
+        :class="{ active: props.highlight.includes(item), fresh: props.fresh.includes(item) }"
       >{{ item }}</span>
     </div>
     <template v-if="props.branches.length">
-      <svg
-        v-for="(arrow, i) in arrows"
-        :key="i"
-        v-click="props.branchAt + i"
-        class="branch-arrows"
-      >
+      <template v-if="props.branchAt !== undefined">
+        <svg
+          v-for="(arrow, i) in arrows"
+          :key="i"
+          v-click="props.branchAt + i"
+          class="branch-arrows"
+        >
+          <path class="line" :d="arrow.line" />
+          <path class="head" :d="arrow.head" />
+        </svg>
+      </template>
+      <svg v-for="(arrow, i) in arrows" v-else :key="i" class="branch-arrows">
         <path class="line" :d="arrow.line" />
         <path class="head" :d="arrow.head" />
       </svg>
       <div class="branch-row">
-        <span v-for="(item, i) in props.branches" :key="item" v-click="props.branchAt + i">
-          <span
-            ref="targets"
-            class="concern"
-            :class="{ active: props.highlight.includes(item) }"
-          >{{ item }}</span>
-        </span>
+        <template v-for="(item, i) in props.branches" :key="item">
+          <span v-if="props.branchAt !== undefined" v-click="props.branchAt + i">
+            <span
+              ref="targets"
+              class="concern"
+              :class="{ active: props.highlight.includes(item) }"
+            >{{ item }}</span>
+          </span>
+          <span v-else>
+            <span
+              ref="targets"
+              class="concern"
+              :class="{ active: props.highlight.includes(item) }"
+            >{{ item }}</span>
+          </span>
+        </template>
       </div>
     </template>
   </div>
@@ -128,6 +147,13 @@ onBeforeUnmount(() => observer?.disconnect())
   border-style: solid;
   border-color: var(--blue-700);
   background: color-mix(in srgb, var(--blue-700) 12%, transparent);
+  color: var(--ink);
+}
+
+.concern.fresh {
+  border-style: solid;
+  border-color: var(--green-700);
+  background: color-mix(in srgb, var(--green-700) 12%, transparent);
   color: var(--ink);
 }
 
