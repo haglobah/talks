@@ -50,23 +50,15 @@ Amodei, Olah, Steinhardt, Christiano, Schulman, Mané (2016):
 
 ---
 
-# In 2016, one Dario Amodei …
+# In 2016, one <Scribble note="Anthropic, CEO" :at="4" from="top" :dx="319" :dy="-15">Dario Amodei</Scribble> …
 
 <v-clicks>
 
-- … and Chris Olah, Jacob Steinhardt, Paul Christiano, John Schulman, Dan Mané
+- … and <Scribble note="Anthropic, interpretability" :at="5" :dx="525" :dy="248">Chris Olah</Scribble>, <Scribble note="Berkeley & Transluce" :at="6" :dx="413" :dy="188">Jacob Steinhardt</Scribble>, <Scribble note="US AI Safety Institute" :at="7" :dx="279" :dy="128">Paul Christiano</Scribble>, <Scribble :note="'OpenAI → Anthropic\n→ Thinking Machines'" :at="8" :dx="150" :dy="68">John Schulman</Scribble>, Dan Mané
 - wrote down what could go wrong with ML systems, _concretely_
 - <span class="example">before GPT, before RLHF, before "alignment" was a job title</span>
 
 </v-clicks>
-
-<div v-click class="mt-10">
-
-###### Where they ended up
-
-Anthropic (CEO) · Anthropic (interpretability) · Berkeley & Transluce · US AI Safety Institute · OpenAI → Anthropic → Thinking Machines · …
-
-</div>
 
 <!--
 Verify current roles before the talk; these are from memory.

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap');
+
 /* ① what is it  ② what happened over time  ③ relevance today */
 .three-q {
   display: grid;
@@ -33,4 +35,84 @@
 .map-table td:first-child {
   white-space: nowrap;
   font-weight: 700;
+}
+
+/* handwritten annotations: pen box, line, highlighter note */
+.scribble {
+  position: relative;
+  display: inline-block;
+}
+
+.scribble-line {
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  overflow: visible;
+  pointer-events: none;
+}
+
+.scribble.top .scribble-line {
+  top: 0;
+}
+
+.scribble-line path {
+  fill: none;
+  stroke: #E0457B;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+}
+
+.scribble-note {
+  position: absolute;
+  left: calc(50% + var(--dx));
+  top: calc(100% + var(--dy));
+  transform: translateY(-50%) rotate(-3deg);
+  white-space: pre;
+  font-family: 'Caveat', cursive;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1;
+  color: #E0457B;
+  opacity: 0;
+}
+
+.scribble.top .scribble-note {
+  top: var(--dy);
+}
+
+/* after the box is drawn: line, then note */
+.scribble-link:not(.slidev-vclick-hidden) path {
+  animation: scribble-draw 0.5s ease-out 0.7s forwards;
+}
+
+.scribble-link:not(.slidev-vclick-hidden) .scribble-note {
+  animation: scribble-fade 0.3s ease-out 1.1s forwards;
+}
+
+@keyframes scribble-draw {
+  to { stroke-dashoffset: 0; }
+}
+
+@keyframes scribble-fade {
+  to { opacity: 1; }
+}
+
+/* slide content on the left, the paper scrolling along on the right */
+.with-paper {
+  display: grid;
+  grid-template-columns: 1fr 1.05fr;
+  gap: 2rem;
+  height: 23rem;
+}
+
+.with-paper li {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.with-paper > :first-child {
+  min-height: 0;
 }
