@@ -510,5 +510,16 @@ class: thanks
 
 - "mostly solved by generalization + patching"
 - what would a 2026 version of this paper list?
+  - unsure about too broad vs too narrow
+  - alignment
+  - solving "what the models actually want to do"
+  - reward hacking/generalization
+  - AI Control
+  - disconnect between small and frontier models
+  - interpretability won't work in time?
+  - recursive self improvement?
+  - what about training evil models from scratch?
+  - safe exploration isn't a thing anymore
+  - the problem still is RL (always has been)
 
 </v-clicks>
