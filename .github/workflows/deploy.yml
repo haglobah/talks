@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages
+name: Redirect GitHub Pages to beathagenlocher.com/talks/
 
 on:
   workflow_dispatch:
@@ -15,36 +15,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: pnpm/action-setup@v4
-        with:
-          version: 11
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 'lts/*'
-          cache: pnpm
-
-      - name: Install dependencies
-        run: pnpm install --frozen-lockfile
-
-      - name: Build active talks
+      # The decks are built and served at beathagenlocher.com/talks/ (Flow builds this repo);
+      # GitHub Pages only sends every old address there, path and all (404.html answers
+      # every path it has no file for).
+      - name: Redirects to beathagenlocher.com/talks/
         run: |
           mkdir -p dist
-          for dir in talks/*/; do
-            talk=$(basename "$dir")
-            echo "Building $talk"
-            (cd "$dir" && pnpm run build --base "/talks/$talk/" --out "../../dist/$talk")
-          done
-
-      - name: Copy frozen talks
-        run: |
-          for dir in archive/*/; do
-            talk=$(basename "$dir")
-            echo "Copying $talk"
-            cp -r "$dir/dist" "dist/$talk"
-          done
-
-      - name: Generate index.html
-        run: node scripts/build-index.mjs
+          cp redirect.html dist/index.html
+          cp redirect.html dist/404.html
 
       - name: Setup Pages
         if: ${{ !env.ACT }}
