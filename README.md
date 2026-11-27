@@ -1,6 +1,6 @@
 # `talks` held by Beat Hagenlocher
 
-Every talk is a [slidev](https://sli.dev) project, rendered to [haglobah.github.io/talks/](https://haglobah.github.io/talks/).
+Every talk is a [slidev](https://sli.dev) project, rendered to [beathagenlocher.com/talks/](https://beathagenlocher.com/talks/): Flow fetches this repo every few minutes and builds what changed (decks under `talks/`, the committed `dist/` of those under `archive/`). The old address, haglobah.github.io/talks/, redirects there (`redirect.html`, deployed by the workflow).
 
 Talks have a lifecycle:
 
